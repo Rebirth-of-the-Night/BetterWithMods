@@ -8,8 +8,21 @@
     "url": "https://github.com/Rebirth-of-the-Night/BetterWithMods",
     "authorList": [
       "BeetoGuy",
-      "primetoxinz"
+      "primetoxinz",
+      "ACGaming"
     ],
     "credits": "FlowerChild, for making Better Than Wolves"
+  },
+  {
+    "modid": "betterwithaddons",
+    "name": "Better with Addons",
+    "description": "Ports of various Better than Wolves addons.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/Rebirth-of-the-Night/BetterWithMods",
+    "authorList": [
+      "BordListian",
+      "ACGaming"
+    ]
   }
 ]

@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "betterwithaddons:japanmat",
+	"data": 15
+  },
+  "pattern": [
+    "LLL",
+	"SSP"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "#HE_SAKURA_MOULDING"
+    },
+	"L": {
+	  "type": "forge:ore_dict",
+	  "ore": "leather"
+	},
+	"S": {
+	  "type": "forge:ore_dict",
+	  "ore": "stickWood"
+	}
+  }
+}

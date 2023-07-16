@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "betterwithaddons:paper_wall",
+	"data": 0,
+	"count": 6
+  },
+  "pattern": [
+    "PMP",
+	"PPP",
+	"PMP"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "M": {
+      "item": "#MOULDING_WOOD"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  }
+}

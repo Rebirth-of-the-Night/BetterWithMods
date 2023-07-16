@@ -12,9 +12,9 @@ buildscript {
 apply plugin: "maven"
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.12-2.3.25"
+version = "1.12-2.4.0"
 group = "betterwithmods"
-archivesBaseName = "BetterWithMods"
+archivesBaseName = "BetterWithMods-RotN"
 
 sourceCompatibility = targetCompatibility = "1.8"
 compileJava {
@@ -48,6 +48,8 @@ dependencies {
     deobfCompile "applecore:AppleCore:1.12.2-3.4.0"
     deobfCompile "team.chisel.ctm:CTM:MC1.12+"
     deobfCompile "com.azanor.baubles:Baubles:1.12-1.5.2"
+    deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.20.690"
+    deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Mod-JEI:1.12-4.1.20.690"
 
     if (!project.hasProperty("singleproject")) {
         deobfCompile "betterwithmods.core:BetterWithLib:1.12-1.5"

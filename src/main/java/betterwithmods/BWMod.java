@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = BWMod.MODID, name = BWMod.NAME, version = BWMod.VERSION, dependencies = BWMod.DEPENDENCIES, guiFactory = "betterwithmods.client.gui.BWGuiFactory", acceptedMinecraftVersions = "[1.12, 1.13)")
 public class BWMod {
     public static final String MODID = "betterwithmods";
-    public static final String VERSION = "1.12-2.3.25";
+    public static final String VERSION = "1.12-2.4.0";
     public static final String NAME = "Better With Mods";
     public static final String DEPENDENCIES = "before:survivalist;after:traverse;after:thaumcraft;after:natura;after:mantle;after:tconstruct;after:minechem;after:natura;after:terrafirmacraft;after:immersiveengineering;after:mekanism;after:thermalexpansion;after:ctm;after:geolosys;after:pvj;after:techreborn";
 

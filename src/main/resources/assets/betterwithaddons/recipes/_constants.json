@@ -1,0 +1,187 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "HE_PLANKS",
+    "ingredient": [
+      {
+        "ore": "plankWood",
+        "type": "forge:ore_dict"
+      },
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "siding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "HE_SAKURA_SIDING",
+    "ingredient": [
+      {
+        "item": "betterwithaddons:planks_sakura",
+        "data": 0
+      },
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "item": "betterwithaddons:planks_sakura",
+          "data": 0
+        },
+        "minitype": "siding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "HE_SAKURA_MOULDING",
+    "ingredient": [
+      {
+        "item": "betterwithaddons:planks_sakura",
+        "data": 0
+      },
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "item": "betterwithaddons:planks_sakura",
+          "data": 0
+        },
+        "minitype": "moulding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "betterwithaddons:module",
+        "module": "!GatedAqueducts"
+      }
+    ],
+    "name": "AQUEDUCTFILLER",
+    "ingredient": [
+      {
+        "item": "minecraft:clay"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "betterwithaddons:module",
+        "module": "GatedAqueducts"
+      }
+    ],
+    "name": "AQUEDUCTFILLER",
+    "ingredient": [
+      {
+        "item": "betterwithaddons:aqueduct",
+		"data": 3
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "betterwithaddons:module",
+        "module": "!HardcoreDiamond"
+      }
+    ],
+    "name": "DIAMONDMAT",
+    "ingredient": [
+      {
+		"type": "forge:ore_dict",
+		"ore": "gemDiamond"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "betterwithaddons:module",
+        "module": "HardcoreDiamond"
+      }
+    ],
+    "name": "DIAMONDMAT",
+    "ingredient": [
+      {
+		"type": "forge:ore_dict",
+		"ore": "ingotDiamond"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "SIDING_WOOD",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "siding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "MOULDING_WOOD",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "moulding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "CORNER_WOOD",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "corner"
+      }
+    ]
+  }
+]

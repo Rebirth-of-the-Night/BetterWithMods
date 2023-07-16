@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "betterwithaddons:unbaked",
+	"data": 0
+  },
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:melon",
+	  "data": 0
+    },
+	{
+      "item": "minecraft:melon",
+	  "data": 0
+    },
+	{
+      "item": "minecraft:sugar",
+	  "data": 0
+    },
+	{
+      "item": "betterwithmods:raw_egg",
+	  "data": 0
+    },
+    {
+	  "type": "forge:ore_dict",
+	  "ore": "foodFlour"
+	}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+	"textures": {
+		"particle": "betterwithaddons:blocks/infuser_bottom",
+        "bottom": "betterwithaddons:blocks/infuser_bottom",
+        "top": "betterwithaddons:blocks/infuser_top_empty",
+        "side": "betterwithaddons:blocks/infuser_side"
+    },
+	"model": "enchanting_table_base",
+	"transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+	"inventory": [{
+		"textures": { "top": "betterwithaddons:blocks/infuser_top_on" }
+	}],
+	"active": {
+		"true":{},
+		"false":{}
+	}
+  }
+}
