@@ -16,7 +16,6 @@ import betterwithmods.common.blocks.mechanical.tile.*;
 import betterwithmods.common.blocks.tile.TileEntityBlockDispenser;
 import betterwithmods.common.blocks.tile.TileEntityInfernalEnchanter;
 import betterwithmods.common.blocks.tile.TileEntitySteelAnvil;
-import betterwithmods.manual.client.gui.GuiManual;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
@@ -77,16 +76,13 @@ public class BWGuiHandler implements IGuiHandler {
                 if(tile instanceof TileEntityInfernalEnchanter)
                     return new GuiInfernalEnchanter(player, (TileEntityInfernalEnchanter) tile);
                 return null;
-            case MANUAL:
-                return new GuiManual();
             default:
                 return null;
         }
     }
 
     public enum Gui {
-        TILE,
-        MANUAL;
+        TILE;
 
         public static Gui[] VALUES = values();
     }

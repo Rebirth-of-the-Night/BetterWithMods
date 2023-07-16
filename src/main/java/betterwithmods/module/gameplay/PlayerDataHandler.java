@@ -84,7 +84,6 @@ public class PlayerDataHandler extends Feature {
 
     //TODO make this extensible.
     public static class PlayerInfo implements ICapabilitySerializable<NBTTagCompound> {
-        public boolean givenManual;
         private int ticksSinceDeath;
 
         public int getTicksSinceDeath() {
@@ -116,14 +115,12 @@ public class PlayerDataHandler extends Feature {
         @Override
         public NBTTagCompound serializeNBT() {
             NBTTagCompound tag = new NBTTagCompound();
-            tag.setBoolean("givenManual", givenManual);
             tag.setInteger("ticksSinceDeath", ticksSinceDeath);
             return tag;
         }
 
         @Override
         public void deserializeNBT(NBTTagCompound nbt) {
-            givenManual = nbt.getBoolean("givenManual");
             ticksSinceDeath = nbt.getInteger("ticksSinceDeath");
         }
     }

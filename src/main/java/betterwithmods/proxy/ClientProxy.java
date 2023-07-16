@@ -13,11 +13,6 @@ import betterwithmods.common.blocks.mechanical.tile.*;
 import betterwithmods.common.blocks.tile.TileEntityBeacon;
 import betterwithmods.common.blocks.tile.TileEntityBucket;
 import betterwithmods.common.entity.*;
-import betterwithmods.manual.api.ManualAPI;
-import betterwithmods.manual.api.prefab.manual.TextureTabIconRenderer;
-import betterwithmods.manual.common.DirectoryDefaultProvider;
-import betterwithmods.manual.common.api.ManualDefinitionImpl;
-import betterwithmods.manual.custom.StatePathProvider;
 import betterwithmods.module.ModuleLoader;
 import betterwithmods.module.gameplay.breeding_harness.BreedingHarness;
 import betterwithmods.module.gameplay.breeding_harness.CapabilityHarness;
@@ -29,7 +24,6 @@ import betterwithmods.module.hardcore.world.stumping.PlacedCapability;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.particle.ParticleLava;
 import net.minecraft.client.particle.ParticleManager;
 import net.minecraft.client.renderer.ItemMeshDefinition;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -108,12 +102,6 @@ public class ClientProxy implements IProxy {
     public void init(FMLInitializationEvent event) {
         ModuleLoader.initClient(event);
         registerColors();
-
-        ManualAPI.addProvider(new DirectoryDefaultProvider(new ResourceLocation(BWMod.MODID, "documentation/docs/")));
-        ManualDefinitionImpl.INSTANCE.addDefaultProviders();
-        ManualAPI.addProvider(new StatePathProvider());
-        ManualAPI.addTab(new TextureTabIconRenderer(new ResourceLocation(BWMod.MODID, "textures/gui/manual_home.png")), "bwm.manual.home", "%LANGUAGE%/index.md");
-
     }
 
     @Override

@@ -374,8 +374,6 @@ item.bwm:apple_pie.name=Tarta de Manzana
 item.bwm:bat_wing.name=Ala de Murciélago
 item.bwm:cooked_bat_wing.name=Ala de Murciélago Cocido
 
-item.bwm:manual.name=Manual de Mejor con Mods
-
 item.bwm:axle_generator.windmill.name=Molino de Viento
 item.bwm:axle_generator.waterwheel.name=Rueda de Agua
 item.bwm:axle_generator.windmill_vertical.name=Molino de Viento Vertical
@@ -530,16 +528,3 @@ tooltip.chime.name=Emite una Señal de Redstone cuando llueve, o cuando una Enti
 tooltip.gearbox.name=Las Cajas de Cambios se sobreponen cuando el Molino de Viento gira demasiado rápido, ¡deshabilítelo con Redstone antes de que esto occure!
 tooltip.broken_gearbox.name=Las Cajas de Cambios se sobreponen cuando el Molino de Viento gira demasiado rápido, ¡deshabilítelo con Redstone antes de que esto occure!
 tooltip.windmill.name=Los Molinos de Viento giran más rápido cuando llueve o asalta, ¡revisa tus Caja de Cambios!
-
-tooltip.bwm_book.name=El libro del Singular.
-
-
-bwm.manual.message=Le han dado un Manual de Mejor con Mods. Este mod puede ser diferente de lo que estás esperando. Por favor lee la sección Curso intensivo.
-
-bwm.manual.home=Inicio
-bwm.manual.blocks=Bloques
-bwm.manual.items=Objetos
-bwm.manual.mechanical=Potencia Mecánica
-bwm.manual.error.0=Documento no Encontrado:
-bwm.manual.error.1=Por favor informa esto
-bwm.manual.error.2=Mientras tanto, prueba el

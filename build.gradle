@@ -29,7 +29,6 @@ minecraft {
     version = "${minecraft_version}-${forge_version}"
     runDir = "run"
     mappings = mcp_mappings
-    replace "%VERSION%": "${project.version}"
     useDepAts = true
 }
 

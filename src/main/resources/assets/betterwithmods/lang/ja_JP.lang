@@ -385,8 +385,6 @@ item.bwm:apple_pie.name=アップルパイ
 item.bwm:bat_wing.name=蝙蝠の羽
 item.bwm:cooked_bat_wing.name=調理された蝙蝠の羽
 
-item.bwm:manual.name=マニュアル(英語)
-
 item.bwm:axle_generator.windmill.name=風車
 item.bwm:axle_generator.waterwheel.name=水車
 item.bwm:axle_generator.windmill_vertical.name=垂直風車
@@ -575,19 +573,6 @@ tooltip.chime.name=雨が降ったとき、またはエンティティが通過�
 tooltip.gearbox.name=風車の帆があまりにも速く回転するとギアボックスが壊れます。レッドストーン信号でギアボックスを停止できます。
 tooltip.broken_gearbox.name=風車の帆があまりにも速く回転するとギアボックスが壊れます。レッドストーン信号でギアボックスを停止できます。
 tooltip.windmill.name=雨が降ったり暴風が起きたりすると、風車に負荷が掛かり、ギアボックスが壊れます
-tooltip.bwm_book.name=シングルの本
-
-
-bwm.manual.message=あなたはマニュアルを与えられました。このBetterWithModsはあなたが期待しているものとは異なる場合があります。
-
-bwm.manual.home=ホーム
-bwm.manual.blocks=ブロック
-bwm.manual.items=アイテム
-bwm.manual.mechanical=機械力
-bwm.manual.error.0=ドキュメントが見つかりません:
-bwm.manual.error.1=この%sを報告してください
-bwm.manual.error.2=その間、%sを試してみてください
-
 
 bwm.got.feverdream=不眠症で眠れないのであなたはメモを残しました。どのよう意味があると思いますか？
 

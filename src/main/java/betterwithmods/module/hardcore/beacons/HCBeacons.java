@@ -70,7 +70,7 @@ public class HCBeacons extends Feature {
     @Override
     public void setupConfig() {
         enableBeaconCustomization = loadPropBool("Enable Beacon Customization", "Allows you to customize parts of beacons, and disable specific ones. Requires restart to generate additional configs", false);
-        enderchestBeacon = loadPropBool("Enderchest Beacon", "Rework how Enderchests work. Enderchests on their own work like normal chests. When placed on a beacon made of Ender Block the chest functions depending on level, more info in the Book of Single.", true);
+        enderchestBeacon = loadPropBool("Enderchest Beacon", "Rework how Enderchests work. Enderchests on their own work like normal chests. When placed on a beacon made of Ender Block the chest functions depending on level.", true);
     }
 
     private Block BEACON = new BlockBeacon().setRegistryName("minecraft:beacon");

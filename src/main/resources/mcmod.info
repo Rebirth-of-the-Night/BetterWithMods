@@ -3,17 +3,13 @@
     "modid": "betterwithmods",
     "name": "Better With Mods",
     "description": "Your one-stop shop for mechanical power and sadism.",
-    "version": "%VERSION%",
+    "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "",
-    "updateUrl": "",
+    "url": "https://github.com/Rebirth-of-the-Night/BetterWithMods",
     "authorList": [
       "BeetoGuy",
       "primetoxinz"
     ],
-    "credits": "FlowerChild, for making Better Than Wolves",
-    "logoFile": "",
-    "screenshots": [],
-    "dependencies": []
+    "credits": "FlowerChild, for making Better Than Wolves"
   }
 ]

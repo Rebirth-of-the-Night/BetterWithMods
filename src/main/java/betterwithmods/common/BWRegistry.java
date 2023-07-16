@@ -30,10 +30,7 @@ import betterwithmods.common.registry.block.recipe.StateIngredient;
 import betterwithmods.common.registry.bulk.manager.CookingPotManager;
 import betterwithmods.common.registry.bulk.manager.MillManager;
 import betterwithmods.common.registry.heat.BWMHeatRegistry;
-import betterwithmods.manual.api.API;
-import betterwithmods.manual.common.api.ManualDefinitionImpl;
 import betterwithmods.module.Feature;
-import betterwithmods.module.ModuleLoader;
 import betterwithmods.module.compat.Quark;
 import betterwithmods.module.compat.bop.BiomesOPlenty;
 import betterwithmods.module.gameplay.CraftingRecipes;
@@ -48,7 +45,6 @@ import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDispenser;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.dispenser.IBehaviorDispenseItem;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.item.EntityMinecart;
@@ -115,7 +111,6 @@ public class BWRegistry {
     }
 
     public static void preInit() {
-        API.manualAPI = ManualDefinitionImpl.INSTANCE;
         BWAdvancements.registerAdvancements();
         BWNetwork.registerNetworking();
         BWMBlocks.registerBlocks();
