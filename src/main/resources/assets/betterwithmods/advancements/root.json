@@ -1,15 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "betterwithmods:windmill"
+      "item": "betterwithmods:shaft"
     },
     "title": {
       "translate": "itemGroup.bwm:bwTab"
     },
+    "description": {
+      "translate": "advancement.betterwithmods.desc"
+    },
     "background": "betterwithmods:textures/blocks/soulforged_steel.png",
-    "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": true
+    "announce_to_chat": false
   },
   "criteria": {
     "has_item": {
