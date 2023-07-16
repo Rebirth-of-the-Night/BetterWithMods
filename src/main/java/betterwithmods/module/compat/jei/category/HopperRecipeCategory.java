@@ -9,7 +9,6 @@ import mezz.jei.api.gui.IGuiIngredientGroup;
 import mezz.jei.api.gui.IGuiItemStackGroup;
 import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.util.Translator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
@@ -53,7 +52,7 @@ public class HopperRecipeCategory extends BWMRecipeCategory<HopperRecipeWrapper>
     @Override
     public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull HopperRecipeWrapper wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(IOutput.class);
 
 
         guiItemStacks.addTooltipCallback((slotIndex, input, ingredient, tooltip) -> {
@@ -75,7 +74,7 @@ public class HopperRecipeCategory extends BWMRecipeCategory<HopperRecipeWrapper>
         guiItemStacks.set(ingredients);
         guiItemStacks.set(7, BlockMechMachines.getStack(BlockMechMachines.EnumType.HOPPER));
 
-        List<List<ItemStack>> containers = ingredients.getOutputs(VanillaTypes.ITEM);
+        List<List<ItemStack>> containers = ingredients.getOutputs(ItemStack.class);
         if(!containers.isEmpty()) {
             List<ItemStack> container = containers.get(0);
             if (container != null)
@@ -83,7 +82,7 @@ public class HopperRecipeCategory extends BWMRecipeCategory<HopperRecipeWrapper>
         }
 
         outputs.set(ingredients);
-        List<List<IOutput>> o = ingredients.getOutputs(() -> IOutput.class);
+        List<List<IOutput>> o = ingredients.getOutputs(IOutput.class);
         for (int i = 0; i < 4; i++) {
             List<IOutput> output = o.get(i);
             if (output != null)

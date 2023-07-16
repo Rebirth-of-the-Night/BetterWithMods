@@ -87,7 +87,6 @@ public class OutputHelper<V extends IOutput> implements IIngredientHelper<V> {
 
     }
 
-    @SuppressWarnings("unchecked")
     @Override
     public V copyIngredient(V ingredient) {
         return (V) ingredient.copy();

@@ -29,9 +29,9 @@ public class SawRecipeCategory extends BWMRecipeCategory<BlockRecipeWrapper<SawR
     }
 
     @Override
-    public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BlockRecipeWrapper<SawRecipe> wrapper, @Nonnull IIngredients ingredients) {
+    public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BlockRecipeWrapper wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(IOutput.class);
         guiItemStacks.init(0, true, 8, 9);
         createSlotsHorizontal(guiOutputs, false, 3, 1, 58, 10);
         guiItemStacks.set(ingredients);

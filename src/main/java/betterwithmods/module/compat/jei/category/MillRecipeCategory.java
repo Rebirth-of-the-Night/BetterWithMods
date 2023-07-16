@@ -2,7 +2,6 @@ package betterwithmods.module.compat.jei.category;
 
 import betterwithmods.BWMod;
 import betterwithmods.api.recipe.IOutput;
-import betterwithmods.common.registry.bulk.recipes.MillRecipe;
 import betterwithmods.module.compat.jei.wrapper.BulkRecipeWrapper;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.*;
@@ -12,7 +11,7 @@ import net.minecraft.util.ResourceLocation;
 
 import javax.annotation.Nonnull;
 
-public class MillRecipeCategory extends BWMRecipeCategory<BulkRecipeWrapper<MillRecipe>> {
+public class MillRecipeCategory extends BWMRecipeCategory<BulkRecipeWrapper> {
     public static final String UID = "bwm.mill";
     private static final int width = 149;
     private static final int height = 32;
@@ -35,9 +34,9 @@ public class MillRecipeCategory extends BWMRecipeCategory<BulkRecipeWrapper<Mill
     }
 
     @Override
-    public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BulkRecipeWrapper<MillRecipe> wrapper, @Nonnull IIngredients ingredients) {
+    public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BulkRecipeWrapper wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStackGroup = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(IOutput.class);
 
         createSlotsHorizontal(guiItemStackGroup, true, 3, inputSlots, 7, 7);
         createSlotsHorizontal(guiOutputs, false, 3, outputSlot, 90, 8);
