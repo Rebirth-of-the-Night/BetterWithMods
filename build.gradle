@@ -1,0 +1,120 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url = 'https://jitpack.io' }
+        maven { url = 'https://maven.minecraftforge.net' }
+    }
+    dependencies {
+        classpath 'com.anatawa12.forge:ForgeGradle:2.3-1.0.8'
+    }
+}
+
+apply plugin: "maven"
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = "1.12-2.3.25"
+group = "betterwithmods"
+archivesBaseName = "BetterWithMods"
+
+sourceCompatibility = targetCompatibility = "1.8"
+compileJava {
+    sourceCompatibility = targetCompatibility = "1.8"
+}
+
+if (System.getenv().BUILD_NUMBER != null) {//adds the build number to the end of the version string if on a build server
+    version += "-${System.getenv().BUILD_NUMBER}"
+}
+
+minecraft {
+    version = "${minecraft_version}-${forge_version}"
+    runDir = "run"
+    mappings = mcp_mappings
+    replace "%VERSION%": "${project.version}"
+    useDepAts = true
+}
+
+repositories {
+    maven { url "https://maven.blamejared.com" }
+    maven { url "https://dvs1.progwml6.com/files/maven" }
+    maven { url "https://maven.amadornes.com" }
+    maven { url "https://www.ryanliptak.com/maven" }
+    maven { url "https://maven.tterrag.com" }
+    maven { url "https://maven.thiakil.com" }
+    maven { url "https://cursemaven.com" }
+    mavenCentral()
+}
+
+dependencies {
+    deobfCompile "mezz.jei:jei_1.12.2:4.16.1.302"
+    deobfCompile "applecore:AppleCore:1.12.2-3.4.0"
+    deobfCompile "team.chisel.ctm:CTM:MC1.12+"
+    deobfCompile "com.azanor.baubles:Baubles:1.12-1.5.2"
+
+    if (!project.hasProperty("singleproject")) {
+        deobfCompile "betterwithmods.core:BetterWithLib:1.12-1.5"
+    } else {
+        compile project(':BetterWithLib')
+    }
+
+    compile "MCMultiPart2:MCMultiPart:2.5.3"
+    runtime "MCMultiPart2:MCMultiPart:2.5.3"
+
+    compile 'org.easytesting:fest-assert:1.4'
+    compile 'org.easytesting:fest-util:1.1.6'
+    compileOnly 'curse.maven:thaumcraft-223628:2629023'
+}
+
+sourceSets {
+    main {
+        java {
+//            exclude '**/Thaumcraft.java'
+        }
+        resources {
+            exclude 'assets/betterwithmods/docs/en_us/assets/**'
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes 'FMLAT': 'bwm_at.cfg'
+    }
+    exclude 'assets/betterwithmods/docs/en_us/assets/**'
+}
+
+task deobfJar(type: Jar) {
+    from sourceSets.main.output
+    classifier "dev"
+}
+
+artifacts {
+    archives deobfJar
+}
+
+configurations {
+    deployerJars
+}
+
+dependencies {
+    deployerJars 'org.apache.maven.wagon:wagon-ftp:2.2'
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://" + (System.getenv("local_maven") != null ? System.getenv("local_maven") : System.getenv("bamboo_local_maven")))
+        }
+    }
+}
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version': project.version, 'mcversion': project.minecraft.version
+    }
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}

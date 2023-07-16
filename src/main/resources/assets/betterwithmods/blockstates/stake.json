@@ -1,0 +1,119 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/stake",
+      "up": "betterwithmods:blocks/wood_top_oak",
+      "down": "betterwithmods:blocks/wood_top_oak",
+      "particle": "betterwithmods:blocks/stake",
+      "texture": "blocks/wool_colored_white"
+    },
+    "model": "betterwithmods:stake",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "model": "betterwithmods:item/default"
+      }
+    ],
+    "facing": {
+      "down": {},
+      "up": {
+        "x": 180
+      },
+      "north": {
+        "x": 270
+      },
+      "south": {
+        "x": 270,
+        "y": 180
+      },
+      "west": {
+        "x": 270,
+        "y": 270
+      },
+      "east": {
+        "x": 270,
+        "y": 90
+      }
+    },
+    "north": {
+      "true": {
+        "submodel": {
+          "north": {
+            "model": "betterwithmods:string_extension_north",
+            "x":0,
+            "y":0
+          }
+        }
+      },
+      "false": {}
+    },
+    "south": {
+      "true": {
+        "submodel": {
+          "south": {
+            "model": "betterwithmods:string_extension_south",
+            "x":0,
+            "y":0
+
+          }
+        }
+      },
+      "false": {}
+    },
+    "east": {
+      "true": {
+        "submodel": {
+          "east": {
+            "model": "betterwithmods:string_extension_east",
+            "x":0,
+            "y":0
+          }
+        }
+      },
+      "false": {}
+    },
+    "west": {
+      "true": {
+        "submodel": {
+          "west": {
+            "model": "betterwithmods:string_extension_west",
+            "x":0,
+            "y":0
+          }
+        }
+      },
+      "false": {}
+    },
+    "up": {
+      "true": {
+        "submodel": {
+          "up": {
+            "model": "betterwithmods:string_extension_up",
+            "x":0,
+            "y":0
+          }
+        }
+      },
+      "false": {}
+    },
+    "down": {
+      "true": {
+        "submodel": {
+          "down": {
+            "model": "betterwithmods:string_extension_down",
+            "x":0,
+            "y":0
+          }
+        }
+      },
+      "false": {}
+    }
+  }
+}

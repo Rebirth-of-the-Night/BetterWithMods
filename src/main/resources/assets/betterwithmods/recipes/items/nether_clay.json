@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "betterwithmods:nether_clay",
+    "data": 0
+  },
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "ore": "materialNetherSludge",
+      "type": "forge:ore_dict"
+    }
+  }
+}

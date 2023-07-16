@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:comparator"
+  },
+  "pattern": [
+    " T ",
+    "TCT",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "ore": "gemQuartz",
+      "type": "forge:ore_dict"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "item": "#HE_STONE"
+    }
+  }
+}

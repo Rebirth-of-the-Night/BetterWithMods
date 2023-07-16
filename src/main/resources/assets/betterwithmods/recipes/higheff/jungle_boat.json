@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:jungle_boat"
+  },
+  "pattern": [
+    "SPS",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 3
+      }
+    },
+    "P": {
+      "item": "#BOAT_SHOVEL"
+    }
+  }
+}

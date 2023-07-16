@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "betterwithmods:vine_trap"
+  },
+  "pattern": [
+    "VVV"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "V": {
+      "item": "minecraft:vine"
+    }
+  }
+}

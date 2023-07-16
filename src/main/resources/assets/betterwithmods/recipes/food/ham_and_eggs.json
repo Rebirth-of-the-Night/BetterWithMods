@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "betterwithmods:ham_and_eggs",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:cooked_egg"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

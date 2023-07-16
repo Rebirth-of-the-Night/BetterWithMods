@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:light_block",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:planter",
+      "data": 2
+    },
+    "title": {
+      "translate": "advancement.betterwithmods.planter.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.planter.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:planter",
+            "data": 2
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "betterwithmods:candle",
+    "data": 14
+  },
+  "ingredients": [
+    {
+      "ore": "blockCandle",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "dyeRed",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

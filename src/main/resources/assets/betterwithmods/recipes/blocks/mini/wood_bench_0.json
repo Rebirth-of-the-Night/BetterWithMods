@@ -1,0 +1,30 @@
+{
+  "result": {
+    "item": "betterwithmods:wood_bench",
+    "data": 0,
+    "count": 4
+  },
+  "pattern": [
+    "SSS",
+    " M "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    },
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    }
+  }
+}

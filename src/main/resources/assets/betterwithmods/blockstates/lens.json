@@ -1,0 +1,52 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "betterwithmods:blocks/lens_back",
+      "down": "blocks/diamond_block",
+      "side": "blocks/gold_block",
+      "north": "#side",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "particle": "#side"
+    },
+    "model": "cube",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "facing": {
+      "down": {},
+      "up": {
+        "x": 180
+      },
+      "north": {
+        "x": 270
+      },
+      "south": {
+        "x": 270,
+        "y": 180
+      },
+      "west": {
+        "x": 270,
+        "y": 270
+      },
+      "east": {
+        "x": 270,
+        "y": 90
+      }
+    },
+    "lit": {
+      "false": {},
+      "true": {}
+    }
+  }
+}

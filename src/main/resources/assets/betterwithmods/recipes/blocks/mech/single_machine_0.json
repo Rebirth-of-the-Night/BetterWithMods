@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "betterwithmods:single_machine",
+    "data": 0
+  },
+  "pattern": [
+    "XWX",
+    "XXX",
+    "XXX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "gearWood"
+    },
+    "X": {
+      "ore": "stone",
+      "type": "forge:ore_dict"
+    }
+  }
+}

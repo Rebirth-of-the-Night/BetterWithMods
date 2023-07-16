@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "betterwithmods:blocks/sapling_blood"
+  }
+}

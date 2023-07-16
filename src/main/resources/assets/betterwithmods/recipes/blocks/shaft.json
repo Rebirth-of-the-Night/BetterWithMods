@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "betterwithmods:shaft"
+  },
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    }
+  ]
+}

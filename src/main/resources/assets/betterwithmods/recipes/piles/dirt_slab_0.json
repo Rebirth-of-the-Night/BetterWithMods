@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "betterwithmods:dirt_slab",
+    "data": 0
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:dirt_pile"
+    },
+    {
+      "item": "betterwithmods:dirt_pile"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

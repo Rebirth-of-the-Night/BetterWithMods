@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_door"
+  },
+  "pattern": [
+    "IIL",
+    "II ",
+    "IIL"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    },
+    "L": {
+      "ore": "latchRedstone",
+      "type": "forge:ore_dict"
+    }
+  }
+}

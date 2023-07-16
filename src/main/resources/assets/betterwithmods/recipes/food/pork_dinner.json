@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "betterwithmods:pork_dinner",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "ore": "cookedCarrot",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "cookedPotato",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

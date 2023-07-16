@@ -1,0 +1,29 @@
+{
+  "parent": "betterwithmods:steel_anvil",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:infernal_enchanter"
+    },
+    "title": {
+      "translate": "tile.bwm:infernal_enchanter.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.infernal_enchanter.desc"
+    }
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:infernal_enchanter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [[
+    "has_items"
+  ]]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:pulley",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:platform"
+    },
+    "title": {
+      "translate": "tile.bwm:platform.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.platform.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:platform"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

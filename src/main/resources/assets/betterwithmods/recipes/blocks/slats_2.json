@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "betterwithmods:slats",
+    "data": 2,
+    "count": 4
+  },
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 2
+      }
+    }
+  }
+}

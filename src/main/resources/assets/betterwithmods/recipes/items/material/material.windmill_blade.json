@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 11
+  },
+  "pattern": [
+    "CCC",
+    "CCC",
+    "WWW"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "ore": "fabricHemp",
+      "type": "forge:ore_dict"
+    },
+    "W": {
+      "ore": "slabWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

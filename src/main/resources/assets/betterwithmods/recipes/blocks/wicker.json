@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "betterwithmods:wicker",
+    "count": 4
+  },
+  "pattern": [
+    "RRR",
+    "RRR"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "minecraft:reeds"
+    }
+  }
+}

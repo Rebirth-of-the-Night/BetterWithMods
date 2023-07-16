@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "betterwithmods:stake"
+  },
+  "pattern": [
+    "S",
+    "M"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore":"string",
+      "type":"forge:ore_dict"
+    },
+    "M": {
+      "item": "#MOULDING_WOOD"
+    }
+  }
+}

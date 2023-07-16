@@ -1,0 +1,95 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "blocks/planks_oak",
+      "particle": "#side"
+    },
+    "model": "betterwithmods:mini/corner",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "0": {
+        "textures": {
+          "side": "rustic:blocks/planks_olive"
+
+        }
+      },
+      "1": {
+        "textures": {
+          "side": "rustic:blocks/planks_ironwood"
+        }
+      },
+      "2": {
+        "textures": {
+          "side": "rustic:blocks/slate"
+        }
+      },
+      "3": {
+        "textures": {
+          "side": "blocks/planks_jungle"
+        }
+      },
+      "4": {
+        "textures": {
+          "side": "blocks/planks_acacia"
+        }
+      },
+      "5": {
+        "textures": {
+          "side": "blocks/planks_big_oak"
+        }
+      },
+      "6": {
+        "textures": {
+          "side": "blocks/planks_big_oak"
+        }
+      },
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {}
+    },
+    "orientation": {
+      "0": {},
+      "1": {
+        "y":90
+      },
+      "2": {
+        "y":270
+      },
+      "3": {
+        "y":180
+      },
+      "4": {
+        "x":90
+      },
+      "5": {
+        "x":90,
+        "y":90
+      },
+      "6": {
+        "x":90,
+        "y":270
+      },
+      "7": {
+        "x":90,
+        "y":180
+      }
+    }
+  }
+}

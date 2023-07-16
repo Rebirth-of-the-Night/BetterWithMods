@@ -1,0 +1,26 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "betterwithmods:blocks/vine_trap",
+      "vine": "betterwithmods:blocks/vine_trap"
+    },
+    "model": "betterwithmods:vine_trap",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "half": {
+      "top": {
+        "y": 180,
+        "x": 180
+      },
+      "bottom": {}
+    }
+  }
+}

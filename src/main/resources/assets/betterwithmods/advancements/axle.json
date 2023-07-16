@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:rope",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:wooden_axle"
+    },
+    "title": {
+      "translate": "tile.bwm:wooden_axle.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.wooden_axle.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:wooden_axle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

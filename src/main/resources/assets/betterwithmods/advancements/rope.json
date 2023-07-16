@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:millstone",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:rope"
+    },
+    "title": {
+      "translate": "tile.bwm:rope.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.rope.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:rope"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

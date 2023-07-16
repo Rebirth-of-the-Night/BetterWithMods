@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 0,
+    "count": 2
+  },
+  "pattern": [
+    "SWS",
+    "W W",
+    "SWS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    },
+    "W": {
+      "ore": "plankWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

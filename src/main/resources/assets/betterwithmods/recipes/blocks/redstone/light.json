@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "betterwithmods:light"
+  },
+  "pattern": [
+    " P ",
+    "PFP",
+    " R "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "ore": "paneGlass",
+      "type": "forge:ore_dict"
+    },
+    "R": {
+      "ore": "dustRedstone",
+      "type": "forge:ore_dict"
+    },
+    "F": {
+      "ore": "filament",
+      "type": "forge:ore_dict"
+    }
+  }
+}

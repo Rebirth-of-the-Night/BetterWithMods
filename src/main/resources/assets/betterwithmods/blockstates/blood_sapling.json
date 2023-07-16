@@ -1,0 +1,25 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "betterwithmods:blocks/sapling_blood"
+    },
+    "model": "betterwithmods:blood_sapling",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "model": "betterwithmods:item/default"
+      }
+    ],
+    "stage": {
+      "0": {},
+      "1": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:saw",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:bellows"
+    },
+    "title": {
+      "translate": "tile.bwm:bellows.0.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.bellows.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:bellows"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

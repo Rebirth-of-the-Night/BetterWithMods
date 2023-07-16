@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lever"
+  },
+  "pattern": [
+    "S",
+    "C",
+    "R"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    },
+    "C": {
+      "ore": "cobblestone",
+      "type": "forge:ore_dict"
+    },
+    "R": {
+      "ore": "dustRedstone",
+      "type": "forge:ore_dict"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "faststick"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stick",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "ore": "plankWood",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

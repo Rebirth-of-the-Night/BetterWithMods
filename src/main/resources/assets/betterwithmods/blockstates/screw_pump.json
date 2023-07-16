@@ -1,0 +1,54 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/pump_side",
+      "side_grate": "betterwithmods:blocks/pump_grate",
+      "top": "betterwithmods:blocks/pump_top",
+      "bottom": "betterwithmods:blocks/pump_bottom",
+      "north": "#side",
+      "south": "#side",
+      "east": "#side",
+      "west": "#side",
+      "particle": "#side"
+    },
+    "model": "betterwithmods:screw_pump",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "active": {
+      "false": {},
+      "true": {}
+    },
+    "facing": {
+      "north": {
+        "textures": {
+          "north": "#side_grate"
+        }
+      },
+      "south": {
+        "textures": {
+          "south": "#side_grate"
+        }
+      },
+      "west": {
+        "textures": {
+          "west": "#side_grate"
+        }
+      },
+      "east": {
+        "textures": {
+          "east": "#side_grate"
+        }
+      }
+    }
+  }
+}

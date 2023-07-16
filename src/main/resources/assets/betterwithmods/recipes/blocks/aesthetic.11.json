@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "betterwithmods:aesthetic",
+    "data": 11
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "ore": "dung",
+      "type": "forge:ore_dict"
+    }
+  }
+}

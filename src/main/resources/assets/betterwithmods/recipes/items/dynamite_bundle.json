@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "betterwithmods:dynamite_bundle"
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:dynamite",
+      "data": 0
+    },
+    {
+      "item": "betterwithmods:dynamite",
+      "data": 0
+    },
+    {
+      "item": "betterwithmods:dynamite",
+      "data": 0
+    },
+    {
+      "item": "betterwithmods:material",
+      "data": 8
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

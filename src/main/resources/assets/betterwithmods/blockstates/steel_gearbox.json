@@ -1,0 +1,108 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/steel_gearbox_side",
+      "input": "betterwithmods:blocks/steel_gearbox_input",
+      "output": "betterwithmods:blocks/steel_gearbox_output"
+    },
+    "model": "betterwithmods:gearbox"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "textures": {
+          "up": "#input"
+        }
+      }
+    ],
+    "active": {
+      "false": {},
+      "true": {}
+    },
+    "facing": {
+      "down": {
+        "textures": {
+          "down": "#input"
+        }
+      },
+      "up": {
+        "textures": {
+          "up": "#input"
+        }
+      },
+      "north": {
+        "textures": {
+          "north": "#input"
+        }
+      },
+      "south": {
+        "textures": {
+          "south": "#input"
+        }
+      },
+      "west": {
+        "textures": {
+          "west": "#input"
+        }
+      },
+      "east": {
+        "textures": {
+          "east": "#input"
+        }
+      }
+    },
+    "up": {
+      "false": {},
+      "true": {
+        "textures": {
+          "up": "#output"
+        }
+      }
+    },
+    "down": {
+      "false": {},
+      "true": {
+        "textures": {
+          "down": "#output"
+        }
+      }
+    },
+    "north": {
+      "false": {},
+      "true": {
+        "textures": {
+          "north": "#output"
+        }
+      }
+    },
+    "south": {
+      "false": {},
+      "true": {
+        "textures": {
+          "south": "#output"
+        }
+      }
+    },
+    "west": {
+      "false": {},
+      "true": {
+        "textures": {
+          "west": "#output"
+        }
+      }
+    },
+    "east": {
+      "false": {},
+      "true": {
+        "textures": {
+          "east": "#output"
+        }
+      }
+    }
+  }
+}

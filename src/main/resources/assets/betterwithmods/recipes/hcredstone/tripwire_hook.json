@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:tripwire_hook"
+  },
+  "pattern": [
+    "N",
+    "M",
+    "R"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "M": {
+      "ore": "mouldingWood",
+      "type": "forge:ore_dict"
+    },
+    "N": {
+      "ore": "nuggetIron",
+      "type": "forge:ore_dict"
+    },
+    "R": {
+      "ore": "dustRedstone",
+      "type": "forge:ore_dict"
+    }
+  }
+}

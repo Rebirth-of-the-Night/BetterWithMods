@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 36
+  },
+  "pattern": [
+    "S",
+    "G",
+    "X"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "item": "betterwithmods:material",
+      "data": 8
+    },
+    "G": {
+      "ore": "slimeball",
+      "type": "forge:ore_dict"
+    },
+    "X": {
+      "item": "#MOULDING_WOOD"
+    }
+  }
+}

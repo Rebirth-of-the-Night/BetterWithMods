@@ -1,0 +1,81 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "blocks/wool_colored_white",
+      "particle": "blocks/wool_colored_white"
+    },
+    "model": "betterwithmods:string",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "north": {
+      "true": {
+        "submodel": {
+          "north": {
+            "model": "betterwithmods:string_extension_north"
+          }
+        }
+      },
+      "false": {}
+    },
+    "south": {
+      "true": {
+        "submodel": {
+          "south": {
+            "model": "betterwithmods:string_extension_south"
+          }
+        }
+      },
+      "false": {}
+    },
+    "east": {
+      "true": {
+        "submodel": {
+          "east": {
+            "model": "betterwithmods:string_extension_east"
+          }
+        }
+      },
+      "false": {}
+    },
+    "west": {
+      "true": {
+        "submodel": {
+          "west": {
+            "model": "betterwithmods:string_extension_west"
+          }
+        }
+      },
+      "false": {}
+    },
+    "up": {
+      "true": {
+        "submodel": {
+          "up": {
+            "model": "betterwithmods:string_extension_up"
+          }
+        }
+      },
+      "false": {}
+    },
+    "down": {
+      "true": {
+        "submodel": {
+          "down": {
+            "model": "betterwithmods:string_extension_down"
+          }
+        }
+      },
+      "false": {}
+    }
+  }
+}

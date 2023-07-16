@@ -1,0 +1,70 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "betterwithmods:blocks/hemp_stage_7"
+    },
+    "model": "cross"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "model": "betterwithmods:items/default"
+      }
+    ],
+    "top": {
+      "false": {},
+      "true": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_top"
+        }
+      }
+    },
+    "age": {
+      "0": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_0"
+        }
+      },
+      "1": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_1"
+        }
+      },
+      "2": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_2"
+        }
+      },
+      "3": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_3"
+        }
+      },
+      "4": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_4"
+        }
+      },
+      "5": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_5"
+        }
+      },
+      "6": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_6"
+        }
+      },
+      "7": {
+        "textures": {
+          "cross": "betterwithmods:blocks/hemp_stage_7"
+        }
+      }
+    }
+  }
+}

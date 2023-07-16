@@ -1,0 +1,38 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:piston"
+  },
+  "pattern": [
+    "SIS",
+    "CUC",
+    "CLC"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    },
+    "L": {
+      "ore": "latchRedstone",
+      "type": "forge:ore_dict"
+    },
+    "C": {
+      "ore": "cobblestone",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "item": "#HE_PLANKS"
+    },
+    "U": {
+      "ore": "blockSoulUrn",
+      "type": "forge:ore_dict"
+    }
+  }
+}

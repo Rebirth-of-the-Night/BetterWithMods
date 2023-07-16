@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "betterwithmods:wicker",
+    "count": 4
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterwithmods:aesthetic",
+      "data": 12
+    }
+    ]
+}

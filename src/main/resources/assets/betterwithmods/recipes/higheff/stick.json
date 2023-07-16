@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stick"
+  },
+  "ingredients": [
+    {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      }
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

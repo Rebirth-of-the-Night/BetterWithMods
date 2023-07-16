@@ -1,0 +1,33 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:acacia_fence_gate"
+  },
+  "pattern": [
+    "MSM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 4
+      }
+    },
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 4
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "ore": "fiberHemp",
+      "type": "forge:ore_dict"
+    }
+  }
+}

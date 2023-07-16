@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:kiln",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:urn",
+      "data": 0
+    },
+    "title": {
+      "translate": "tile.bwm:urn.0.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.urn.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:urn",
+            "data": 0
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "betterwithmods:raw_omelet",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:raw_egg"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

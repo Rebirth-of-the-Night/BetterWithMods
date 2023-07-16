@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "betterwithmods:aesthetic",
+    "data": 3
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "ore": "ingotConcentratedHellfire",
+      "type": "forge:ore_dict"
+    }
+  }
+}

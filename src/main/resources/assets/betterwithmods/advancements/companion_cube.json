@@ -1,0 +1,30 @@
+{
+  "parent": "betterwithmods:block_dispenser",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:companion_cube"
+    },
+    "title": {
+      "translate": "tile.bwm:companion_cube.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.companion_cube.desc"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:companion_cube"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [[
+    "has_items"
+  ]]
+}

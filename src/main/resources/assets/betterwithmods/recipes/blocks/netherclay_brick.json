@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "betterwithmods:unfired_pottery",
+    "data": 5
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterwithmods:material",
+      "data": 35
+    }
+  ]
+}

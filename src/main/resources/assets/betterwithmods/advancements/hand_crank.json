@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:wood_gear",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:hand_crank"
+    },
+    "title": {
+      "translate": "tile.bwm:hand_crank.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.hand_crank.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:hand_crank"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

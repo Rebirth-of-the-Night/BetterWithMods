@@ -1,0 +1,99 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/chop_block_clean",
+      "north": "#side",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "up": "#side",
+      "down": "#side",
+      "particle": "#side"
+    },
+    "model": "cube",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "blocktype": {
+      "chopping": {},
+      "chopping_blood": {
+        "textures": {
+          "side": "betterwithmods:blocks/chop_block_dirty"
+        }
+      },
+      "hellfire": {
+        "textures": {
+          "side": "betterwithmods:blocks/hellfire_block"
+        }
+      },
+      "nether_clay": {
+        "textures": {
+          "side": "betterwithmods:blocks/hardened_nether_sludge"
+        }
+      },
+      "rope": {
+        "textures": {
+          "up": "betterwithmods:blocks/rope_top",
+          "down": "betterwithmods:blocks/rope_top",
+          "side": "betterwithmods:blocks/rope_side"
+        }
+      },
+      "flint": {
+        "textures": {
+          "side": "blocks/bedrock"
+        }
+      },
+      "whitestone": {
+        "textures": {
+          "side": "betterwithmods:blocks/whitestone"
+        }
+      },
+      "whitecobble": {
+        "textures": {
+          "side": "betterwithmods:blocks/whitecobble"
+        }
+      },
+      "enderblock": {
+        "textures": {
+          "side": "betterwithmods:blocks/enderblock"
+        }
+      },
+	  "padding": {
+        "textures": {
+          "side": "betterwithmods:blocks/padding"
+        }
+      },
+	  "soap": {
+        "textures": {
+          "up": "betterwithmods:blocks/soap_top",
+          "down": "betterwithmods:blocks/soap",
+          "side": "betterwithmods:blocks/soap"
+        }
+      },
+	  "wicker": {
+        "textures": {
+          "side": "betterwithmods:blocks/wicker"
+        }
+      },
+	  "dung": {
+        "textures": {
+          "side": "betterwithmods:blocks/dung"
+        }
+      },
+      "nethercoal": {
+        "textures": {
+          "side": "betterwithmods:blocks/nethercoal"
+        }
+      }
+    }
+  }
+}

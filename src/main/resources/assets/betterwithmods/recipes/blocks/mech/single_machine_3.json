@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "betterwithmods:single_machine",
+    "data": 3
+  },
+  "pattern": [
+    "LLL",
+    "SCS",
+    "SWS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "stone",
+      "type": "forge:ore_dict"
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "W": {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    "L": {
+      "item": "#SIDING_WOOD"
+    }
+  }
+}

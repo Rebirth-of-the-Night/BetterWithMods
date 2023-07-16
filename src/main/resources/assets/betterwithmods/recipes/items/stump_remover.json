@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "betterwithmods:stump_remover",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:creeper_oyster"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

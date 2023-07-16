@@ -1,0 +1,40 @@
+{
+  "parent": "betterwithmods:steel_anvil",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:steel_helmet"
+    },
+    "title": {
+      "translate": "advancement.betterwithmods.plated_armor.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.plated_armor.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:steel_chest"
+          },
+          {
+            "item": "betterwithmods:steel_helmet"
+          },
+          {
+            "item": "betterwithmods:steel_boots"
+          },
+          {
+            "item": "betterwithmods:steel_pants"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

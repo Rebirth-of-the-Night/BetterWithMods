@@ -1,0 +1,63 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "betterwithmods:blocks/wicker",
+      "side": "#particle"
+    },
+    "sub": "betterwithmods:wicker_extension",
+    "model": "betterwithmods:pane_main",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "north": {
+      "true": {
+        "submodel": {
+          "ext0": {
+            "model": "betterwithmods:wicker_extension",
+            "y": 90
+          }
+        }
+      },
+      "false": {}
+    },
+    "east": {
+      "true": {
+        "submodel": {
+          "ext1": {
+            "model": "betterwithmods:wicker_extension",
+            "y": 180
+          }
+        }
+      },
+      "false": {}
+    },
+    "south": {
+      "true": {
+        "submodel": {
+          "ext2": {
+            "model": "betterwithmods:wicker_extension",
+            "y": 270
+          }
+        }
+      },
+      "false": {}
+    },
+    "west": {
+      "true": {
+        "submodel": {
+          "ext3": {
+            "model": "betterwithmods:wicker_extension"
+          }
+        }
+      },
+      "false": {}
+    }
+  }
+}

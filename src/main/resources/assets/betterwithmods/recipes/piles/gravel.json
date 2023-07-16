@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "minecraft:gravel"
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:gravel_pile"
+    },
+    {
+      "item": "betterwithmods:gravel_pile"
+    },
+    {
+      "item": "betterwithmods:gravel_pile"
+    },
+    {
+      "item": "betterwithmods:gravel_pile"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

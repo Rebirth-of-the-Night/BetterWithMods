@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "betterwithmods:dynamite"
+  },
+  "ingredients": [
+    {
+      "ore": "paper",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "paper",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "paper",
+      "type": "forge:ore_dict"
+    },
+    {
+      "item": "betterwithmods:material",
+      "data": 28
+    },
+    {
+      "item": "betterwithmods:material",
+      "data": 29
+    },
+    {
+      "ore": "dustWood",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

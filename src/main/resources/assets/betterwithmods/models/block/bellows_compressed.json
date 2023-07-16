@@ -1,0 +1,37 @@
+{
+  "parent": "block/orientable",
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        11,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#top"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "north": {
+          "texture": "#front_active"
+        },
+        "south": {
+          "texture": "#side_active"
+        },
+        "west": {
+          "texture": "#side_active"
+        },
+        "east": {
+          "texture": "#side_active"
+        }
+      }
+    }
+  ]
+}

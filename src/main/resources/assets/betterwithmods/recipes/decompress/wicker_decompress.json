@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "minecraft:reeds",
+    "count": 3
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:wicker",
+      "data": 0
+    },
+    {
+      "item": "betterwithmods:wicker",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

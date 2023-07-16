@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:acacia_boat"
+  },
+  "pattern": [
+    "SPS",
+    "SSS"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 4
+      }
+    },
+    "P": {
+      "item": "#BOAT_SHOVEL"
+    }
+  }
+}

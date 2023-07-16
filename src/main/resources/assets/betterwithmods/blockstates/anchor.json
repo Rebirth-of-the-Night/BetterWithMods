@@ -1,0 +1,79 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "down"
+      },
+      "apply": {
+        "model": "betterwithmods:anchor",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "up"
+      },
+      "apply": {
+        "model": "betterwithmods:anchor"
+      }
+    },
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "betterwithmods:anchor",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "betterwithmods:anchor",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "betterwithmods:anchor",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "betterwithmods:anchor",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "down|north|south|west|east",
+        "linked": "true"
+      },
+      "apply": {
+        "model": "betterwithmods:half_rope"
+      }
+    },
+    {
+      "when": {
+        "facing": "up",
+        "linked": "true"
+      },
+      "apply": {
+        "model": "betterwithmods:half_rope",
+        "x": 180
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube",
+    "textures": {
+      "front": "betterwithmods:blocks/buddy_front_off",
+      "side": "betterwithmods:blocks/buddy_side_off",
+      "north": "#front",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "up": "#side",
+      "down": "#side",
+      "particle": "#side"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "redstone": {
+      "true": {
+        "textures": {
+          "front": "betterwithmods:blocks/buddy_front_on",
+          "side": "betterwithmods:blocks/buddy_side_on"
+        }
+      },
+      "false": {}
+    },
+    "facing": {
+      "down": {
+        "textures": {
+          "side": "betterwithmods:blocks/buddy_side_off",
+          "down": "#front",
+          "north": "#side"
+        }
+      },
+      "up": {
+        "textures": {
+          "side": "betterwithmods:blocks/buddy_side_off",
+          "down": "#front",
+          "north": "#side"
+        },
+        "x": 180
+      },
+      "north": {},
+      "south": {
+        "y": 180
+      },
+      "west": {
+        "y": 270
+      },
+      "east": {
+        "y": 90
+      }
+    }
+  }
+}
+

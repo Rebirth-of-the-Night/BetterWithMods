@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "betterwithmods:saw"
+  },
+  "pattern": [
+    "III",
+    "GBG",
+    "WGW"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "ore": "hideBelt",
+      "type": "forge:ore_dict"
+    },
+    "G": {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    "W": {
+      "item": "#HE_PLANKS"
+    },
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    }
+  }
+}

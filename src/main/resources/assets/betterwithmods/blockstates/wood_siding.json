@@ -1,0 +1,102 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+
+      "side": "blocks/planks_oak",
+      "particle": "#side",
+      "north":"#side",
+      "south":"#side",
+      "east":"#side",
+      "west":"#side",
+      "up":"#side",
+      "down":"#side"
+    },
+    "model": "betterwithmods:mini/siding",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "0": {
+        "textures": {
+          "side": "blocks/planks_oak",
+          "particle": "#side"
+        }
+      },
+      "1": {
+        "textures": {
+          "side": "blocks/planks_spruce",
+          "particle": "#side"
+        }
+      },
+      "2": {
+        "textures": {
+          "side": "blocks/planks_birch",
+          "particle": "#side"
+        }
+      },
+      "3": {
+        "textures": {
+          "side": "blocks/planks_jungle",
+          "particle": "#side"
+        }
+      },
+      "4": {
+        "textures": {
+          "side": "blocks/planks_acacia",
+          "particle": "#side"
+        }
+      },
+      "5": {
+        "textures": {
+          "side": "blocks/planks_big_oak",
+          "particle": "#side"
+        }
+      },
+      "6": {
+        "textures": {
+          "side": "blocks/planks_big_oak",
+          "particle": "#side"
+        }
+      },
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {}
+    },
+    "orientation": {
+      "0": {},
+      "1": {
+        "x": 180
+      },
+      "2": {
+        "x": 270
+      },
+      "3": {
+        "x": 270,
+        "y": 180
+      },
+      "4": {
+        "x": 270,
+        "y": 270
+      },
+      "5": {
+        "x": 270,
+        "y": 90
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "minecraft:blocks/iron_block",
+      "bottom": "minecraft:blocks/iron_block",
+      "side": "minecraft:blocks/iron_block",
+      "rope": "betterwithmods:blocks/rope",
+      "particle": "minecraft:blocks/iron_block"
+    },
+    "model": "betterwithmods:bucket",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "in_water": {
+      "true": {},
+      "false": {}
+    },
+    "has_water": {
+      "true": {},
+      "false": {}
+    },
+    "connected": {
+      "true": {
+        "model": "betterwithmods:bucket_connected"
+      },
+      "false": {}
+    }
+  }
+}

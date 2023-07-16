@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "betterwithmods:tasty_sandwich",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "ore": "listAllmeatcooked",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

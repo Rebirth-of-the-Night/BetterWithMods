@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "minecraft:chainmail_helmet"
+  },
+  "pattern": [
+    "CCC",
+    "C C"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "ore": "chainmail",
+      "type": "forge:ore_dict"
+    }
+  }
+}

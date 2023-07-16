@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 41
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "ore": "fabricHemp",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

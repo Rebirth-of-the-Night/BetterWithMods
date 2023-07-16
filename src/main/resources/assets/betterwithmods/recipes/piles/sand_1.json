@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "minecraft:sand",
+    "data": 1
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:red_sand_pile"
+    },
+    {
+      "item": "betterwithmods:red_sand_pile"
+    },
+    {
+      "item": "betterwithmods:red_sand_pile"
+    },
+    {
+      "item": "betterwithmods:red_sand_pile"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

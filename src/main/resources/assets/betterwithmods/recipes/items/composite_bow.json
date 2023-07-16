@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "betterwithmods:composite_bow"
+  },
+  "pattern": [
+    "GMB",
+    "MBS",
+    "GMB"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "ore": "bone",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "string",
+      "type": "forge:ore_dict"
+    },
+    "G": {
+      "ore": "slimeball",
+      "type": "forge:ore_dict"
+    },
+    "M": {
+      "item": "#MOULDING_WOOD"
+    }
+  }
+}

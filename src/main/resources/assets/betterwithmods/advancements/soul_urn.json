@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:urn",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:urn",
+      "data": 8
+    },
+    "title": {
+      "translate": "tile.bwm:urn.8.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.soul_urn.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:urn",
+            "data": 8
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

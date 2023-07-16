@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bookshelf"
+  },
+  "pattern": [
+    "SSS",
+    "BBB",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      }
+    }
+  }
+}

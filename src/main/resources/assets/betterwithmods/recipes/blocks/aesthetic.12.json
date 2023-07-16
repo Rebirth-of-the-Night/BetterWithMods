@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "betterwithmods:aesthetic",
+    "data": 12
+  },
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "item": "betterwithmods:wicker"
+    }
+  }
+}

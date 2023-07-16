@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "betterwithmods:beef_potatoes",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "ore": "cookedPotato",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

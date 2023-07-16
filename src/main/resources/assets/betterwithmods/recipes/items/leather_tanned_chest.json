@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "betterwithmods:leather_tanned_chest"
+  },
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "ore": "hideTanned",
+      "type": "forge:ore_dict"
+    }
+  }
+}

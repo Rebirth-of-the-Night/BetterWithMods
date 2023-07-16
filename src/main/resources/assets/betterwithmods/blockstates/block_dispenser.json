@@ -1,0 +1,60 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "betterwithmods:blocks/block_dispenser_top",
+      "down": "betterwithmods:blocks/block_dispenser_top",
+      "side": "betterwithmods:blocks/block_dispenser_side",
+      "front": "betterwithmods:blocks/block_dispenser_front_side",
+      "vert": "betterwithmods:blocks/block_dispenser_front_top",
+      "north": "#front",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "particle": "#side"
+    },
+    "model": "cube",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "triggered": {
+      "false": {},
+      "true": {}
+    },
+    "facing": {
+      "down": {
+        "textures": {
+          "side": "betterwithmods:blocks/block_dispenser_top",
+          "down": "#vert",
+          "north": "#side"
+        }
+      },
+      "up": {
+        "textures": {
+          "side": "betterwithmods:blocks/block_dispenser_top",
+          "down": "#vert",
+          "north": "#side"
+        },
+        "x": 180
+      },
+      "north": {},
+      "south": {
+        "y": 180
+      },
+      "west": {
+        "y": 270
+      },
+      "east": {
+        "y": 90
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "betterwithmods:blocks/wooden_axle_side",
+      "top": "betterwithmods:blocks/wooden_axle_end",
+      "side": "betterwithmods:blocks/wooden_axle_side_on"
+    },
+    "model": "betterwithmods:axle",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "textures": {
+          "side": "betterwithmods:blocks/wooden_axle_side"
+        }
+      }
+    ],
+    "axis": {
+      "y": {},
+      "z": {
+        "x": 90
+      },
+      "x": {
+        "x": 90,
+        "y": 90
+      }
+    },
+    "active": {
+      "false": {
+        "textures": {
+          "side": "betterwithmods:blocks/wooden_axle_side"
+        }
+      },
+      "true": {
+        "textures": {
+          "side": "betterwithmods:blocks/wooden_axle_side_on"
+        }
+      }
+    }
+  }
+}

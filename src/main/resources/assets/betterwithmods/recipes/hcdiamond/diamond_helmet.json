@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcdiamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "pattern": [
+    "DDD",
+    "D D"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "D": {
+      "ore": "ingotDiamond",
+      "type": "forge:ore_dict"
+    }
+  }
+}

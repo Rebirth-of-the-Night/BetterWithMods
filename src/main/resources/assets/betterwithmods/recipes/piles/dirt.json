@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "minecraft:dirt",
+    "data": 0
+  },
+  "pattern": [
+    "D",
+    "D"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "betterwithmods:dirt_slab",
+      "data": 0
+    }
+  }
+}

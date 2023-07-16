@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "betterwithmods:ender_spectacles"
+  },
+  "pattern": [
+    "OSO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "betterwithmods:material",
+      "data": 8
+    },
+    "O": {
+      "item": "betterwithmods:material",
+      "data": 40
+    }
+  }
+}

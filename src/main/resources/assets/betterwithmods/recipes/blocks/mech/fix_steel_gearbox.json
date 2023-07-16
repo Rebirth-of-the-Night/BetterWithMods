@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "betterwithmods:steel_gearbox"
+  },
+
+  "ingredients": [
+    {
+      "item": "betterwithmods:steel_broken_gearbox"
+    },
+    {
+      "ore": "gearSoulforgedSteel",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "gearSoulforgedSteel",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "gearSoulforgedSteel",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "gearSoulforgedSteel",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

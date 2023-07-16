@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:axle",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:axle_generator",
+      "data": 0
+    },
+    "title": {
+      "translate": "item.bwm:axle_generator.windmill.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.horizontal_windmill.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:axle_generator",
+            "data": 0
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "breedingharness"
+    }
+  ],
+  "result": {
+    "item": "betterwithmods:breeding_harness"
+  },
+  "pattern": [
+    "SLS",
+    "LLL",
+    "SLS"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "betterwithmods:material",
+      "data": 8
+    },
+    "L": {
+      "ore": "hideTanned",
+      "type": "forge:ore_dict"
+    }
+  }
+}

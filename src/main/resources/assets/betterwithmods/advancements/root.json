@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "betterwithmods:manual"
+    },
+    "title": {
+      "translate": "itemGroup.bwm:bwTab"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.desc"
+    },
+    "background": "betterwithmods:textures/blocks/soulforged_steel.png",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "ore": "plankWood",
+            "type": "forge:ore_dict"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

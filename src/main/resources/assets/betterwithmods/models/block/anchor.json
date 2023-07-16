@@ -1,0 +1,81 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "side": "blocks/stone_slab_top",
+    "knob": "blocks/iron_block",
+    "particle": "blocks/stone_slab_top"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        6,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#side",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#side",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#side",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#side",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#side",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#side",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        6,
+        6
+      ],
+      "to": [
+        10,
+        10,
+        10
+      ],
+      "faces": {
+        "down": {
+          "texture": "#knob"
+        },
+        "up": {
+          "texture": "#knob",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#knob"
+        },
+        "south": {
+          "texture": "#knob"
+        },
+        "west": {
+          "texture": "#knob"
+        },
+        "east": {
+          "texture": "#knob"
+        }
+      }
+    }
+  ]
+}

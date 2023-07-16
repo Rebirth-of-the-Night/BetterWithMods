@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:jungle_fence",
+    "count": 2
+  },
+  "pattern": [
+    "MMM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 3
+      }
+    }
+  }
+}

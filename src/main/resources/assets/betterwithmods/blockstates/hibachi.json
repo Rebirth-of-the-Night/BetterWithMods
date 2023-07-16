@@ -1,0 +1,32 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "betterwithmods:blocks/hibachi_side",
+      "side": "betterwithmods:blocks/hibachi_side",
+      "up": "betterwithmods:blocks/hibachi_top",
+      "down": "betterwithmods:blocks/hibachi_bottom",
+      "conduit": "betterwithmods:blocks/soulforged_steel"
+    },
+    "model": "betterwithmods:hibachi",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "lit": {
+      "false": {},
+      "true": {
+        "textures": {
+          "conduit": "betterwithmods:blocks/hellfire_block"
+        }
+      }
+    }
+  }
+}

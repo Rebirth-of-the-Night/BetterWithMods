@@ -1,0 +1,68 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/cauldron_side",
+      "particle": "#side",
+      "top": "betterwithmods:blocks/cauldron_top",
+      "bottom": "betterwithmods:blocks/cauldron_bottom",
+      "invfill": "betterwithmods:blocks/cauldron_contents"
+    },
+    "model": "betterwithmods:cooking_pot",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "facing": {
+      "up": {},
+      "north": {
+        "x": 90,
+        "y": 90
+      },
+      "south": {
+        "x": 90,
+        "y": -90
+      },
+      "west": {
+        "x": 90
+      },
+      "east": {
+        "x": -90
+      }
+    },
+    "type": {
+      "crucible": {
+        "textures": {
+          "side": "betterwithmods:blocks/crucible_side",
+          "top": "betterwithmods:blocks/crucible_top",
+          "bottom": "betterwithmods:blocks/crucible_bottom"
+        }
+      },
+      "cauldron": {
+        "textures": {
+          "side": "betterwithmods:blocks/cauldron_side",
+          "top": "betterwithmods:blocks/cauldron_top",
+          "bottom": "betterwithmods:blocks/cauldron_bottom",
+          "invfill": "betterwithmods:blocks/cauldron_contents"
+        }
+      },
+      "dragonvessel": {
+        "textures": {
+          "side": "betterwithmods:blocks/vessel_side",
+          "top": "betterwithmods:blocks/vessel_bars",
+          "bottom": "betterwithmods:blocks/vessel_bottom",
+          "invfill": "betterwithmods:blocks/vessel_contents",
+          "inside": "betterwithmods:blocks/vessel_top"
+        },
+        "model": "betterwithmods:vessel"
+      }
+    }
+  }
+}

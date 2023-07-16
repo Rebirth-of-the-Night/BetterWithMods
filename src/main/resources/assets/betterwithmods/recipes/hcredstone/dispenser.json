@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dispenser"
+  },
+  "pattern": [
+    "CCC",
+    "CBC",
+    "CLC"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "ore": "cobblestone",
+      "type": "forge:ore_dict"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "L": {
+      "ore": "latchRedstone",
+      "type": "forge:ore_dict"
+    }
+  }
+}

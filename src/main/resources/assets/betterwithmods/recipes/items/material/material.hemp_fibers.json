@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 3,
+    "count": 6
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:rope"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

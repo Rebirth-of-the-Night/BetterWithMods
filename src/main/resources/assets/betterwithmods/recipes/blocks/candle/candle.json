@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "betterwithmods:candle",
+    "data": 0
+  },
+  "pattern": [
+    "S",
+    "T",
+    "T"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "string",
+      "type": "forge:ore_dict"
+    },
+    "T": {
+      "ore": "tallow",
+      "type": "forge:ore_dict"
+    }
+  }
+}

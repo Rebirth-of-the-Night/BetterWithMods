@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:jukebox"
+  },
+  "pattern": [
+    "SSS",
+    "SDS",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      }
+    },
+    "D": {
+      "ore": "gemDiamond",
+      "type": "forge:ore_dict"
+    }
+  }
+}

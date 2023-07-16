@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "betterwithmods:cooking_pot",
+    "data": 1
+  },
+  "pattern": [
+    "XBX",
+    "XWX",
+    "XXX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "X": {
+      "item": "#CAULDRON_MATERIAL"
+    }
+  }
+}

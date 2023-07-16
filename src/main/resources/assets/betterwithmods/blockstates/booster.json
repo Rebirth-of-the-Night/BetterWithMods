@@ -1,0 +1,50 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "rail": "betterwithmods:blocks/booster_inactive",
+      "particle": "#rail"
+    },
+    "model": "rail_flat",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "model": "betterwithmods:item/default"
+      }
+    ],
+    "shape": {
+      "north_south": {},
+      "east_west": {
+        "y": 90
+      },
+      "ascending_east": {
+        "model": "rail_raised_ne",
+        "y": 90
+      },
+      "ascending_west": {
+        "model": "rail_raised_sw",
+        "y": 90
+      },
+      "ascending_north": {
+        "model": "rail_raised_ne"
+      },
+      "ascending_south": {
+        "model": "rail_raised_sw"
+      }
+    },
+    "powered": {
+      "false": {},
+      "true": {
+        "textures": {
+          "rail": "betterwithmods:blocks/booster_active"
+        }
+      }
+    }
+  }
+}

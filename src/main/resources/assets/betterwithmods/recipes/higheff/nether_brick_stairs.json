@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:nether_brick_stairs"
+  },
+  "pattern": [
+    "M ",
+    "MM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:nether_brick",
+        "data": 0
+      }
+    }
+  }
+}

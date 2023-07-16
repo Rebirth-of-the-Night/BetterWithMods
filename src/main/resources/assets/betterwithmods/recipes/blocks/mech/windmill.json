@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "betterwithmods:axle_generator",
+    "data": 0
+  },
+  "pattern": [
+    " X ",
+    "X X",
+    " X "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "betterwithmods:material",
+      "data": 11
+    }
+  }
+}

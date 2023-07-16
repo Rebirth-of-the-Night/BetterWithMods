@@ -1,0 +1,26 @@
+{
+  "parent": "betterwithmods:infernal_enchanter",
+  "display": {
+    "icon": {
+      "item": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "advancement.betterwithmods.library.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.library.desc"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "built_library": {
+      "trigger": "betterwithmods:construct_library",
+      "conditions": {
+        "count": 30
+      }
+    }
+  },
+  "requirements": [[
+    "built_library"
+  ]]
+}

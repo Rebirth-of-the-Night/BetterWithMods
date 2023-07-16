@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "betterwithmods:raw_pastry",
+    "data": 2
+  },
+  "pattern": [
+    "FCF"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "ore": "foodChocolatebar",
+      "type": "forge:ore_dict"
+    },
+    "F": {
+      "ore": "foodFlour",
+      "type": "forge:ore_dict"
+    }
+  }
+}

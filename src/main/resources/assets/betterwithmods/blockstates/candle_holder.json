@@ -1,0 +1,44 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/soulforged_steel",
+      "particle": "#side"
+    },
+    "model": "betterwithmods:candle_holder_connected",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "connection": {
+      "connected": {
+      },
+      "disconnected": {
+        "model": "betterwithmods:candle_holder_disconnected"
+      },
+      "candle": {
+        "model": "betterwithmods:candle_holder_candle"
+      },
+      "skull": {
+        "model": "betterwithmods:candle_holder_skull"
+      }
+    },
+    "ground": {
+      "true": {
+        "submodel": {
+          "ground": {
+            "model": "betterwithmods:candle_holder_ground"
+          }
+        }
+      },
+      "false": {}
+    }
+  }
+}

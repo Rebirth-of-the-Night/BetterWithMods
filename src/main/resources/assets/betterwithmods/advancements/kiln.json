@@ -1,0 +1,24 @@
+{
+  "parent": "betterwithmods:hibachi",
+  "display": {
+    "icon": {
+      "item": "minecraft:brick_block"
+    },
+    "title": {
+      "translate": "tile.bwm:kiln.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.kiln.desc"
+    }
+  },
+  "criteria": {
+    "built_kiln": {
+      "trigger": "betterwithmods:construct_kiln"
+    }
+  },
+  "requirements": [
+    [
+      "built_kiln"
+    ]
+  ]
+}

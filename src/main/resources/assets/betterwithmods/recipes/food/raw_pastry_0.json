@@ -1,0 +1,27 @@
+{
+  "result": {
+    "item": "betterwithmods:raw_pastry",
+    "data": 0
+  },
+  "pattern": [
+    "SSS",
+    "MEM",
+    "FFF"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "betterwithmods:raw_egg"
+    },
+    "F": {
+      "ore": "foodFlour",
+      "type": "forge:ore_dict"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    }
+  }
+}

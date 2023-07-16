@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:saw",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:aesthetic",
+      "data": 1
+    },
+    "title": {
+      "translate": "tile.bwm:aesthetic.1.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.bloody_chopping_block.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:aesthetic",
+            "data": 1
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:gearbox",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:saw"
+    },
+    "title": {
+      "translate": "tile.bwm:saw.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.saw.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:saw"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

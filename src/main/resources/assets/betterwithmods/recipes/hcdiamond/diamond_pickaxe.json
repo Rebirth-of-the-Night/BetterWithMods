@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcdiamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "pattern": [
+    "DDD",
+    " S ",
+    " S "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "D": {
+      "ore": "ingotDiamond",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

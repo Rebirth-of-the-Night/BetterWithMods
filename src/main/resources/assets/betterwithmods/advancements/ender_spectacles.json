@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:tanned_leather",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:ender_spectacles"
+    },
+    "title": {
+      "translate": "item.bwm:ender_spectacles.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.ender_spectacles.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:ender_spectacles"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

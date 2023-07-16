@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:rope",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:anchor"
+    },
+    "title": {
+      "translate": "tile.bwm:anchor.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.anchor.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:anchor"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

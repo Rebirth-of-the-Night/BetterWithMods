@@ -1,0 +1,41 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "betterwithmods:growth/growth_7",
+    "textures": {
+      "top": "betterwithmods:blocks/nether_growth",
+      "bottom": "betterwithmods:blocks/nether_growth",
+      "side": "betterwithmods:blocks/nether_growth_side"
+    }
+  },
+  "variants": {
+    "age": {
+      "0": {
+        "model": "betterwithmods:growth/growth_0"
+      },
+      "1": {
+        "model": "betterwithmods:growth/growth_1"
+      },
+      "2": {
+        "model": "betterwithmods:growth/growth_2"
+      },
+      "3": {
+        "model": "betterwithmods:growth/growth_3"
+      },
+      "4": {
+        "model": "betterwithmods:growth/growth_4"
+      },
+      "5": {
+        "model": "betterwithmods:growth/growth_5"
+      },
+      "6": {
+        "model": "betterwithmods:growth/growth_6"
+      },
+      "7": {
+        "textures": {
+          "top": "betterwithmods:blocks/nether_growth_top"
+        }
+      }
+    }
+  }
+}

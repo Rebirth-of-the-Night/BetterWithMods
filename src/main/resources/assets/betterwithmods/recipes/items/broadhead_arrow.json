@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "betterwithmods:broadhead_arrow"
+  },
+  "pattern": [
+    "B",
+    "S",
+    "F"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "ore": "arrowSoulforgedSteel",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    },
+    "F": {
+      "ore": "feather",
+      "type": "forge:ore_dict"
+    }
+  }
+}

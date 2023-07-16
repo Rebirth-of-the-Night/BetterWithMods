@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcdiamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "pattern": [
+    "DDD",
+    "D D",
+    "D D"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "D": {
+      "ore": "ingotDiamond",
+      "type": "forge:ore_dict"
+    }
+  }
+}

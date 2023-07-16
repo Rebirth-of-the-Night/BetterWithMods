@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "betterwithmods:metal_chime",
+    "data": 1
+  },
+  "pattern": [
+    " S ",
+    "SPS",
+    "IMI"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "minecraft:wooden_pressure_plate"
+    },
+    "S": {
+      "ore": "string",
+      "type": "forge:ore_dict"
+    },
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    },
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 1
+      }
+    }
+  }
+}

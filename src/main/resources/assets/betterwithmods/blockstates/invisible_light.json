@@ -1,0 +1,12 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "sunlight": "true"
+      },
+      "apply": {
+        "model": "builtin/generated"
+      }
+    }
+  ]
+}

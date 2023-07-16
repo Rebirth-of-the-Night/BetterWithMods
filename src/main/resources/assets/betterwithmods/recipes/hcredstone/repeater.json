@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:repeater"
+  },
+  "pattern": [
+    "TCT",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "item": "#HE_STONE"
+    }
+  }
+}

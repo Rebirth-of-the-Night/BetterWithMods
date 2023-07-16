@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:kiln",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:aesthetic",
+      "data": 6
+    },
+    "title": {
+      "translate": "tile.bwm:aesthetic.6.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.whitestone.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:aesthetic",
+            "data": 6
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

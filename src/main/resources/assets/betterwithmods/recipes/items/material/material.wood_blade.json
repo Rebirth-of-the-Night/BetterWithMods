@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 10
+  },
+  "pattern": [
+    "W  ",
+    "WGW",
+    "W  "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "G": {
+      "ore": "glue",
+      "type": "forge:ore_dict"
+    },
+    "W": {
+      "item": "#SIDING_WOOD"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "result": {
+    "item": "betterwithmods:single_machine",
+    "data": 1
+  },
+  "pattern": [
+    "PIP",
+    "GLG",
+    "PIP"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "#HE_PLANKS"
+    },
+    "G": {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    },
+    "L": {
+      "ore": "latchRedstone",
+      "type": "forge:ore_dict"
+    }
+    }
+  }
+}

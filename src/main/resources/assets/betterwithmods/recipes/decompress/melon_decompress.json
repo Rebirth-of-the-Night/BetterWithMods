@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "minecraft:melon",
+    "count": 5
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:melon_block",
+      "data": 0
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

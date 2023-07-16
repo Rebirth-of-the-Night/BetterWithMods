@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "betterwithmods:aesthetic",
+    "data": 5
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "minecraft:flint"
+    }
+  }
+}

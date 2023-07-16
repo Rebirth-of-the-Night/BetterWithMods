@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "betterwithmods:blocks/crank_top",
+      "side": "betterwithmods:blocks/crank_side",
+      "top": "betterwithmods:blocks/crank_top",
+      "bottom": "betterwithmods:blocks/crank_bottom",
+      "crank": "betterwithmods:blocks/crank_shaft"
+    },
+    "model": "betterwithmods:crank_on",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "stage": {
+      "0": {
+        "model": "betterwithmods:crank_off"
+      },
+      "1": {},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {}
+    }
+  }
+}

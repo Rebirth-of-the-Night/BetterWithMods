@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "betterwithmods:hand_crank"
+  },
+  "pattern": [
+    "  X",
+    " X ",
+    "SWS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "cobblestone",
+      "type": "forge:ore_dict"
+    },
+    "W": {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    "X": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

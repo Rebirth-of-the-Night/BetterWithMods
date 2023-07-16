@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "betterwithmods:anchor"
+  },
+  "pattern": [
+    " I ",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "stone",
+      "type": "forge:ore_dict"
+    },
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    }
+  }
+}

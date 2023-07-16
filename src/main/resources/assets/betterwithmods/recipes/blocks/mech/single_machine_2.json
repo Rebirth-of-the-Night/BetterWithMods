@@ -1,0 +1,27 @@
+{
+  "result": {
+    "item": "betterwithmods:single_machine",
+    "data": 2
+  },
+  "pattern": [
+    "S S",
+    "GPG",
+    " C "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "minecraft:wooden_pressure_plate"
+    },
+    "C": {
+      "item": "#CORNER_WOOD"
+    },
+    "S": {
+      "item": "#SIDING_WOOD"
+    },
+    "G": {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

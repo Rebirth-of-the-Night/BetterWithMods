@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "quark"
+    }
+  ],
+  "result": {
+    "item": "quark:birch_trapdoor"
+  },
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 2
+      }
+    }
+  }
+}

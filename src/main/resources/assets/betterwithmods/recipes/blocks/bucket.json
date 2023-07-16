@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "betterwithmods:bucket"
+  },
+  "pattern": [
+    "R",
+    "B"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "R": {
+      "item": "betterwithmods:rope"
+    }
+  }
+}

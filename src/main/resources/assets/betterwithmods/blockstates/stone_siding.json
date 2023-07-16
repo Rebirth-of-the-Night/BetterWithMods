@@ -1,0 +1,95 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "blocks/stone",
+      "particle": "#side",
+      "north":"#side",
+      "south":"#side",
+      "east":"#side",
+      "west":"#side",
+      "up":"#side",
+      "down":"#side"
+
+    },
+    "model": "betterwithmods:mini/siding",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "0": {
+        "textures": {
+          "side": "blocks/stone"
+        }
+      },
+      "1": {
+        "textures": {
+          "side": "blocks/stonebrick"
+        }
+      },
+      "2": {
+        "textures": {
+          "side": "betterwithmods:blocks/whitestone"
+        }
+      },
+      "3": {
+        "textures": {
+          "side": "blocks/nether_brick"
+        }
+      },
+      "4": {
+        "textures": {
+          "side": "blocks/brick"
+        }
+      },
+      "5": {
+        "textures": {
+          "side": "blocks/sandstone_normal"
+        }
+      },
+      "6": {
+        "textures": {
+          "side": "blocks/quartz_block_side"
+        }
+      },
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {}
+    },
+    "orientation": {
+      "0": {},
+      "1": {
+        "x": 180
+      },
+      "2": {
+        "x": 270
+      },
+      "3": {
+        "x": 270,
+        "y": 180
+      },
+      "4": {
+        "x": 270,
+        "y": 270
+      },
+      "5": {
+        "x": 270,
+        "y": 90
+      }
+    }
+  }
+}

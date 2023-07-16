@@ -1,0 +1,39 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "betterwithmods:blocks/soulforged_steel",
+      "particle": "#texture"
+    },
+    "model": "betterwithmods:steel_block_0",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "height": {
+      "15": {"model": "betterwithmods:steel_block_15"},
+      "14": {"model": "betterwithmods:steel_block_14"},
+      "13": {"model": "betterwithmods:steel_block_13"},
+      "12": {"model": "betterwithmods:steel_block_12"},
+      "11": {"model": "betterwithmods:steel_block_11"},
+      "10": {"model": "betterwithmods:steel_block_10"},
+      "9": {"model": "betterwithmods:steel_block_9"},
+      "8": {"model": "betterwithmods:steel_block_8"},
+      "7": {"model": "betterwithmods:steel_block_7"},
+      "6": {"model": "betterwithmods:steel_block_6"},
+      "5": {"model": "betterwithmods:steel_block_5"},
+      "4": {"model": "betterwithmods:steel_block_4"},
+      "3": {"model": "betterwithmods:steel_block_3"},
+      "2": {"model": "betterwithmods:steel_block_2"},
+      "1": {"model": "betterwithmods:steel_block_1"},
+      "0": {}
+    }
+  }
+}

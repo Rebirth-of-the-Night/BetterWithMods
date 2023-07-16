@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "betterwithmods:raw_pastry",
+    "data": 4
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "betterwithmods:raw_egg"
+    },
+    {
+      "ore": "foodFlour",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,47 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "betterwithmods:blocks/cake_side",
+      "side": "betterwithmods:blocks/cake_side",
+      "top": "betterwithmods:blocks/cake_top",
+      "bottom": "betterwithmods:blocks/cake_bottom"
+    },
+    "model": "betterwithmods:raw_pastry_large",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "variant": {
+      "raw_cake": {},
+      "raw_pumpkin_pie": {
+        "textures": {
+          "top": "betterwithmods:blocks/pumpkin_pie_top"
+        }
+      },
+      "raw_cookie": {
+        "model": "betterwithmods:raw_pastry_small",
+        "textures": {
+          "particle": "betterwithmods:blocks/raw_cookie",
+          "top": "betterwithmods:blocks/raw_cookie",
+          "bottom": "betterwithmods:blocks/raw_cookie"
+        }
+      },
+      "raw_flour": {
+        "model": "betterwithmods:raw_flour"
+      },
+      "raw_apple_pie": {
+        "textures": {
+          "top": "betterwithmods:blocks/apple_pie_top"
+        }
+      }
+    }
+  }
+}

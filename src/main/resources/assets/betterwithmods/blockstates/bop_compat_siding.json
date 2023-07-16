@@ -1,0 +1,124 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "blocks/planks_oak",
+      "particle": "#side"
+    },
+    "model": "betterwithmods:mini/siding",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "0": {
+        "textures": {
+          "side": "biomesoplenty:blocks/sacred_oak_planks"
+        }
+      },
+      "1": {
+        "textures": {
+          "side": "biomesoplenty:blocks/cherry_planks"
+        }
+      },
+      "2": {
+        "textures": {
+          "side": "biomesoplenty:blocks/umbran_planks"
+        }
+      },
+      "3": {
+        "textures": {
+          "side": "biomesoplenty:blocks/fir_planks"
+        }
+      },
+      "4": {
+        "textures": {
+          "side": "biomesoplenty:blocks/ethereal_planks"
+        }
+      },
+      "5": {
+        "textures": {
+          "side": "biomesoplenty:blocks/magic_planks"
+        }
+      },
+      "6": {
+        "textures": {
+          "side": "biomesoplenty:blocks/mangrove_planks"
+        }
+      },
+      "7": {
+        "textures": {
+          "side": "biomesoplenty:blocks/palm_planks"
+        }
+      },
+      "8": {
+        "textures": {
+          "side": "biomesoplenty:blocks/redwood_planks"
+        }
+      },
+      "9": {
+        "textures": {
+          "side": "biomesoplenty:blocks/willow_planks"
+        }
+      },
+      "10": {
+        "textures": {
+          "side": "biomesoplenty:blocks/pine_planks"
+        }
+      },
+      "11": {
+        "textures": {
+          "side": "biomesoplenty:blocks/hellbark_planks"
+        }
+      },
+      "12": {
+        "textures": {
+          "side": "biomesoplenty:blocks/jacaranda_planks"
+        }
+      },
+      "13": {
+        "textures": {
+          "side": "biomesoplenty:blocks/mahogany_planks"
+        }
+      },
+      "14": {
+        "textures": {
+          "side": "biomesoplenty:blocks/ebony_planks"
+        }
+      },
+      "15": {
+        "textures": {
+          "side": "biomesoplenty:blocks/eucalyptus_planks"
+        }
+      }
+    },
+    "orientation": {
+      "0": {},
+      "1": {
+        "x": 180
+      },
+      "2": {
+        "x": 270
+      },
+      "3": {
+        "x": 270,
+        "y": 180
+      },
+      "4": {
+        "x": 270,
+        "y": 270
+      },
+      "5": {
+        "x": 270,
+        "y": 90
+      }
+    }
+  }
+}

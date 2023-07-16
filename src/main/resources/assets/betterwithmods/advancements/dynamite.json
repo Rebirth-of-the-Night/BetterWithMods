@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:hibachi",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:dynamite"
+    },
+    "title": {
+      "translate": "item.bwm:dynamite.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.dynamite.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:dynamite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

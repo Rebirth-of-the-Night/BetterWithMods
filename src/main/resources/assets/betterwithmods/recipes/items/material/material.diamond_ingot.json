@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 45
+  },
+  "ingredients": [
+    {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "gemDiamond",
+      "type": "forge:ore_dict"
+    },
+    {
+      "item": "betterwithmods:creeper_oyster"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

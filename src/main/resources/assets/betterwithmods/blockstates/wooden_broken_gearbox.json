@@ -1,0 +1,61 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/wooden_gearbox_side_broken",
+      "input": "betterwithmods:blocks/wooden_gearbox_input_broken",
+      "output": "betterwithmods:blocks/wooden_gearbox_output_broken"
+    },
+    "model": "betterwithmods:gearbox"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "textures": {
+          "up": "#input"
+        }
+      }
+    ],
+    "repair": {
+      "0": {},
+      "1": {}
+    },
+    "facing": {
+      "down": {
+        "textures": {
+          "down": "#input"
+        }
+      },
+      "up": {
+        "textures": {
+          "up": "#input"
+        }
+      },
+      "north": {
+        "textures": {
+          "north": "#input"
+        }
+      },
+      "south": {
+        "textures": {
+          "south": "#input"
+        }
+      },
+      "west": {
+        "textures": {
+          "west": "#input"
+        }
+      },
+      "east": {
+      
+        "textures": {
+          "east": "#input"
+        }
+      }
+    }
+  }
+}

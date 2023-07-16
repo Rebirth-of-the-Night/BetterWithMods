@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:kiln",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:cooking_pot",
+      "data": 0
+    },
+    "title": {
+      "translate": "tile.bwm:cooking_pot.0.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.crucible.desc"
+    }
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:cooking_pot",
+            "data": 0
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [[
+    "has_items"
+  ]]
+}

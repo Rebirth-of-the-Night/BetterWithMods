@@ -1,0 +1,29 @@
+{
+  "parent": "betterwithmods:steel_anvil",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:block_dispenser"
+    },
+    "title": {
+      "translate": "tile.bwm:block_dispenser.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.block_dispenser.desc"
+    }
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:block_dispenser"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [[
+    "has_items"
+  ]]
+}

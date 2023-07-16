@@ -1,0 +1,59 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "betterwithmods:blocks/wood_side_oak"
+    },
+    "model": "block/cube_column",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "variant": {
+      "oak": {
+        "model": "betterwithmods:dbl_oak",
+        "textures": {
+          "all": "betterwithmods:blocks/wood_side_oak"
+        }
+      },
+      "spruce": {
+        "model": "betterwithmods:dbl_spruce",
+        "textures": {
+          "all": "betterwithmods:blocks/wood_side_spruce"
+        }
+      },
+      "birch": {
+        "model": "betterwithmods:dbl_birch",
+        "textures": {
+          "all": "betterwithmods:blocks/wood_side_birch"
+        }
+      },
+      "jungle": {
+        "model": "betterwithmods:dbl_jungle",
+        "textures": {
+          "all": "betterwithmods:blocks/wood_side_jungle"
+        }
+      }
+    },
+    "axis": {
+      "x": {
+        "x": 90,
+        "y": 90
+      },
+      "y": {},
+      "z": {
+        "x": 90
+      },
+      "none": {
+        "model": "cube_all"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "betterwithmods:item/default",
+  "textures": {
+    "layer0": "betterwithmods:items/dynamite_bundle"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "betterwithmods:fuse": 0.01
+      },
+      "model": "betterwithmods:item/dynamite_bundle_lit0"
+    },
+    {
+      "predicate": {
+        "betterwithmods:fuse": 0.5
+      },
+      "model": "betterwithmods:item/dynamite_bundle_lit1"
+    },
+    {
+      "predicate": {
+        "betterwithmods:fuse": 0.7
+      },
+      "model": "betterwithmods:item/dynamite_bundle_lit2"
+    },
+    {
+      "predicate": {
+        "betterwithmods:fuse": 0.8
+      },
+      "model": "betterwithmods:item/dynamite_bundle_lit3"
+    },
+    {
+      "predicate": {
+        "betterwithmods:fuse": 0.9
+      },
+      "model": "betterwithmods:item/dynamite_bundle_lit4"
+    }
+  ]
+}

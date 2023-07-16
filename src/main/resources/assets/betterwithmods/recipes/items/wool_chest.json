@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "woolarmor"
+    }
+  ],
+  "result": {
+    "item": "betterwithmods:wool_chest"
+  },
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "type": "betterwithmods:shaped_color",
+  "key": {
+    "C": {
+      "item": "minecraft:wool",
+      "data": 32767
+    }
+  }
+}

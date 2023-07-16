@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:soul_forged_steel",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:steel_anvil"
+    },
+    "title": {
+      "translate": "tile.bwm:steel_anvil.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.steel_anvil.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:steel_anvil"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sign",
+    "count": 3
+  },
+  "pattern": [
+    "S",
+    "M"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      }
+    },
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      }
+    }
+  }
+}

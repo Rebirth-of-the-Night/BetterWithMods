@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "betterwithmods:booster",
+    "count": 6
+  },
+  "pattern": [
+    "IGI",
+    "ISI",
+    "IRI"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    },
+    "R": {
+      "item": "betterwithmods:rope"
+    },
+    "G":  {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

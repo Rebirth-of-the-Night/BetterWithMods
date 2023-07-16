@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "betterwithmods:bamboo_chime",
+    "data": 3
+  },
+  "pattern": [
+    " S ",
+    "SPS",
+    "BMB"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "minecraft:wooden_pressure_plate"
+    },
+    "B": {
+      "ore": "sugarcane",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "string",
+      "type": "forge:ore_dict"
+    },
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "minecraft:blocks/sapling_spruce"
+    },
+    "model": "cross"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "age": {
+      "0": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_spruce_0"
+        }
+      },
+      "1": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_spruce_1"
+        }
+      },
+      "2": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_spruce_2"
+        }
+      },
+      "3": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_spruce_3"
+        }
+      },
+      "4": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_spruce_4"
+        }
+      },
+      "5": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_spruce_5"
+        }
+      },
+      "6": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_spruce_6"
+        }
+      },
+      "7": {
+        "textures": {
+          "cross": "minecraft:blocks/sapling_spruce"
+        }
+      }
+    }
+  }
+}

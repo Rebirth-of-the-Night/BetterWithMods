@@ -1,0 +1,104 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "blocks/hardened_clay",
+      "top": "betterwithmods:blocks/vase_inside",
+      "particle": "#side"
+    },
+    "model": "betterwithmods:vase",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "color": {
+      "white": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_white"
+        }
+      },
+      "orange": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_orange"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_magenta"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_light_blue"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_yellow"
+        }
+      },
+      "lime": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_lime"
+        }
+      },
+      "pink": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_pink"
+        }
+      },
+      "gray": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_gray"
+        }
+      },
+      "silver": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_silver"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_cyan"
+        }
+      },
+      "purple": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_purple"
+        }
+      },
+      "blue": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_blue"
+        }
+      },
+      "brown": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_brown"
+        }
+      },
+      "green": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_green"
+        }
+      },
+      "red": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_red"
+        }
+      },
+      "black": {
+        "textures": {
+          "side": "minecraft:blocks/hardened_clay_stained_black"
+        }
+      }
+    }
+  }
+}

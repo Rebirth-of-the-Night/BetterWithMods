@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:noteblock"
+  },
+  "pattern": [
+    "SSS",
+    "SRS",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "R": {
+      "ore": "dustRedstone",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "type": "betterwithmods:minitype",
+      "minitype": "siding",
+      "baseIngredient": {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      }
+    }
+  }
+}

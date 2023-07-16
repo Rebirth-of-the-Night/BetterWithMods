@@ -1,0 +1,104 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/candles/candle_white",
+      "wick": "betterwithmods:blocks/candles/wick",
+      "particle": "#side"
+    },
+    "model": "betterwithmods:candle",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "color": {
+      "white": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_white"
+        }
+      },
+      "orange": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_orange"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_magenta"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_light_blue"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_yellow"
+        }
+      },
+      "lime": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_lime"
+        }
+      },
+      "pink": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_pink"
+        }
+      },
+      "gray": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_gray"
+        }
+      },
+      "silver": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_silver"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_cyan"
+        }
+      },
+      "purple": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_purple"
+        }
+      },
+      "blue": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_blue"
+        }
+      },
+      "brown": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_brown"
+        }
+      },
+      "green": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_green"
+        }
+      },
+      "red": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_red"
+        }
+      },
+      "black": {
+        "textures": {
+          "side": "betterwithmods:blocks/candles/candle_black"
+        }
+      }
+    }
+  }
+}

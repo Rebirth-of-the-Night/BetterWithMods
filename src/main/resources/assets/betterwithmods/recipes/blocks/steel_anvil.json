@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "betterwithmods:steel_anvil"
+  },
+  "pattern": [
+    "SSS",
+    " S ",
+    "SSS"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "betterwithmods:material",
+      "data": 14
+    }
+  }
+}

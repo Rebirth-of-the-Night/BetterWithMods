@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "side": "betterwithmods:blocks/mill_side",
+    "particle": "#side",
+    "up": "betterwithmods:blocks/mill_top",
+    "down": "betterwithmods:blocks/mill_bottom",
+    "invfill": "blocks/gravel",
+    "filter": "blocks/ladder"
+  }
+}

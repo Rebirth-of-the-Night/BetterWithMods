@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:saw",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:single_machine",
+      "data": 3
+    },
+    "title": {
+      "translate": "tile.bwm:single_machine.3.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.turntable.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:single_machine",
+            "data": 3
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "betterwithmods:items/composite_bow_2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "betterwithmods:raw_scrambled_egg",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:raw_egg"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

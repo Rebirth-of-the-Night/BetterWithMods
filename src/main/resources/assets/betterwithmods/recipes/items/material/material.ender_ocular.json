@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 40
+  },
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GGG"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "E": {
+      "ore": "enderpearl",
+      "type": "forge:ore_dict"
+    },
+    "G": {
+      "ore": "nuggetGold",
+      "type": "forge:ore_dict"
+    }
+  }
+}

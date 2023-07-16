@@ -1,0 +1,59 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "cross": "minecraft:blocks/sapling_roofed_oak"
+    },
+    "model": "cross"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "age": {
+      "0": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_big_oak_0"
+        }
+      },
+      "1": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_big_oak_1"
+        }
+      },
+      "2": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_big_oak_2"
+        }
+      },
+      "3": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_big_oak_3"
+        }
+      },
+      "4": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_big_oak_4"
+        }
+      },
+      "5": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_big_oak_5"
+        }
+      },
+      "6": {
+        "textures": {
+          "cross": "betterwithmods:blocks/saplings/sapling_big_oak_6"
+        }
+      },
+      "7": {
+        "textures": {
+          "cross": "minecraft:blocks/sapling_roofed_oak"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:crucible",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:material",
+      "data": 14
+    },
+    "title": {
+      "translate": "item.bwm:material.ingot_steel.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.steel_ingot.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:material",
+            "data": 14
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

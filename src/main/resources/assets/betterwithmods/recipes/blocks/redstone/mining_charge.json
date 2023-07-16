@@ -1,0 +1,25 @@
+
+{
+  "result": {
+    "item": "betterwithmods:mining_charge",
+    "count": 2
+  },
+  "pattern": [
+    "RSR",
+    "DDD",
+    "DDD"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "R": {
+      "item": "betterwithmods:rope"
+    },
+    "S": {
+      "ore": "slimeball",
+      "type": "forge:ore_dict"
+    },
+    "D": {
+      "item": "betterwithmods:dynamite"
+    }
+  }
+}

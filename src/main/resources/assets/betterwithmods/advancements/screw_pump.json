@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:gearbox",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:screw_pump"
+    },
+    "title": {
+      "translate": "tile.bwm:screw_pump.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.screw_pump.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:screw_pump"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

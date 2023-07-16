@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:bellows",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:hibachi"
+    },
+    "title": {
+      "translate": "tile.bwm:hibachi.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.hibachi.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:hibachi"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "parent": "betterwithmods:steel_anvil",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:steel_mattock"
+    },
+    "title": {
+      "translate": "advancement.betterwithmods.refined_tools.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.refined_tools.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:steel_mattock"
+          },
+          {
+            "item": "betterwithmods:steel_sword"
+          },
+          {
+            "item": "betterwithmods:steel_pickaxe"
+          },
+          {
+            "item": "betterwithmods:steel_shovel"
+          },
+          {
+            "item": "betterwithmods:steel_axe"
+          },
+          {
+            "item": "betterwithmods:steel_hoe"
+          },
+          {
+            "item": "betterwithmods:steel_battleaxe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

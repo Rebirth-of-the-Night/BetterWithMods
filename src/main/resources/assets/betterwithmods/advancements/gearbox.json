@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:axle",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:wooden_gearbox"
+    },
+    "title": {
+      "translate": "tile.bwm:wooden_gearbox.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.wooden_gearbox.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:wooden_gearbox"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

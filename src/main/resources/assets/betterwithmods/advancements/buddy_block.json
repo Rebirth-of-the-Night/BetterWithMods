@@ -1,0 +1,29 @@
+{
+  "parent": "betterwithmods:steel_anvil",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:buddy_block"
+    },
+    "title": {
+      "translate": "tile.bwm:buddy_block.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.buddy_block.desc"
+    }
+  },
+  "criteria": {
+    "has_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:buddy_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [[
+    "has_items"
+  ]]
+}

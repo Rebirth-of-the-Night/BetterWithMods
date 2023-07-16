@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "saddlerecipe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:saddle"
+  },
+  "pattern": [
+    "LLL",
+    "SLS",
+    "n n"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "L": {
+      "ore": "hideTanned",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "hideStrap",
+      "type": "forge:ore_dict"
+    },
+    "n": {
+      "ore": "nuggetIron",
+      "type": "forge:ore_dict"
+    }
+  }
+}

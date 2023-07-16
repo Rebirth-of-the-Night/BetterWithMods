@@ -1,0 +1,234 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "HE_PLANKS",
+    "ingredient": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      },
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "siding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "HE_SLAB",
+    "ingredient": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "slabWood"
+      },
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "siding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "HE_STONE",
+    "ingredient": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "stone"
+      },
+      {
+        "type": "betterwithmods:minitype",
+        "minitype": "siding",
+        "baseIngredient": {
+          "type": "forge:ore_dict",
+          "ore": "stone"
+        }
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "SIDING_WOOD",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "siding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "MOULDING_WOOD",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "moulding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "CORNER_WOOD",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "ore": "plankWood",
+          "type": "forge:ore_dict"
+        },
+        "minitype": "corner"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "SIDING_STONE",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "item": "minecraft:stone",
+          "data": 0
+        },
+        "minitype": "siding"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "CORNER_STONE",
+    "ingredient": [
+      {
+        "type": "betterwithmods:minitype",
+        "baseIngredient": {
+          "item": "minecraft:stone",
+          "data": 0
+        },
+        "minitype": "corner"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "HE_PLANKS_MOULDING",
+    "ingredient": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      },
+      {
+        "item": "#MOULDING_WOOD"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "betterwithmods"
+      }
+    ],
+    "name": "CAULDRON_MATERIAL",
+    "ingredient": [
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotIron"
+      },
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotCopper"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "config",
+        "enabled": "boatshovel"
+      }
+    ],
+    "name": "BOAT_SHOVEL",
+    "ingredient": [
+      {
+        "item": "minecraft:wooden_shovel"
+      }
+    ]
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "config",
+          "enabled": "boatshovel"
+        }
+      }
+    ],
+    "name": "BOAT_SHOVEL",
+    "ingredient": [
+      {
+        "item": "minecraft:air"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# profiling
+*.hprof
+classes
+
+# other
+eclipse
+run*
+/src/main/java/mcmultipart/test/
+/src/main/resources/assets/mcmultiparttest/
+/src/main/java/net/minecraftforge/debug/
+*.py

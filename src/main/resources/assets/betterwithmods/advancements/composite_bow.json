@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:glue",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:composite_bow"
+    },
+    "title": {
+      "translate": "item.bwm:composite_bow.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.composite_bow.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:composite_bow"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

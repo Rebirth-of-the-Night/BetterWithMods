@@ -1,0 +1,32 @@
+{
+  "result": {
+    "item": "betterwithmods:screw_pump"
+  },
+  "pattern": [
+    "xGx",
+    "SsS",
+    "SgS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "item": "#SIDING_WOOD"
+    },
+    "s": {
+      "ore": "archimedesScrew",
+      "type": "forge:ore_dict"
+    },
+    "G": {
+      "item": "betterwithmods:grate",
+      "data": 32767
+    },
+    "g": {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    "x": {
+      "ore": "glue",
+      "type": "forge:ore_dict"
+    }
+  }
+}

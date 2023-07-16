@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "betterwithmods:grate",
+    "data": 0,
+    "count": 4
+  },
+  "pattern": [
+    "WSW",
+    "WSW"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    },
+    "W": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "item": "minecraft:planks",
+        "data": 0
+      }
+    }
+  }
+}

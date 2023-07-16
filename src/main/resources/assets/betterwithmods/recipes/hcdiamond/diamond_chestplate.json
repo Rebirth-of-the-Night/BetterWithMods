@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcdiamond"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "pattern": [
+    "D D",
+    "DDD",
+    "DDD"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "D": {
+      "ore": "ingotDiamond",
+      "type": "forge:ore_dict"
+    }
+  }
+}

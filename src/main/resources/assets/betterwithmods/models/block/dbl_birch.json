@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "betterwithmods:blocks/wood_top_birch",
+    "side": "betterwithmods:blocks/wood_side_birch"
+  }
+}

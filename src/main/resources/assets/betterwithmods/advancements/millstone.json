@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:wood_gear",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:single_machine",
+      "data": 0
+    },
+    "title": {
+      "translate": "tile.bwm:single_machine.0.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.millstone.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:single_machine",
+            "data": 0
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

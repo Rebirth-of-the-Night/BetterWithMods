@@ -1,0 +1,31 @@
+{
+  "parent": "betterwithmods:hibachi",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:blood_sapling"
+    },
+    "title": {
+      "translate": "tile.bwm:blood_log.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.blood_wood.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:blood_sapling"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

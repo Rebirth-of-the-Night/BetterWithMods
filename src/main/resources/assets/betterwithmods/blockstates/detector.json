@@ -1,0 +1,65 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "blocks/furnace_top",
+      "down": "blocks/furnace_top",
+      "side": "blocks/furnace_side",
+      "front": "betterwithmods:blocks/detector_front",
+      "vert": "betterwithmods:blocks/detector_vertical",
+      "north": "#front",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "particle": "#side"
+    },
+    "model": "cube",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "active": {
+      "false": {},
+      "true": {
+        "textures": {
+          "front": "betterwithmods:blocks/detector_front_on",
+          "vert": "betterwithmods:blocks/detector_vertical_on"
+        }
+      }
+    },
+    "facing": {
+      "down": {
+        "textures": {
+          "side": "blocks/furnace_top",
+          "down": "#vert",
+          "north": "#side"
+        }
+      },
+      "up": {
+        "textures": {
+          "side": "blocks/furnace_top",
+          "down": "#vert",
+          "north": "#side"
+        },
+        "x": 180
+      },
+      "north": {},
+      "south": {
+        "y": 180
+      },
+      "west": {
+        "y": 270
+      },
+      "east": {
+        "y": 90
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "betterwithmods:root",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:material",
+      "data": 0
+    },
+    "title": {
+      "translate": "item.bwm:material.gear.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.wood_gear.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:material",
+            "data": 0
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

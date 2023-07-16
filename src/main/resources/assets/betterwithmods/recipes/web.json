@@ -1,0 +1,11 @@
+{
+  "result": {
+    "item": "minecraft:string"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:web"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "betterwithmods:bellows",
+    "data": 1
+  },
+  "pattern": [
+    " C ",
+    "SBS",
+    " G "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "betterwithmods:bellows",
+      "data": 0
+    },
+    "C": {
+      "item": "minecraft:clock"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "springSoulforgedSteel"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "gearSoulforgedSteel"
+    }
+  }
+}

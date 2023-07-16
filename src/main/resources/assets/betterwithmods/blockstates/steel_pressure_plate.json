@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "betterwithmods:blocks/soulforged_steel"
+    },
+    "model": "pressure_plate_up"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "powered" : {
+      "true": {},
+      "false": {
+        "model": "pressure_plate_up"
+      }
+    }
+  }
+}

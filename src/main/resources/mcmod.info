@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "betterwithmods",
+    "name": "Better With Mods",
+    "description": "Your one-stop shop for mechanical power and sadism.",
+    "version": "%VERSION%",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "BeetoGuy",
+      "primetoxinz"
+    ],
+    "credits": "FlowerChild, for making Better Than Wolves",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

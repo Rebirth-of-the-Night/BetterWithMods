@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "higheff"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ladder",
+    "count": 4
+  },
+  "pattern": [
+    "M M",
+    "MMM",
+    "M M"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "M": {
+      "type": "betterwithmods:minitype",
+      "minitype": "moulding",
+      "baseIngredient": {
+        "type": "forge:ore_dict",
+        "ore": "plankWood"
+      }
+    }
+  }
+}

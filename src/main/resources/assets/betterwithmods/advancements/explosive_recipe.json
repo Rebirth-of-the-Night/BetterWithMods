@@ -1,0 +1,22 @@
+{
+  "parent": "betterwithmods:cauldron",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:material",
+      "data": 17
+    },
+    "title": {
+      "translate": "advancement.betterwithmods.explosive_recipe.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.explosive_recipe.desc"
+    },
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "spawned_friend": {
+      "trigger": "betterwithmods:explosive_recipe"
+    }
+  }
+}

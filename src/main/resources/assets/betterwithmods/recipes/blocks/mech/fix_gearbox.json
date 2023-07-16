@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "betterwithmods:wooden_gearbox"
+  },
+
+  "ingredients": [
+    {
+      "item": "betterwithmods:wooden_broken_gearbox"
+    },
+    {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

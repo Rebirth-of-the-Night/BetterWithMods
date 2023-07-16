@@ -1,0 +1,40 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/cobblestone_granite",
+      "north": "#side",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "up": "#side",
+      "down": "#side",
+      "particle": "#side"
+    },
+    "model": "cube",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "type": {
+      "granite": {},
+      "diorite": {
+        "textures": {
+          "side": "betterwithmods:blocks/cobblestone_diorite"
+        }
+      },
+      "andesite": {
+        "textures": {
+          "side": "betterwithmods:blocks/cobblestone_andesite"
+        }
+      }
+    }
+  }
+}

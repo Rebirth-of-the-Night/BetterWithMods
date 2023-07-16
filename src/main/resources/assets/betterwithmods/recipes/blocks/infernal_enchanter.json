@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "betterwithmods:infernal_enchanter"
+  },
+  "pattern": [
+    "CBC",
+    "SES",
+    "SSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "item": "betterwithmods:candle",
+      "data": 15
+    },
+    "B": {
+      "ore": "bone",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "ingotSoulforgedSteel",
+      "type": "forge:ore_dict"
+    },
+    "E": {
+      "item": "minecraft:enchanting_table"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "betterwithmods:detector_rail_steel",
+    "count": 6
+  },
+  "pattern": [
+    "I I",
+    "IPI",
+    "IRI"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "R": {
+      "ore": "dustRedstone",
+      "type": "forge:ore_dict"
+    },
+    "I": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    },
+    "P": {
+      "item": "betterwithmods:steel_pressure_plate"
+    }
+  }
+}

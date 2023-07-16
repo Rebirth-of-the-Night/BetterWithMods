@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "betterwithmods:vase",
+    "data": 2
+  },
+  "ingredients": [
+    {
+      "ore": "blockVase",
+      "type": "forge:ore_dict"
+    },
+    {
+      "ore": "dyeMagenta",
+      "type": "forge:ore_dict"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

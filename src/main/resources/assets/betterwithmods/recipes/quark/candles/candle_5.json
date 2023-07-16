@@ -1,0 +1,21 @@
+
+{
+    "conditions": [
+    {
+      "type": "config",
+      "enabled": "quark"
+    }
+    ],
+    "result": {
+        "item": "betterwithmods:candle",
+        "data": 5
+    },
+    "ingredients": [
+        {
+            "item": "quark:candle",
+            "data": 5
+        }
+    ],
+    "type": "forge:ore_shapeless"
+}
+

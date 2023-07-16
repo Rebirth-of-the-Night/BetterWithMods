@@ -1,0 +1,133 @@
+{
+  "parent": "block/block",
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#all"
+        },
+        "up": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        4,
+        7.5
+      ],
+      "to": [
+        11,
+        5,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#internal"
+        },
+        "up": {
+          "texture": "#internal"
+        },
+        "north": {
+          "texture": "#internal"
+        },
+        "south": {
+          "texture": "#internal"
+        },
+        "west": {
+          "texture": "#internal"
+        },
+        "east": {
+          "texture": "#internal"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        0,
+        7.5
+      ],
+      "to": [
+        6,
+        4,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#internal"
+        },
+        "up": {
+          "texture": "#internal"
+        },
+        "north": {
+          "texture": "#internal"
+        },
+        "south": {
+          "texture": "#internal"
+        },
+        "west": {
+          "texture": "#internal"
+        },
+        "east": {
+          "texture": "#internal"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        0,
+        7.5
+      ],
+      "to": [
+        11,
+        4,
+        8.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#internal"
+        },
+        "up": {
+          "texture": "#internal"
+        },
+        "north": {
+          "texture": "#internal"
+        },
+        "south": {
+          "texture": "#internal"
+        },
+        "west": {
+          "texture": "#internal"
+        },
+        "east": {
+          "texture": "#internal"
+        }
+      }
+    }
+  ]
+}

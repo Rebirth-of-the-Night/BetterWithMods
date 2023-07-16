@@ -1,0 +1,47 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "betterwithmods:blocks/wood_side_acacia"
+    },
+    "model": "block/cube_column",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "variant": {
+      "acacia": {
+        "model": "betterwithmods:dbl_acacia",
+        "textures": {
+          "all": "betterwithmods:blocks/wood_side_acacia"
+        }
+      },
+      "dark_oak": {
+        "model": "betterwithmods:dbl_dark_oak",
+        "textures": {
+          "all": "betterwithmods:blocks/wood_side_dark_oak"
+        }
+      }
+    },
+    "axis": {
+      "x": {
+        "x": 90,
+        "y": 90
+      },
+      "y": {},
+      "z": {
+        "x": 90
+      },
+      "none": {
+        "model": "minecraft:cube_all"
+      }
+    }
+  }
+}

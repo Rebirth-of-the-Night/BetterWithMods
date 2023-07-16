@@ -1,0 +1,545 @@
+tile.bwm:stokedFire.name=Fuego Avivado
+tile.bwm:hand_crank.name=Manivela de Mano
+tile.bwm:wooden_axle.name=Eje de Madera
+tile.bwm:steel_axle.name=Eje de Acero
+tile.bwm:wooden_gearbox.name=Caja de Cambios de Madera
+tile.bwm:steel_gearbox.name=Caja de Cambios de Acero
+tile.bwm:wooden_broken_gearbox.name=Caja de Cambios de Madera rota
+tile.bwm:steel_broken_gearbox.name=Caja de Cambios de Acero roto
+
+
+
+tile.bwm:single_machine.0.name=Muela de Molino
+tile.bwm:single_machine.1.name=Polea
+tile.bwm:single_machine.2.name=Tolva Filtrada
+tile.bwm:single_machine.3.name=Torno de Alfarero
+tile.bwm:pane.0.name=Rejilla
+tile.bwm:pane.1.name=Persiana
+tile.bwm:wicker.name=Mimbre
+tile.bwm:grate.0.name=Rejilla de Madera de roble
+tile.bwm:grate.1.name=Rejilla de Madera de abeto
+tile.bwm:grate.2.name=Rejilla de Madera de abedul
+tile.bwm:grate.3.name=Rejilla de Madera de jungla
+tile.bwm:grate.4.name=Rejilla de Madera de acacia
+tile.bwm:grate.5.name=Rejilla de Madera de roble oscuro
+tile.bwm:slats.0.name=Persiana de Madera de roble
+tile.bwm:slats.1.name=Persiana de Madera de abeto
+tile.bwm:slats.2.name=Persiana de Madera de abedul
+tile.bwm:slats.3.name=Persiana de Madera de jungla
+tile.bwm:slats.4.name=Persiana de Madera de acacia
+tile.bwm:slats.5.name=Persiana de Madera de roble oscuro
+tile.bwm:screw_pump.name=Bomba de Tornillo de Arquímedes
+
+tile.bwm:cooking_pot.0.name=Crisol
+tile.bwm:cooking_pot.1.name=Caldero
+tile.bwm:cooking_pot.2.name=Mysterious Vessel
+
+tile.bwm:kiln.name=Horno
+tile.bwm:bellows.0.name=Fuelle (neumático)
+tile.bwm:bellows.1.name=Fuelle de Resorte Activo
+tile.bwm:saw.name=Sierra
+tile.bwm:steel_anvil.name=Yunque de Acero Forjado de Alma
+tile.bwm:aesthetic.0.name=Bloque de Corte
+tile.bwm:aesthetic.1.name=Bloque de Corte Ensangrentado
+tile.bwm:aesthetic.2.name=Lodo Endurecido del Nether
+tile.bwm:aesthetic.3.name=Bloque de Hellfire Concentrado
+tile.bwm:aesthetic.4.name=Bloque de Cuerda
+tile.bwm:aesthetic.5.name=Bloque de Pedernal
+tile.bwm:aesthetic.6.name=Piedra Blanca
+tile.bwm:aesthetic.7.name=Roca Blanca
+tile.bwm:aesthetic.8.name=Bloque de Ender
+tile.bwm:aesthetic.9.name=Bloque de Relleno
+tile.bwm:aesthetic.10.name=Bloque de Jabón
+tile.bwm:aesthetic.11.name=Bloque de Excremento
+tile.bwm:aesthetic.12.name=Bloque de Mimbre
+tile.bwm:advanced_bellows.name=Fuelle de Resorte Activo
+
+tile.bwm:steel_block.name=Bloque de Acero Forjado de Alma
+tile.bwm:cut_steel_block.name=Acero Forjado de Alma Corta
+tile.bwm:steel_pressure_plate.name=Placa de Presión de Acero
+
+tile.bwm:windmill.windmill.name=Molino de Viento Horizontal
+tile.bwm:windmill.waterwheel.name=Rueda de Agua
+tile.bwm:windmill.windmill_vertical.name=Molino de Viento Vertical
+
+tile.bwm:planter.0.name=Macetero
+tile.bwm:planter.1.name=Macetero de Tierra de Cultivo
+tile.bwm:planter.2.name=Macetero de Césped
+tile.bwm:planter.3.name=Macetero de Arena de Almas
+tile.bwm:planter.4.name=Macetero de Tierra Fértil
+tile.bwm:planter.5.name=Macetero de Arena
+tile.bwm:planter.6.name=Macetero de Agua
+tile.bwm:planter.7.name=Macetero de Grava
+tile.bwm:planter.8.name=Macetero de Arena Roja
+tile.bwm:planter.9.name=Macetero de Tierra
+
+tile.bwm:vase.0.name=Jarrón Blanco
+tile.bwm:vase.1.name=Jarrón Naranja
+tile.bwm:vase.2.name=Jarrón Magenta
+tile.bwm:vase.3.name=Jarrón Azul Claro
+tile.bwm:vase.4.name=Jarrón Amarillo
+tile.bwm:vase.5.name=Jarrón Verde Lima
+tile.bwm:vase.6.name=Jarrón Rosa
+tile.bwm:vase.7.name=Jarrón Gris
+tile.bwm:vase.8.name=Jarrón Gris Claro
+tile.bwm:vase.9.name=Jarrón Cian
+tile.bwm:vase.10.name=Jarrón Morado
+tile.bwm:vase.11.name=Jarrón Azul
+tile.bwm:vase.12.name=Jarrón Marrón
+tile.bwm:vase.13.name=Jarrón Verde
+tile.bwm:vase.14.name=Jarrón Rojo
+tile.bwm:vase.15.name=Jarrón Negro
+
+tile.bwm:Vela.0.name=Vela Blanco
+tile.bwm:Vela.1.name=Vela Naranja
+tile.bwm:Vela.2.name=Vela Magenta
+tile.bwm:Vela.3.name=Vela Azul Claro
+tile.bwm:Vela.4.name=Vela Amarillo
+tile.bwm:Vela.5.name=Vela Verde Lima
+tile.bwm:Vela.6.name=Vela Rosa
+tile.bwm:Vela.7.name=Vela Gris
+tile.bwm:Vela.8.name=Vela Gris Claro
+tile.bwm:Vela.9.name=Vela Cian
+tile.bwm:Vela.10.name=Vela Morado
+tile.bwm:Vela.11.name=Vela Azul
+tile.bwm:Vela.12.name=Vela Marrón
+tile.bwm:Vela.13.name=Vela Verde
+tile.bwm:Vela.14.name=Vela Rojo
+tile.bwm:Vela.15.name=Vela Negro
+
+
+tile.bwm:urn.0.name=Urna
+tile.bwm:urn.1.name=Urna de Alma (12%)
+tile.bwm:urn.2.name=Urna de Alma (25%)
+tile.bwm:urn.3.name=Urna de Alma (37%)
+tile.bwm:urn.4.name=Urna de Alma (50%)
+tile.bwm:urn.5.name=Urna de Alma (62%)
+tile.bwm:urn.6.name=Urna de Alma (75%)
+tile.bwm:urn.7.name=Urna de Alma (87%)
+tile.bwm:urn.8.name=Urna de Alma
+tile.bwm:urn.9.name=Urna Vacía
+
+tile.bwm:unfired_pottery.0.name=Crisol sin Encender
+tile.bwm:unfired_pottery.1.name=Macetero sin Encender
+tile.bwm:unfired_pottery.2.name=Urna sin Encender
+tile.bwm:unfired_pottery.3.name=Jarrón sin Encender
+tile.bwm:unfired_pottery.4.name=Ladrillo sin Encender
+tile.bwm:unfired_pottery.5.name=Ladrillos del Nether sin Encender
+
+tile.bwm:anchor.name=Pilar
+tile.bwm:rope.name=Cuerda de Cáñamo
+tile.bwm:hibachi.name=Hibachi
+tile.bwm:hemp.name=Semillas de Cáñamo
+tile.bwm:detector.name=Bloque Detector
+tile.bwm:lens.name=Foco de la Lente
+tile.bwm:vine_trap.name=Trampa de Enredadera
+
+tile.bwm:booster.name=Riel de Refuerzo Mecánico
+
+tile.bwm:siding_rock.name=Revestimiento de Rocas
+tile.bwm:siding_wood.name=Revestimiento de Madera
+tile.bwm:siding_iron.name=Revestimiento de Hierro
+
+tile.bwm:moulding_rock.name=Moldura De Rocas
+tile.bwm:moulding_wood.name=Moldura de Madera
+tile.bwm:moulding_iron.name=Moldura de Hierro
+
+tile.bwm:corner_rock.name=Esquina de Rocas
+tile.bwm:corner_wood.name=Esquina de Madera
+tile.bwm:corner_iron.name=Esquina de Hierro
+
+tile.bwm:wood_siding.0.name=Revestimiento de Madera de Roble
+tile.bwm:wood_siding.1.name=Revestimiento de Madera de Abeto
+tile.bwm:wood_siding.2.name=Revestimiento de Madera de Abedul
+tile.bwm:wood_siding.3.name=Revestimiento de Madera de Jungla
+tile.bwm:wood_siding.4.name=Revestimiento de Madera de Acacia
+tile.bwm:wood_siding.5.name=Revestimiento de Madera de Roble Oscuro
+tile.bwm:wood_siding.6.name=Revestimiento de Madera de Sangre
+
+tile.bwm:wood_moulding.0.name=Moldura de Madera de Roble
+tile.bwm:wood_moulding.1.name=Moldura de Madera de Abeto
+tile.bwm:wood_moulding.2.name=Moldura de Madera de Abedul
+tile.bwm:wood_moulding.3.name=Moldura de Madera de Jungla
+tile.bwm:wood_moulding.4.name=Moldura de Madera de Acacia
+tile.bwm:wood_moulding.5.name=Moldura de Madera de Roble Oscuro
+tile.bwm:wood_moulding.6.name=Moldura de Madera de Sangre
+
+tile.bwm:wood_corner.0.name=Esquina de Madera de Roble
+tile.bwm:wood_corner.1.name=Esquina de Madera de Abeto
+tile.bwm:wood_corner.2.name=Esquina de Madera de Abedul
+tile.bwm:wood_corner.3.name=Esquina de Madera de Jungla
+tile.bwm:wood_corner.4.name=Esquina de Madera de Acacia
+tile.bwm:wood_corner.5.name=Esquina de Madera de Roble Oscuro
+tile.bwm:wood_corner.6.name=Esquina de Madera de Sangre
+
+tile.bwm:stone_siding.0.name=Revestimiento de Piedra
+tile.bwm:stone_siding.1.name=Revestimiento de Ladrillos de Piedra
+tile.bwm:stone_siding.2.name=Revestimiento de Piedra Blanca
+tile.bwm:stone_siding.3.name=Revestimiento de Ladrillos del Nether
+tile.bwm:stone_siding.4.name=Revestimiento de Ladrillos
+tile.bwm:stone_siding.5.name=Revestimiento de Arenisca
+tile.bwm:stone_siding.6.name=Revestimiento de Cuarzo
+
+tile.bwm:stone_moulding.0.name=Moldura de Piedra
+tile.bwm:stone_moulding.1.name=Moldura de Ladrillos de Piedra
+tile.bwm:stone_moulding.2.name=Moldura de Piedra Blanca
+tile.bwm:stone_moulding.3.name=Moldura de Ladrillos del Nether
+tile.bwm:stone_moulding.4.name=Moldura de Ladrillos
+tile.bwm:stone_moulding.5.name=Moldura de Arenisca
+tile.bwm:stone_moulding.6.name=Moldura de Cuarzo
+
+tile.bwm:stone_corner.0.name=Esquina de Piedra
+tile.bwm:stone_corner.1.name=Esquina de Ladrillos de Piedra
+tile.bwm:stone_corner.2.name=Esquina de Piedra Blanca
+tile.bwm:stone_corner.3.name=Esquina de Ladrillos del Nether
+tile.bwm:stone_corner.4.name=Esquina de Ladrillos
+tile.bwm:stone_corner.5.name=Esquina de Arenisca
+tile.bwm:stone_corner.6.name=Esquina de Cuarzo
+
+tile.bwm:wood_table.0.name=Mesa de Madera de Roble
+tile.bwm:wood_table.1.name=Mesa de Madera de Abeto
+tile.bwm:wood_table.2.name=Mesa de Madera de Abedul
+tile.bwm:wood_table.3.name=Mesa de Madera de Jungla
+tile.bwm:wood_table.4.name=Mesa de Madera de Acacia
+tile.bwm:wood_table.5.name=Mesa de Madera de Roble Oscuro
+tile.bwm:wood_table.6.name=Mesa de Madera de Sangre
+
+tile.bwm:wood_bench.0.name=Banco de Madera de Roble
+tile.bwm:wood_bench.1.name=Banco de Madera de Abeto
+tile.bwm:wood_bench.2.name=Banco de Madera de Abedul
+tile.bwm:wood_bench.3.name=Banco de Madera de Jungla
+tile.bwm:wood_bench.4.name=Banco de Madera de Acacia
+tile.bwm:wood_bench.5.name=Banco de Madera de Roble Oscuro
+tile.bwm:wood_bench.6.name=Banco de Madera de Sangre
+
+tile.bwm:block_dispenser.name=Dispensador de Bloque
+tile.bwm:companion_cube.name=Companion Cube
+
+tile.bwm:bamboo_chime.0.name=Campanilla de Viento de Bambú de Madera de Roble
+tile.bwm:bamboo_chime.1.name=Campanilla de Viento de Bambú de Madera de Abeto
+tile.bwm:bamboo_chime.2.name=Campanilla de Viento de Bambú de Madera de Abedul
+tile.bwm:bamboo_chime.3.name=Campanilla de Viento de Bambú de Madera de Jungla
+tile.bwm:bamboo_chime.4.name=Campanilla de Viento de Bambú de Madera de Acacia
+tile.bwm:bamboo_chime.5.name=Campanilla de Viento de Bambú de Madera de Roble Oscuro
+tile.bwm:metal_chime.0.name=Campanilla de Viento de Madera de Roble
+tile.bwm:metal_chime.1.name=Campanilla de Viento de Madera de Abeto
+tile.bwm:metal_chime.2.name=Campanilla de Viento de Madera de Abedul
+tile.bwm:metal_chime.3.name=Campanilla de Viento de Madera de Jungla
+tile.bwm:metal_chime.4.name=Campanilla de Viento de Madera de Acacia
+tile.bwm:metal_chime.5.name=Campanilla de Viento de Madera de Roble Oscuro
+tile.bwm:buddy_block.name=Bloque de Buddy
+tile.bwm:creative_generator.name=Generador Mecánico Creativo
+tile.bwm:light.name=Bloque de Luz
+tile.bwm:platform.name=Plataforma
+tile.bwm:mining_charge.name=Carga Minera
+tile.bwm:fertile_farmland.name=Tierra de Cultivo Fértil
+tile.bwm:advanced_gearbox.name=Caja de Cambios Avanzada
+tile.bwm:raw_pastry.0.name=Masa de Pastel
+tile.bwm:raw_pastry.1.name=Tarta de Calabaza Lista para el Horno
+tile.bwm:raw_pastry.2.name=Masa de Galletas
+tile.bwm:raw_pastry.3.name=Harina
+tile.bwm:raw_pastry.4.name=Tarta de Manzana Lista para el Horno
+tile.bwm:stump.0.name=Tocón de Roble
+tile.bwm:stump.1.name=Tocón de Abeto
+tile.bwm:stump.2.name=Tocón de Abedul
+tile.bwm:stump.3.name=Tocón de Jungla
+tile.bwm:stump.4.name=Tocón de Acacia
+tile.bwm:stump.5.name=Tocón de Roble Oscuro
+tile.bwm:dirt_slab.0.name=Losa de Tierra
+tile.bwm:dirt_slab.1.name=Losa de Césped
+tile.bwm:dirt_slab.2.name=Losa de Micelio
+ 
+tile.bwm:infernal_enchanter.name=Mesa de Encantamientos Infernal
+tile.bwm:candle_holder.name=Candelero
+tile.bwm:shaft.name=Palo
+
+tile.bwm:broken_gearbox.name=Caja de Cambios Roto
+
+tile.bwm:stake.name=Estaca
+
+tile.bwm:iron_wall.name=Muro de Hierro
+tile.bwm:nether_growth.name=Espora de Growth del Nether
+
+tile.bwm:steel_saw.name=Sierra de Acero Forjado de Alma
+
+tile.bwm:blood_log.name=Madera Sangrienta
+tile.bwm:blood_leaves.name=Hojas Sangrientas
+tile.bwm:blood_sapling.name=Brote Sangriento
+
+tile.bwm:nether_clay.name=Bloque de Lodo del Nether
+
+tile.bwm:cobble.0.name=Roca de Granito
+tile.bwm:cobble.1.name=Roca de Diorita
+tile.bwm:cobble.2.name=Roca de Andesita
+
+tile.bwm:deadweight.name=Peso Muerto
+tile.bwm:deadweight.intact.name=Peso Muerto
+tile.bwm:deadweight.slightDamaged.name=Peso Muerto Levemente Dañado
+tile.bwm:deadweight.veryDamaged.name=Peso Muerto muy Dañado
+
+tile.bwm:bucket.name=Cubo de Pozo de Agua
+
+item.bwm:material.gear.name=Engranaje de Madera
+item.bwm:material.nethercoal.name=Nethercoal
+item.bwm:material.hemp.name=Cáñamo
+item.bwm:material.hemp_fibers.name=Fibras de Cáñamo
+item.bwm:material.hemp_cloth.name=Tela de Cáñamo
+item.bwm:material.dung.name=Excremento
+item.bwm:material.tanned_leather.name=Cuero Curtido
+item.bwm:material.scoured_leather.name=Cuero Desgarrado
+item.bwm:material.leather_strap.name=Correa de Cuero
+item.bwm:material.leather_belt.name=Cinturón de Cuero
+item.bwm:material.wood_blade.name=Hoja de Madera
+item.bwm:material.windmill_blade.name=Vela de Viento
+item.bwm:material.glue.name=Pegamento
+item.bwm:material.tallow.name=Sebo
+item.bwm:material.ingot_steel.name=Lingote de Acero Forjado de Alma
+item.bwm:material.plate_steel.name=Plato de Acero Forjado de Alma
+item.bwm:material.ground_netherrack.name=Netherrack Molido
+item.bwm:material.hellfire_dust.name=Polvo de Hellfire
+item.bwm:material.concentrated_hellfire.name=Hellfire Concentrado
+item.bwm:material.coal_dust.name=Polvo de Carbón
+item.bwm:material.filament.name=Filamento
+item.bwm:material.polished_lapis.name=Lapislázuli pulido
+item.bwm:material.potash.name=Potasa
+item.bwm:material.sawdust.name=Serrín
+item.bwm:material.soul_dust.name=Polvo del Alma
+item.bwm:material.screw.name=Tornillo de Arquímedes
+item.bwm:material.brimstone.name=Azufre
+item.bwm:material.niter.name=Nitro
+item.bwm:material.element.name=Elemento de Calefacción
+item.bwm:material.fuse.name=Fusible Explosivo
+item.bwm:material.blasting_oil.name=Aceite de Voladura
+item.bwm:material.nugget_iron.name=Pepita de Hierro
+item.bwm:material.nugget_steel.name=Pepita de Acero Forjado de Alma
+item.bwm:material.leather_cut.name=Cuero Cortado
+item.bwm:material.tanned_leather_cut.name=Cuero Cortado (Curtido)
+item.bwm:material.scoured_leather_cut.name=Cuero Cortado (Desgarrado)
+item.bwm:material.redstone_latch.name=Cerrojo de Redstone
+item.bwm:material.nether_sludge.name=Lodo del Nether
+item.bwm:material.flour.name=Harina
+item.bwm:material.haft.name=Mango
+item.bwm:material.soul_dust.name=Polvo de Almas
+item.bwm:material.charcoal_dust.name=Polvo de Carbón Vegetal
+item.bwm:material.sharpening_stone.name=Piedra de Afilar
+item.bwm:material.knife_blade.name=Hoja de Cuchillo
+item.bwm:material.ender_slag.name=Escoria del Ender
+item.bwm:material.soul_flux.name=Flux del Alma
+item.bwm:material.ender_ocular.name=Ocular de Ender
+item.bwm:material.padding.name=Relleno
+item.bwm:material.armor_plate.name=Armadura de Placa
+item.bwm:material.broadhead.name=Punta Ancha de Flecha
+item.bwm:material.cocoa_powder.name=Polvo de Cacao
+item.bwm:material.diamond_ingot.name=Lingote de Diamante
+item.bwm:material.diamond_nugget.name=Pepita de Diamante
+item.bwm:material.chain_mail.name=Cota de Mallas
+item.bwm:material.steel_gear.name=Engranaje de Acero Forjado de Alma
+item.bwm:material.steel_spring.name=Resorte de Acero Forjado de Alma
+item.bwm:material.soap.name=Jabón
+item.bwm:material.mystery_gland.name=Glándula Misteriosa
+item.bwm:material.witch_wart.name=Verruga de Bruja
+item.bwm:material.poison_sac.name=Saco Venenoso
+
+
+item.bwm:donut.name=Dona
+item.bwm:knife.name=Cuchillo de Hierro
+item.bwm:dynamite.name=Dinamita
+item.bwm:fertilizer.name=Fertilizante
+item.bwm:creeper_oyster.name=Ostro de Creeper
+item.bwm:creeper_oyster_kf.name=Fusible de Creeper
+item.bwm:ender_spectacles.name=Gafas del Ender
+item.bwm:raw_egg.name=Huevo Crudo
+item.bwm:cooked_egg.name=Huevo Cocido
+item.bwm:raw_scrambled_egg.name=Huevos Revueltos Crudos
+item.bwm:cooked_scrambled_egg.name=Huevos Revueltos Cocidos
+item.bwm:raw_omelet.name=Tortilla Francesa de Champiñones Crudos
+item.bwm:cooked_omelet.name=Tortilla Francesa Cocida de Champiñones
+item.bwm:ham_and_eggs.name=Cerdo y Huevos
+item.bwm:tasty_sandwich.name=Sabroso sándwich
+item.bwm:beef_dinner.name=Cena de Filete
+item.bwm:beef_potatoes.name=Filete y Patatas
+item.bwm:chicken_soup.name=Sopa de Pollo
+item.bwm:chocolate.name=Chocolate
+item.bwm:chowder.name=Chowder
+item.bwm:cooked_kebab.name=Kebab
+item.bwm:hearty_stew.name=Estofado Abundante
+item.bwm:pork_dinner.name=Cena de Cerdo
+item.bwm:raw_kebab.name=Kebab sin Cocer
+item.bwm:wolf_chop.name=Chuleta de Lobo
+item.bwm:cooked_wolf_chop.name=Chuleta de Lobo Cocido
+item.bwm:mystery_meat.name=Carne Misteriosa
+item.bwm:cooked_mystery_meat.name=Carne Cocida Misteriosa
+item.bwm:kibble.name=Kibble
+item.bwm:apple_pie.name=Tarta de Manzana
+item.bwm:bat_wing.name=Ala de Murciélago
+item.bwm:cooked_bat_wing.name=Ala de Murciélago Cocido
+
+item.bwm:manual.name=Manual de Mejor con Mods
+
+item.bwm:axle_generator.windmill.name=Molino de Viento
+item.bwm:axle_generator.waterwheel.name=Rueda de Agua
+item.bwm:axle_generator.windmill_vertical.name=Molino de Viento Vertical
+
+item.bwm:bark.oak.name=Corteza de Roble 
+item.bwm:bark.spruce.name=Corteza de Abeto
+item.bwm:bark.birch.name=Corteza de Abedul
+item.bwm:bark.jungle.name=Corteza de Jungla
+item.bwm:bark.acacia.name=Corteza de Acacia
+item.bwm:bark.dark_oak.name=Corteza de Roble Oscuro
+item.bwm:bark.bloody.name=Corteza Sangrienta
+item.bwm:bark.olive.name=Corteza de árbol Oliva
+item.bwm:bark.ironwood.name=Corteza de Madera de Hierro
+
+
+item.bwm:steel_axe.name=Hacha Refinada
+item.bwm:steel_hoe.name=Azada Refinada
+item.bwm:steel_pickaxe.name=Pico Refinada
+item.bwm:steel_shovel.name=Pala Refinada
+item.bwm:steel_sword.name=Espada Refinada
+item.bwm:steel_mattock.name=Alcotana Refinada
+item.bwm:steel_battleaxe.name=Alcotana Refinada
+item.bwm:steel_hacksaw.name=Hacha de Guerra Refinada
+
+item.bwm:steel_helmet.name=Casco de Armadura de Placas
+item.bwm:steel_chest.name=Peto de Armadura de Placas
+item.bwm:steel_pants.name=Grebas de Armadura de Placas
+item.bwm:steel_boots.name=Botas de Armadura de Placas
+
+item.bwm:leather_tanned_helmet.name=Casco de Cuero Curtido
+item.bwm:leather_tanned_chest.name=Peto de Cuero Curtido
+item.bwm:leather_tanned_pants.name=Grebas de Cuero Curtido
+item.bwm:leather_tanned_boots.name=Botas de Cuero Curtido
+
+item.bwm:composite_bow.name=Arco Compuesto
+item.bwm:broadhead_arrow.name=Ancha Flecha.
+
+item.bwm:breeding_harness.name=Breeding Harness
+item.bwm:breeding_harness_kf.name=Restricciones
+
+item.bwm:arcane_scroll.name=Rollo Arcano
+
+item.bwm:stump_remover.name=Removedor de Tocones
+
+item.bwm:gravel_pile.name=Pila de Grava
+item.bwm:dirt_pile.name=Pila de Tierra
+item.bwm:sand_pile.name=Pila de Arena
+item.bwm:red_sand_pile.name=Pila de Arena Roja
+
+item.bwm:bop_piles.loamy_dirt_pile.name=Pila de Tierra Arcillosa
+item.bwm:bop_piles.silty_dirt_pile.name=Pila de Tierra Limosa
+item.bwm:bop_piles.sandy_dirt_pile.name=Pila de Tierra Arenosa
+
+enchantment.level.-1=
+bwm.infernalenchanter=Mesa de Encantamientos Infernal
+
+lore.bwm:dynamite=Dwarven Fishing Pole
+
+material.hellfire=Hellfire
+material.hellfire.ability=Fundido
+material.soulforgedsteel.name=Acero Forjado de Alma
+material.soulforgedsteel.ability=Soul-Sucking
+fluid.molten.hellfire=Hellfire Fundido
+fluid.molten.soulforge=Fundido Acero Forjado de Alma
+
+message.bwm:async.enabled=Temporizador asincrónico habilitado
+message.bwm:async.disabled=Temporizador asincrónico deshabilitado
+message.bwm:async.unavailable=No se puede alternar el temporizador asincrónico: Mundo no avanza el tiempo.
+
+inv.cauldron.name=Caldero
+inv.cauldron.stoked.name=Caldero Avivado
+inv.crucible.name=Crisol
+inv.crucible.stoked.name=Crisol Avivado
+inv.filtered_hopper.name=Tolva Filtrada
+inv.mill.name=Muela de Molino
+inv.bwm.dispenser.name=Dispensador de Bloque
+inv.saw.name=Sierra
+inv.kiln.name=Horno
+inv.pulley.name=Polea
+inv.turntable.name=Torno de Alfarero
+inv.steel_anvil.name=Yunque de Acero
+
+inv.hopper.name=Crafteos del Tolva
+inv.hopper.throw=Lanzar
+inv.hopper.filter=Filtro
+inv.hopper.outputs=Salidas
+inv.hopper.place=Coloque debajo de la Tolva
+inv.hopper.soul_urn.name=Hopper Soul Urn Recipes
+
+itemGroup.bwm:bwTab=Mejor con Mods
+
+fluid.betterwithmods:soulforged_steel.name=Molten Soulforged Steel
+fluid.betterwithmods:hellfire.name=Molten Hellfire
+material.soulforged_steel.name=Acero Forjado de Alma
+material.hellfire.name=Hellfire
+modifier.mending.name=Reparación
+modifier.mending.desc=??oKillsteal!??r Absorbe experiencia para reparar la herramienta.
+
+entity.entity_sheared_creeper.name=Creeper Esquilado
+entity.bwm_jungle_spider.name=Araña de la Selva
+entity.extending_rope.name=Plataforma Móvil
+tile.bwm:single_machine=Máquina Mecánica
+
+subtitles.bwm.wood.creak=Madera crujiendo
+subtitles.bwm.stone.grind=Stones grinding
+subtitles.bwm.wood.bellow=Fuelle soplando
+subtitles.bwm.wood.chime=Campanillas de Viento de Madera
+subtitles.bwm.metal.chime=Campanillas de Viento de Metal
+subtitles.bwm.oof=Oof
+death.attack.growth=%s fue devorado por Growth
+death.attack.gloom=%s fue comido por la oscuridad
+death.attack.saw=%s olvidó las lecciones de la seguridad de la tienda de madera
+death.attack.steel_saw.0=se convirtió a un %s revestimiento.
+death.attack.steel_saw.1=%s olvidó las lecciones de la seguridad de la tienda de acero
+death.attack.chopping_block=%s perdió su cabeza
+death.blasting_oil=%s se divierte con explosivos
+death.acid_rain=%s debería haber empacado un paraguas de acero
+death.squid.attack=%s fue comido por un calamar.
+
+bwm.message.immersive.0=Solo funciona para unir el potencia mecánica
+bwm.message.immersive.1=y dinamos cinéticos de Immersive Engineering
+bwm.message.exhaustion=Estás demasiado agotado para convertirlo.
+
+bwm.message.needs_bait=El pez necesita cebo.
+bwm.message.needs_open_sky=No atrapó nada, prueba una fuente de agua encima.
+bwm.message.needs_deep_water=No atrapó nada, la fuente de agua es muy poco profunda.
+
+bwm.message.waterwheel.0=No hay espacio suficiente para colocar la Rueda de Agua. Necesita un área de 5x5 para trabajar.
+bwm.message.windmill.0=No hay espacio suficiente para colocar el Molino de Viento. Necesita un área de 13x13 para trabajar.
+bwm.message.vertical_windmill.0=No hay espacio suficiente para colocar el Molino de Viento. Necesita un área de 9x9 con una altura de siete para trabajar.
+bwm.message.vertical_windmill.1=Muy pocos ejes verticales en la columna para colocar aquí. (Necesitas 7).
+
+bwm.config.hardcore.tooltip=Características Extremo
+bwm.config.debug.tooltip=Información de depuración para ciertas características
+bwm.config.vanilla_tweaks.tooltip=Cambios en cómo funciona Vanilla Minecraft
+bwm.config.pulley.tooltip=Las limitaciones de las Plataformas de la Polea
+
+bwm.effect.slow_fall=Caída Lenta
+bwm.effect.true_sight=Vista Verdadera
+bwm.effect.fortune=Fortuna
+bwm.effect.looting=Botín
+
+bwm.item.containment=Contiene:
+
+config.sync.restart=Los cambios de servidor a las configuraciones requieren un reinicio del cliente, disculpa.
+config.sync.ok=Cambios a las configuraciones han resultado exitosas. Si ve problemas al no reiniciar el cliente, informe a los administradores del servidor para que puedan informar los cambios realizados en el archivo de configuración.
+
+tile.bed.tooRestless=Estas demasiado inquieto para dormir.
+
+tooltip.rotate_with_hand.name=Shift-Click con las dos manos vacías para rotar este bloque.
+tooltip.chime.name=Emite una Señal de Redstone cuando llueve, o cuando una Entidad pasa a través de ella.
+tooltip.gearbox.name=Las Cajas de Cambios se sobreponen cuando el Molino de Viento gira demasiado rápido, ¡deshabilítelo con Redstone antes de que esto occure!
+tooltip.broken_gearbox.name=Las Cajas de Cambios se sobreponen cuando el Molino de Viento gira demasiado rápido, ¡deshabilítelo con Redstone antes de que esto occure!
+tooltip.windmill.name=Los Molinos de Viento giran más rápido cuando llueve o asalta, ¡revisa tus Caja de Cambios!
+
+tooltip.bwm_book.name=El libro del Singular.
+
+
+bwm.manual.message=Le han dado un Manual de Mejor con Mods. Este mod puede ser diferente de lo que estás esperando. Por favor lee la sección Curso intensivo.
+
+bwm.manual.home=Inicio
+bwm.manual.blocks=Bloques
+bwm.manual.items=Objetos
+bwm.manual.mechanical=Potencia Mecánica
+bwm.manual.error.0=Documento no Encontrado:
+bwm.manual.error.1=Por favor informa esto
+bwm.manual.error.2=Mientras tanto, prueba el

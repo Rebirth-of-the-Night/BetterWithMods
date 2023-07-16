@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcredstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dropper"
+  },
+  "pattern": [
+    "CCC",
+    "C C",
+    "CLC"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "C": {
+      "ore": "cobblestone",
+      "type": "forge:ore_dict"
+    },
+    "L": {
+      "ore": "latchRedstone",
+      "type": "forge:ore_dict"
+    }
+  }
+}

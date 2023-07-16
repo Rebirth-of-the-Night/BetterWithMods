@@ -1,0 +1,40 @@
+{
+  "parent": "betterwithmods:tanned_leather",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:leather_tanned_chest"
+    },
+    "title": {
+      "translate": "advancement.betterwithmods.tanned_leather_armor.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.tanned_leather_armor.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:leather_tanned_chest"
+          },
+          {
+            "item": "betterwithmods:leather_tanned_helmet"
+          },
+          {
+            "item": "betterwithmods:leather_tanned_pants"
+          },
+          {
+            "item": "betterwithmods:leather_tanned_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

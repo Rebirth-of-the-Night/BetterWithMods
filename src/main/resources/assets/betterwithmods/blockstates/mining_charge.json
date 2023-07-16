@@ -1,0 +1,59 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/mining_charge_side",
+      "top": "betterwithmods:blocks/mining_charge_top",
+      "bottom": "betterwithmods:blocks/mining_charge_bottom",
+      "particle": "#side"
+    },
+    "model": "betterwithmods:mining_charge",
+    "uvlock": false
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ],
+    "explode": {
+      "true": {},
+      "false": {}
+    },
+    "facing": {
+      "north": {
+        "x": 90,
+        "textures": {
+          "bottom": "betterwithmods:blocks/mining_charge_top",
+          "top": "betterwithmods:blocks/mining_charge_bottom"
+        }
+      },
+      "south": {
+        "x": -90
+      },
+      "east": {
+        "x": 90,
+        "y": 90,
+        "textures": {
+          "bottom": "betterwithmods:blocks/mining_charge_top",
+          "top": "betterwithmods:blocks/mining_charge_bottom"
+        }
+      },
+      "west": {
+        "x": 90,
+        "y": -90,
+        "textures": {
+          "bottom": "betterwithmods:blocks/mining_charge_top",
+          "top": "betterwithmods:blocks/mining_charge_bottom"
+        }
+      },
+      "up": {},
+      "down": {
+        "x": 180
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/platform_side",
+      "wicker": "betterwithmods:blocks/wicker",
+      "north": "#side",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "up": "#wicker",
+      "down": "#wicker",
+      "particle": "#wicker"
+    },
+    "model": "betterwithmods:platform",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block",
+        "model": "betterwithmods:platform"
+      }
+    ]
+  }
+}

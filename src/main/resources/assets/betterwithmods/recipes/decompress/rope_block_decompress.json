@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "betterwithmods:rope"
+  },
+  "pattern": [
+    "XX",
+    "XX",
+    "XX"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "X": {
+      "ore": "fiberHemp",
+      "type": "forge:ore_dict"
+    }
+  }
+}

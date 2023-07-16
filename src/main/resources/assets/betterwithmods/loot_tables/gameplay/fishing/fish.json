@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "name": "betterwithmods:gameplay/fishing/fish",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "entryName":"betterwithmods:fish#0",
+                    "name": "minecraft:fish",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ],
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "entryName":"betterwithmods:fish#1",
+                    "name": "minecraft:fish",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ],
+                    "weight": 25
+                },
+                {
+                    "type": "item",
+                    "entryName":"betterwithmods:fish#2",
+                    "name": "minecraft:fish",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 2
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "entryName":"betterwithmods:fish#3",
+                    "name": "minecraft:fish",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 3
+                        }
+                    ],
+                    "weight": 13
+                }
+            ]
+        }
+    ]
+}

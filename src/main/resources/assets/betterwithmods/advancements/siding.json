@@ -1,0 +1,32 @@
+{
+  "parent": "betterwithmods:saw",
+  "display": {
+    "icon": {
+      "item": "betterwithmods:siding_wood",
+      "nbt": "{texture: {Properties: {variant: \"oak\"}, Name: \"minecraft:planks\"}}"
+    },
+    "title": {
+      "translate": "tile.bwm:siding_wood.name"
+    },
+    "description": {
+      "translate": "advancement.betterwithmods.siding_wood.desc"
+    }
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "betterwithmods:siding_wood"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

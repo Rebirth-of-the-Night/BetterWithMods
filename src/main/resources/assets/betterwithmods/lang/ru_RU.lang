@@ -1,0 +1,686 @@
+tile.bwm:stokedFire.name=Раздутое пламя
+tile.bwm:hand_crank.name=Ручной привод
+tile.bwm:wooden_axle.name=Деревянный вал
+tile.bwm:steel_axle.name=Стальной вал
+tile.bwm:wooden_gearbox.name=Деревянная раздатка
+tile.bwm:steel_gearbox.name=Стальная раздатка
+tile.bwm:wooden_broken_gearbox.name=Сломанная деревянная раздатка
+tile.bwm:steel_broken_gearbox.name=Сломанная стальная раздатка
+
+
+
+tile.bwm:single_machine.0.name=Жернова
+tile.bwm:single_machine.1.name=Шкив
+tile.bwm:single_machine.2.name=Сито
+tile.bwm:single_machine.3.name=Поворотный стол
+tile.bwm:pane.0.name=Решётка
+tile.bwm:pane.1.name=Планки
+tile.bwm:wicker.name=Плетёная панель
+tile.bwm:grate.0.name=Дубовая решётка
+tile.bwm:grate.1.name=Еловая решётка
+tile.bwm:grate.2.name=Берёзовая решётка
+tile.bwm:grate.3.name=Решётка из тропического дерева
+tile.bwm:grate.4.name=Решётка из акации
+tile.bwm:grate.5.name=Решётка из тёмного дуба
+tile.bwm:slats.0.name=Дубовые планки
+tile.bwm:slats.1.name=Еловые планки
+tile.bwm:slats.2.name=Берёзовые планки
+tile.bwm:slats.3.name=Планки из тропического дерева
+tile.bwm:slats.4.name=Планки из акации
+tile.bwm:slats.5.name=Планки из тёмного дуба
+tile.bwm:screw_pump.name=Винтовой насос
+
+tile.bwm:cooking_pot.0.name=Тигель
+tile.bwm:cooking_pot.1.name=Котел
+tile.bwm:cooking_pot.2.name=Загадочный сосуд
+
+tile.bwm:kiln.name=Печь для обжига
+tile.bwm:bellows.0.name=Меха
+tile.bwm:bellows.1.name=Пружинные меха
+tile.bwm:saw.name=Пила
+tile.bwm:steel_anvil.name=Наковальня из эфириальной стали
+tile.bwm:aesthetic.0.name=Плаха
+tile.bwm:aesthetic.1.name=Грязная плаха
+tile.bwm:aesthetic.2.name=Обожжённая смесь Недр
+tile.bwm:aesthetic.3.name=Блок Инфернума
+tile.bwm:aesthetic.4.name=Блок веревки
+tile.bwm:aesthetic.5.name=Блок кремня
+tile.bwm:aesthetic.6.name=Белый камень
+tile.bwm:aesthetic.7.name=Белый булыжник
+tile.bwm:aesthetic.8.name=Блок Края
+tile.bwm:aesthetic.9.name=Блок набивки
+tile.bwm:aesthetic.10.name=Блок мыла
+tile.bwm:aesthetic.11.name=Блок навоза
+tile.bwm:aesthetic.12.name=Плетёный блок
+tile.bwm:aesthetic.13.name=Блок угля Недр
+tile.bwm:advanced_bellows.name=Пружинные меха
+
+tile.bwm:steel_block.name=Блок эфириальной стали
+tile.bwm:cut_steel_block.name=Полублок эфириальной стали
+tile.bwm:steel_pressure_plate.name=Стальная нажимная плита
+
+tile.bwm:windmill.windmill.name=Ветряк
+tile.bwm:windmill.waterwheel.name=Водяное колесо
+tile.bwm:windmill.windmill_vertical.name=Вертикальный ветряк
+
+tile.bwm:planter.0.name=Кадка
+tile.bwm:planter.1.name=Кадка с вспаханной землёй
+tile.bwm:planter.2.name=Кадка с дёрном
+tile.bwm:planter.3.name=Кадка с песком душ
+tile.bwm:planter.4.name=Кадка с удобренной землёй
+tile.bwm:planter.5.name=Кадка с песком
+tile.bwm:planter.6.name=Кадка с водой
+tile.bwm:planter.7.name=Кадка с гравием
+tile.bwm:planter.8.name=Кадка с красным песком
+tile.bwm:planter.9.name=Кадка с землёй
+
+tile.bwm:vase.0.name=Белая ваза
+tile.bwm:vase.1.name=Оранжевая ваза
+tile.bwm:vase.2.name=Пурпурная ваза
+tile.bwm:vase.3.name=Голубая ваза
+tile.bwm:vase.4.name=Жёлтая ваза
+tile.bwm:vase.5.name=Светло-зелёная ваза
+tile.bwm:vase.6.name=Розовая ваза
+tile.bwm:vase.7.name=Серая ваза
+tile.bwm:vase.8.name=Светло-серая ваза
+tile.bwm:vase.9.name=Бирюзовая ваза
+tile.bwm:vase.10.name=Фиолетовая ваза
+tile.bwm:vase.11.name=Синяя ваза
+tile.bwm:vase.12.name=Коричневая ваза
+tile.bwm:vase.13.name=Зелёная ваза
+tile.bwm:vase.14.name=Красная ваза
+tile.bwm:vase.15.name=Чёрная ваза
+
+tile.bwm:candle.0.name=Белая свеча
+tile.bwm:candle.1.name=Оранжевая свеча
+tile.bwm:candle.2.name=Пурпурная свеча
+tile.bwm:candle.3.name=Голубая свеча
+tile.bwm:candle.4.name=Жёлтая свеча
+tile.bwm:candle.5.name=Светло-зелёная свеча
+tile.bwm:candle.6.name=Розовая свеча
+tile.bwm:candle.7.name=Серая свеча
+tile.bwm:candle.8.name=Светло-серая свеча
+tile.bwm:candle.9.name=Бирюзовая свеча
+tile.bwm:candle.10.name=Фиолетовая свеча
+tile.bwm:candle.11.name=Синяя свеча
+tile.bwm:candle.12.name=Коричневая свеча
+tile.bwm:candle.13.name=Зелёная свеча
+tile.bwm:candle.14.name=Красная свеча
+tile.bwm:candle.15.name=Чёрная свеча
+
+
+tile.bwm:urn.0.name=Урна
+tile.bwm:urn.1.name=Урна душ (12%)
+tile.bwm:urn.2.name=Урна душ (25%)
+tile.bwm:urn.3.name=Урна душ (37%)
+tile.bwm:urn.4.name=Урна душ (50%)
+tile.bwm:urn.5.name=Урна душ (62%)
+tile.bwm:urn.6.name=Урна душ (75%)
+tile.bwm:urn.7.name=Урна душ (87%)
+tile.bwm:urn.8.name=Урна душ
+tile.bwm:urn.9.name=Урна пустоты
+
+tile.bwm:unfired_pottery.0.name=Необожженный тигель
+tile.bwm:unfired_pottery.1.name=Необожженная кадка
+tile.bwm:unfired_pottery.2.name=Необожженная урна
+tile.bwm:unfired_pottery.3.name=Необожженная ваза
+tile.bwm:unfired_pottery.4.name=Необожженный кирпич
+tile.bwm:unfired_pottery.5.name=Необожженный кирпич Недр
+
+tile.bwm:anchor.name=Якорь
+tile.bwm:rope.name=Джутовая веревка
+tile.bwm:hibachi.name=Горелка
+tile.bwm:hemp.name=Семена джута
+tile.bwm:detector.name=Блок-детектор
+tile.bwm:lens.name=Фокусирующая линза
+tile.bwm:vine_trap.name=Ловушка из лозы
+
+tile.bwm:booster.name=Механические ускоряющие рельсы
+tile.detector_rail_wood.name=Деревянные рельсы с датчиком
+tile.bwm:detector_rail_stone.name=Каменные рельсы с датчиком
+tile.bwm:detector_rail_steel.name=Стальные рельсы с датчиком
+
+tile.bwm:siding_rock.name=%s: полублок
+tile.bwm:siding_wood.name=%s: полублок
+tile.bwm:siding_iron.name=%s: полублок
+
+tile.bwm:moulding_rock.name=%s: рейка
+tile.bwm:moulding_wood.name=%s: рейка
+tile.bwm:moulding_iron.name=%s: рейка
+
+tile.bwm:corner_rock.name=%s: уголок
+tile.bwm:corner_wood.name=%s: уголок
+tile.bwm:corner_iron.name=%s: уголок
+
+tile.bwm:wood_siding.0.name=Дубовый полублок
+tile.bwm:wood_siding.1.name=Еловый полублок
+tile.bwm:wood_siding.2.name=Берёзовый полублок
+tile.bwm:wood_siding.3.name=Полублок из тропического дерева
+tile.bwm:wood_siding.4.name=Полублок из акации
+tile.bwm:wood_siding.5.name=Полублок из тёмного дуба
+tile.bwm:wood_siding.6.name=Полублок из кровавого дерева
+
+tile.bwm:wood_moulding.0.name=Дубовая рейка
+tile.bwm:wood_moulding.1.name=Еловая рейка
+tile.bwm:wood_moulding.2.name=Берёзовая рейка
+tile.bwm:wood_moulding.3.name=Рейка из тропического дерева
+tile.bwm:wood_moulding.4.name=Рейка из акации
+tile.bwm:wood_moulding.5.name=Рейка из тёмного дуба
+tile.bwm:wood_moulding.6.name=Рейка из кровавого дерева
+
+tile.bwm:wood_corner.0.name=Дубовый уголок
+tile.bwm:wood_corner.1.name=Еловый уголок
+tile.bwm:wood_corner.2.name=Берёзовый уголок
+tile.bwm:wood_corner.3.name=Уголок из тропического дерева
+tile.bwm:wood_corner.4.name=Уголок из акации
+tile.bwm:wood_corner.5.name=Уголок из тёмного дуба
+tile.bwm:wood_corner.6.name=Уголок из кровавого дерева
+
+tile.bwm:stone_siding.0.name=Каменный полублок
+tile.bwm:stone_siding.1.name=Полублок из каменного кирпича
+tile.bwm:stone_siding.2.name=Полублок из белого камня
+tile.bwm:stone_siding.3.name=Полублок из кирпича Недр
+tile.bwm:stone_siding.4.name=Кирпичный полублок
+tile.bwm:stone_siding.5.name=Песчаниковый полублок
+tile.bwm:stone_siding.6.name=Кварцевый полублок
+
+tile.bwm:stone_moulding.0.name=Каменная рейка
+tile.bwm:stone_moulding.1.name=Рейка из каменного кирпича
+tile.bwm:stone_moulding.2.name=Рейка из белого камня
+tile.bwm:stone_moulding.3.name=Рейка из кирпича Недр
+tile.bwm:stone_moulding.4.name=Кирпичная рейка
+tile.bwm:stone_moulding.5.name=Песчаниковая рейка
+tile.bwm:stone_moulding.6.name=Кварцевая рейка
+
+tile.bwm:stone_corner.0.name=Каменный уголок
+tile.bwm:stone_corner.1.name=Уголок из каменного кирпича
+tile.bwm:stone_corner.2.name=Уголок из белого камня
+tile.bwm:stone_corner.3.name=Уголок из кирпича Недр
+tile.bwm:stone_corner.4.name=Кирпичный уголок
+tile.bwm:stone_corner.5.name=Песчаниковый уголок
+tile.bwm:stone_corner.6.name=Кварцевый уголок
+
+tile.bwm:wood_table.0.name=Дубовый стол
+tile.bwm:wood_table.1.name=Еловый стол
+tile.bwm:wood_table.2.name=Берёзовый стол
+tile.bwm:wood_table.3.name=Стол из тропического дерева
+tile.bwm:wood_table.4.name=Стол из акации
+tile.bwm:wood_table.5.name=Стол из тёмного дуба
+tile.bwm:wood_table.6.name=Стол из кровавого дерева
+
+tile.bwm:wood_bench.0.name=Дубовая лавка
+tile.bwm:wood_bench.1.name=Еловая лавка
+tile.bwm:wood_bench.2.name=Берёзовая лавка
+tile.bwm:wood_bench.3.name=Лавка из тропического дерева
+tile.bwm:wood_bench.4.name=Лавка из акации
+tile.bwm:wood_bench.5.name=Лавка из тёмного дуба
+tile.bwm:wood_bench.6.name=Лавка из кровавого дерева
+
+tile.bwm:debarked_old.0.name=Обтёсанное дубовое бревно
+tile.bwm:debarked_old.1.name=Обтёсанное еловое бревно
+tile.bwm:debarked_old.2.name=Обтёсанное берёзовое бревно
+tile.bwm:debarked_old.3.name=Обтёсанное бревно из тропического дерева
+tile.bwm:debarked_new.0.name=Обтёсанное бревно из акации
+tile.bwm:debarked_new.1.name=Обтёсанное бревно из тёмного дуба
+
+tile.bwm:block_dispenser.name=Установщик блоков
+tile.bwm:companion_cube.name=Куб-компаньон
+tile.bwm:long_friend.name=Пёс-длиннонос
+
+tile.bwm:bamboo_chime.0.name=Бамбуковый колокольчик из дуба
+tile.bwm:bamboo_chime.1.name=Бамбуковый колокольчик из ели
+tile.bwm:bamboo_chime.2.name=Бамбуковый колокольчик из берёзы
+tile.bwm:bamboo_chime.3.name=Бамбуковый колокольчик из тропического дерева
+tile.bwm:bamboo_chime.4.name=Бамбуковый колокольчик из акации
+tile.bwm:bamboo_chime.5.name=Бамбуковый колокольчик из тёмного дуба
+tile.bwm:metal_chime.0.name=Металлический колокольчик из дуба
+tile.bwm:metal_chime.1.name=Металлический колокольчик из ели
+tile.bwm:metal_chime.2.name=Металлический колокольчик из берёзы
+tile.bwm:metal_chime.3.name=Металлический колокольчик из тропического дерева
+tile.bwm:metal_chime.4.name=Металлический колокольчик из акации
+tile.bwm:metal_chime.5.name=Металлический колокольчик из тёмного дуба
+tile.bwm:buddy_block.name=Детектор обновлений
+tile.bwm:creative_generator.name=Творческий механический генератор
+tile.bwm:light.name=Лампа
+tile.bwm:platform.name=Платформа
+tile.bwm:mining_charge.name=Шахтерский заряд
+tile.bwm:fertile_farmland.name=Удобрённая грядка
+tile.bwm:advanced_gearbox.name=Улучшенная раздатка
+tile.bwm:raw_pastry.0.name=Тесто для торта
+tile.bwm:raw_pastry.1.name=Тесто для тыквенного пирога
+tile.bwm:raw_pastry.2.name=Тесто для печенья
+tile.bwm:raw_pastry.3.name=Мука
+tile.bwm:raw_pastry.4.name=Тесто для яблочного пирога
+tile.bwm:stump.0.name=Дубовый пень
+tile.bwm:stump.1.name=Еловый пень
+tile.bwm:stump.2.name=Берёзовый пень
+tile.bwm:stump.3.name=Пень тропического дерева
+tile.bwm:stump.4.name=Пень из акации
+tile.bwm:stump.5.name=Пень тёмного дуба
+tile.bwm:dirt_slab.0.name=Земляная плита
+tile.bwm:dirt_slab.1.name=Дёрновая плита
+tile.bwm:dirt_slab.2.name=Мицелиевая плита
+
+tile.bwm:infernal_enchanter.name=Инфернальный стол зачарования
+tile.bwm:candle_holder.name=Подсвечник
+tile.bwm:shaft.name=Жердь
+
+tile.bwm:broken_gearbox.name=Сломанная раздатка
+
+tile.bwm:stake.name=Колышек
+
+tile.bwm:iron_wall.name=Железная стена
+tile.bwm:nether_growth.name=Спора поросли Недр
+
+tile.bwm:steel_saw.name=Пила из эфириальной стали
+
+tile.bwm:blood_log.name=Кровавое дерево
+tile.bwm:blood_leaves.name=Кровавая листва
+tile.bwm:blood_sapling.name=Кровавый саженец
+
+tile.bwm:nether_clay.name=Блок смеси Недр
+
+tile.bwm:cobble.0.name=Гранитный булыжник
+tile.bwm:cobble.1.name=Диоритовый булыжник
+tile.bwm:cobble.2.name=Андезитовый булыжник
+
+tile.bwm:deadweight.name=Балласт
+tile.bwm:deadweight.intact.name=Балласт
+tile.bwm:deadweight.slightDamaged.name=Повреждённый балласт
+tile.bwm:deadweight.veryDamaged.name=Сильно повреждённый балласт
+
+tile.bwm:bucket.name=Колодезное ведро
+
+item.bwm:material.gear.name=Деревянная шестерня
+item.bwm:material.nethercoal.name=Уголь Недр
+item.bwm:material.hemp.name=Джут
+item.bwm:material.hemp_fibers.name=Джутовые волокна
+item.bwm:material.hemp_cloth.name=Джутовая ткань
+item.bwm:material.dung.name=Навоз
+item.bwm:material.tanned_leather.name=Дублёная кожа
+item.bwm:material.scoured_leather.name=Размягчённая кожа
+item.bwm:material.leather_strap.name=Отрезок кожи
+item.bwm:material.leather_belt.name=Кожаный ремень
+item.bwm:material.wood_blade.name=Лопасть водяного колеса
+item.bwm:material.windmill_blade.name=Лопасть ветряка
+item.bwm:material.glue.name=Клей
+item.bwm:material.tallow.name=Жир
+item.bwm:material.ingot_steel.name=Слиток эфириальной стали
+item.bwm:material.plate_steel.name=Пластина из эфириальной стали
+item.bwm:material.ground_netherrack.name=Молотый камень Недр
+item.bwm:material.hellfire_dust.name=Порошок Инфернума
+item.bwm:material.concentrated_hellfire.name=Слиток Инфернума
+item.bwm:material.coal_dust.name=Угольная пыль
+item.bwm:material.filament.name=Нить накала
+item.bwm:material.polished_lapis.name=Полированный лазурит
+item.bwm:material.potash.name=Поташ
+item.bwm:material.sawdust.name=Опилки
+item.bwm:material.soul_dust.name=Пыль душ
+item.bwm:material.screw.name=Архимедов винт
+item.bwm:material.brimstone.name=Сера
+item.bwm:material.niter.name=Селитра
+item.bwm:material.element.name=Нагревательный элемент
+item.bwm:material.fuse.name=Фитиль
+item.bwm:material.blasting_oil.name=Взрывное масло
+item.bwm:material.nugget_iron.name=Железный самородок
+item.bwm:material.nugget_steel.name=Самородок эфириальной стали
+item.bwm:material.leather_cut.name=Нарезанная кожа
+item.bwm:material.tanned_leather_cut.name=Нарезанная кожа (Дублёная)
+item.bwm:material.scoured_leather_cut.name=Нарезанная кожа (Размягчённая)
+item.bwm:material.redstone_latch.name=Шарнир
+item.bwm:material.nether_sludge.name=Смесь Недр
+item.bwm:material.flour.name=Мука
+item.bwm:material.haft.name=Рукоятка
+item.bwm:material.soul_dust.name=Пыль душ
+item.bwm:material.charcoal_dust.name=Древесноугольная пыль
+item.bwm:material.sharpening_stone.name=Точильный камень
+item.bwm:material.knife_blade.name=Лезвие ножа
+item.bwm:material.ender_slag.name=Шлак Края
+item.bwm:material.soul_flux.name=Флюс душ
+item.bwm:material.ender_ocular.name=Окуляр Края
+item.bwm:material.padding.name=Набивка
+item.bwm:material.armor_plate.name=Деталь пластинчатого доспеха
+item.bwm:material.broadhead.name=Наконечник стрелы
+item.bwm:material.cocoa_powder.name=Какао-порошок
+item.bwm:material.diamond_ingot.name=Алмазный слиток
+item.bwm:material.diamond_nugget.name=Алмазный самородок
+item.bwm:material.chain_mail.name=Кольчужное полотно
+item.bwm:material.steel_gear.name=Шестерня из эфириальной стали
+item.bwm:material.steel_spring.name=Пружина из эфириальной стали
+item.bwm:material.soap.name=Мыло
+item.bwm:material.mystery_gland.name=Загадочная железа
+item.bwm:material.witch_wart.name=Бородавка ведьмы
+item.bwm:material.poison_sac.name=Ядовитая железа
+
+
+item.bwm:donut.name=Пончик
+item.bwm:knife.name=Железный нож
+item.bwm:dynamite.name=Динамит
+item.bwm:fertilizer.name=Удобрение
+item.bwm:creeper_oyster.name=Запальник крипера
+item.bwm:creeper_oyster_kf.name=Фитиль крипера
+item.bwm:ender_spectacles.name=Очки Края
+item.bwm:raw_egg.name=Сырое яйцо
+item.bwm:cooked_egg.name=Яичница
+item.bwm:raw_scrambled_egg.name=Сырой омлет
+item.bwm:cooked_scrambled_egg.name=Омлет
+item.bwm:raw_omelet.name=Сырой грибной омлет
+item.bwm:cooked_omelet.name=Грибной омлет
+item.bwm:ham_and_eggs.name=Яичница с беконом
+item.bwm:tasty_sandwich.name=Вкусный бутерброд
+item.bwm:beef_dinner.name=Обед с говядиной
+item.bwm:beef_potatoes.name=Стейк с картофелем
+item.bwm:chicken_soup.name=Куриный суп
+item.bwm:chocolate.name=Шоколад
+item.bwm:chowder.name=Рыбная похлёбка
+item.bwm:cooked_kebab.name=Кебаб
+item.bwm:hearty_stew.name=Рагу
+item.bwm:pork_dinner.name=Обед со свининой
+item.bwm:raw_kebab.name=Сырой кебаб
+item.bwm:wolf_chop.name=Сырая волчатина
+item.bwm:cooked_wolf_chop.name=Жареная волчатина
+item.bwm:mystery_meat.name=Таинственное мясо
+item.bwm:cooked_mystery_meat.name=Жареное таинственное мясо
+item.bwm:kibble.name=Корм
+item.bwm:apple_pie.name=Яблочный пирог
+item.bwm:bat_wing.name=Крыло летучей мыши
+item.bwm:cooked_bat_wing.name=Жареное крыло летучей мыши
+
+item.bwm:manual.name=Журнал механика
+item.bwm:manual.subtitle=Инструкция для механизаторов
+
+item.bwm:axle_generator.windmill.name=Ветряк
+item.bwm:axle_generator.waterwheel.name=Водяное колесо
+item.bwm:axle_generator.windmill_vertical.name=Вертикальный ветряк
+
+item.bwm:bark.oak.name=Дубовая кора
+item.bwm:bark.spruce.name=Еловая кора
+item.bwm:bark.birch.name=Березовая кора
+item.bwm:bark.jungle.name=Кора тропического дерева
+item.bwm:bark.acacia.name=Кора акации
+item.bwm:bark.dark_oak.name=Кора темного дуба
+item.bwm:bark.bloody.name=Кровавая кора
+item.bwm:bark.olive.name=Кора оливы
+item.bwm:bark.ironwood.name=Кора железного дерева
+
+
+item.bwm:steel_axe.name=Стальной топор
+item.bwm:steel_hoe.name=Стальная мотыга
+item.bwm:steel_pickaxe.name=Стальная кирка
+item.bwm:steel_shovel.name=Стальная лопата
+item.bwm:steel_sword.name=Стальной меч
+item.bwm:steel_mattock.name=Стальное кайло
+item.bwm:steel_battleaxe.name=Стальная секира
+item.bwm:steel_hacksaw.name=Стальная ножовка
+
+item.bwm:steel_helmet.name=Пластинчатый шлем
+item.bwm:steel_chest.name=Пластинчатый нагрудник
+item.bwm:steel_pants.name=Пластинчатые поножи
+item.bwm:steel_boots.name=Пластинчатые ботинки
+
+item.bwm:leather_tanned_helmet.name=Дублёный шлем
+item.bwm:leather_tanned_chest.name=Дублёный нагрудник
+item.bwm:leather_tanned_pants.name=Дублёные поножи
+item.bwm:leather_tanned_boots.name=Дублёные ботинки
+
+item.bwm:wool_helmet.name=Шерстяная шапка
+item.bwm:wool_chest.name=Шерстяной свитер
+item.bwm:wool_pants.name=Шерстяные штаны с начёсом
+item.bwm:wool_boots.name=Шерстяные носки
+
+
+item.bwm:composite_bow.name=Композитный лук
+item.bwm:broadhead_arrow.name=Тяжёлая стрела
+
+item.bwm:breeding_harness.name=Сбруя для скота
+item.bwm:breeding_harness_kf.name=Привязь
+
+item.bwm:arcane_scroll.name=Магический свиток
+
+item.bwm:stump_remover.name=Корчеватель пней
+item.bwm:stump_remover_kf.name=Корчеватель пней
+
+item.bwm:gravel_pile.name=Молотый гравий
+item.bwm:dirt_pile.name=Молотая земля
+item.bwm:sand_pile.name=Молотый песок
+item.bwm:red_sand_pile.name=Молотый красный песок
+
+item.bwm:bop_piles.loamy_dirt_pile.name=Кучка суглинистой почвы
+item.bwm:bop_piles.silty_dirt_pile.name=Кучка илистой почвы
+item.bwm:bop_piles.sandy_dirt_pile.name=Кучка песчаной почвы
+
+enchantment.level.-1=
+bwm.infernalenchanter=Инфернальный стол зачарования
+
+lore.bwm:dynamite=Дварфийская удочка
+
+material.hellfire=Инфернум
+material.hellfire.ability=Расплавленный
+material.soulforgedsteel.name=Эфириальная сталь
+material.soulforgedsteel.ability=Собиратель душ
+fluid.molten.hellfire=Расплавленный Инфернум
+fluid.molten.soulforge=Расплавленная эфириальная сталь
+
+message.bwm:async.enabled=Асинхронный таймер включен
+message.bwm:async.disabled=Асинхронный таймер выключен
+message.bwm:async.unavailable=Невозможно переключить асинхронный таймер: мир не опережает время.
+
+bwm.message.spawn_beacon.already_set=Точка возрождения уже установлена
+bwm.message.spawn_beacon.set=Установлена новая точка возврождения
+
+inv.cauldron.name=Котёл
+inv.cauldron.stoked.name=Раскалённый котёл
+inv.crucible.name=Тигель
+inv.crucible.stoked.name=Раскалённый тигель
+inv.filtered_hopper.name=Сито
+inv.mill.name=Жернова
+inv.bwm.dispenser.name=Установщик блоков
+inv.saw.name=Пила
+inv.kiln.name=Печь для обжига
+inv.kiln.stoked.name=Раскалённая печь для обжига
+inv.pulley.name=Шкив
+inv.turntable.name=Поворотный стол
+inv.steel_anvil.name=Наковальня из эфириальной стали
+
+inv.hopper.name=Рецепты сита
+inv.hopper.throw=Бросить
+inv.hopper.filter=Фильтр
+inv.hopper.outputs=Выход
+inv.hopper.place=Поставить под ситом
+inv.hopper.soul_urn.name=Рецепты сита с урной душ
+
+itemGroup.bwm:bwTab=Better With Mods
+
+fluid.betterwithmods:soulforged_steel.name=Расплавленная эфириальная сталь
+fluid.betterwithmods:hellfire.name=Расплавленный Инфернум
+material.soulforged_steel.name=Эфириальная сталь
+material.hellfire.name=Инфернум
+modifier.mending.name=Починка
+modifier.mending.desc=??oВоровство фрагов!?? Поглощает опыт для починки инструмента.
+
+entity.entity_sheared_creeper.name=Обезвреженный крипер
+entity.bwm_jungle_spider.name=Тропический паук
+entity.extending_rope.name=Платформа
+entity.longboi.name=Волкопёс-длиннонос
+tile.bwm:single_machine=Механизм
+
+subtitles.bwm.wood.creak=Скрип дерева
+subtitles.bwm.stone.grind=Работают жернова
+subtitles.bwm.wood.bellow=Меха дуют
+subtitles.bwm.wood.chime=Деревянный колокольчик
+subtitles.bwm.metal.chime=Металлический колокольчик
+subtitles.bwm.oof=Уф
+subtitles.bwm.millstone.netherrack=Душераздирающие крики
+subtitle.bwm.saw.cut=Жужжание пилы
+subtitle.bwm.mechanical.overpower=Машина сломалась
+subtitles.bwm.bloodwood.break=Блок сломан
+death.attack.growth=%s был поглощен Порослью.
+death.attack.gloom=%s стал обедом Гру.
+death.attack.saw=%s забыл технику безопасности в столярной мастерской.
+death.attack.steel_saw.0=%s стал полублоком.
+death.attack.steel_saw.1=%s забыл технику безопасти при работе со стальным инструментом.
+death.attack.chopping_block=%s потерял голову.
+death.attack.blasting_oil=%s был неосторожен с нестабильной взрывчаткой.
+death.acid_rain=%s следовало обзавестись стальным зонтом.
+death.squid.attack=%s был поглощён спрутом.
+
+bwm.message.immersive.0=Используется только для передачи механической энергии
+bwm.message.immersive.1=и с динамо-машинами из Immersive Engineering.
+bwm.message.exhaustion=Вы слишком истощены, чтобы этим пользоваться.
+
+bwm.message.needs_bait=Скорее всего, рыба на это не клюнет, надо найти наживку.
+bwm.message.needs_open_sky=Здесь не клюёт, нужно выбраться на свежий воздух.
+bwm.message.needs_deep_water=Здесь не клюёт, слишком мелко.
+
+bwm.message.waterwheel.0=Недостаточно места для размещения водяного колеса. Требуется 5х5 блоков для работы.
+bwm.message.windmill.0=Недостаточно места для размещения ветряка. Требуется 13х13 блоков для работы.
+bwm.message.vertical_windmill.0=Недостаточно места для размещения ветряка. Требуется 9х9 блоков и 7 блоков в высоту для работы.
+bwm.message.vertical_windmill.1=Недостаточно вертикальных валов стоит в ряд для расположения ветряка. Необходимо 7.
+
+bwm.config.hardcore.tooltip=Усложнения
+bwm.config.debug.tooltip=Отладочная информация для некоторых функций
+bwm.config.vanilla_tweaks.tooltip=Изменения стандартных механик
+bwm.config.pulley.tooltip=Лимит платформ для шкива
+bwm.hcfurnace.cook_time.tooltip=Время приготовления: %s тиков
+
+bwm.random_output.tooltip=Количество: %s-%s
+bwm.chance_output.tooltip=Шанс: %d%%
+
+bwm.millstone_blocked.message=Заклинено
+bwm.millstone_blocked.tooltip=Вокруг Жерновов находится слишком много твёрдых блоков.
+
+bwm.fat_penalty.none=
+bwm.fat_penalty.plump=Пухлый
+bwm.fat_penalty.chubby=Щекастый
+bwm.fat_penalty.fat=Толстый
+bwm.fat_penalty.obese=Жирный
+bwm.gloom_penalty.none=
+bwm.gloom_penalty.gloom=Беспокойство
+bwm.gloom_penalty.dread=Страх
+bwm.gloom_penalty.terror=Ужас
+
+bwm.hunger_penalty.none=
+bwm.hunger_penalty.peckish=Не прочь заморить червячка
+bwm.hunger_penalty.hungry=Голодный
+bwm.hunger_penalty.famished=Голодающий
+bwm.hunger_penalty.starving=Изголодавшийся
+bwm.hunger_penalty.dying=Умирает от голода
+
+bwm.health_penalty.none=
+bwm.health_penalty.hurt=Ранен
+bwm.health_penalty.injured=Травмирован
+bwm.health_penalty.wounded=Изувечен
+bwm.health_penalty.crippled=Калека
+bwm.health_penalty.dying=Умирает
+
+bwm.effect.slow_fall=Медленное падение
+bwm.effect.true_sight=Ясное зрение
+bwm.effect.fortune=Удача
+bwm.effect.looting=Добыча
+
+bwm.item.containment=Содержит:
+
+config.sync.restart=Изменения на сервере требуют перезапуска игры. Приносим свои извинения.
+config.sync.ok=Изменения были успешно применены, если вы наблюдаете какие-либо проблемы, свяжитесь с администратором сервера
+
+tile.bed.tooRestless=Вы слишком беспокойны, чтобы спать
+
+tooltip.rotate_with_hand.name=Shift+клик пустой рукой, чтобы повернуть этот блок
+tooltip.chime.name=Излучает сигнал во время дождя или при прохождении через него
+tooltip.gearbox.name=Раздаточная коробка не выдержит, если ветряк будет крутиться слишком быстро, выключите её сигналом красной пыли, чтобы этого не произошло!
+tooltip.broken_gearbox.name=Раздаточная коробка не выдержит, если ветряк будет крутиться слишком быстро, выключите её сигналом красной пыли, чтобы этого не произошло!
+tooltip.windmill.name=Ветряки крутятся быстрее во время дождя или шторма, не забудьте про свои раздаточные коробки!
+tooltip.bwm_book.name=Книга от Single
+
+
+bwm.manual.message=Вам был выдан справочник по Better With Mods. Этот мод может отличаться от того, что вы ожидаете, поэтому как минимум ознакомьтесь с секцией "Краткий курс".
+bwm.manual.warning.missing.block=Изображение отсутствует: %s
+
+bwm.manual.home=Начало
+bwm.manual.blocks=Блоки
+bwm.manual.items=Предметы
+bwm.manual.mechanical=Механическая энергия
+bwm.manual.error.0=Документ не найден:
+bwm.manual.error.1=Пожалуйста, сообщите это %s
+bwm.manual.error.2=А пока что, попробуйте %s
+
+
+bwm.got.feverdream=Вы так и не уснули, за время бодрствования Вы набросали несколько заметок. Что бы они значили?
+
+bwm.enchantment.type.armor=Броня
+bwm.enchantment.type.armor_feet=Ботинки
+bwm.enchantment.type.armor_head=Шлем
+bwm.enchantment.type.armor_chest=Седло (броня)
+bwm.enchantment.type.weapon=Оружие
+bwm.enchantment.type.digger=Кирка/Лопата
+bwm.enchantment.type.bow=Лук
+bwm.enchantment.type.breakable=Инструменты
+bwm.enchantment.type.fishing_rod=Удочка
+bwm.enchantment.type.all=Любой предмет
+
+advancement.betterwithmods.crucible.desc=Ведьмы в поле зрения
+advancement.betterwithmods.cauldron.desc=Охота на ведьм
+advancement.betterwithmods.turntable.desc=You Spin Me Right Round...
+advancement.betterwithmods.screw_pump.desc=На подъёме
+advancement.betterwithmods.companion_cube.desc=В этом испытании Грузовой Куб-Компаньон станет вашим верным спутником. Заботьтесь о нем, как о друге.
+advancement.betterwithmods.anchor.desc=Нет ли у тебя привязанностей?
+advancement.betterwithmods.millstone.desc=Как это ускорить?
+advancement.betterwithmods.hibachi.desc=Пожалуйста, используйте несколько
+advancement.betterwithmods.kiln.desc=Мне одному кажется, что здесь становится жарковато?
+advancement.betterwithmods.infernal_enchanter.desc=tu dolor unius crustulum
+advancement.betterwithmods.bloody_chopping_block.desc=И нет дракона, который бы тебя спас
+advancement.betterwithmods.vertical_windmill.desc=Ветер в комплект не входит!
+advancement.betterwithmods.hellfire_dust.desc=Просто добавь Адского Пламени
+advancement.betterwithmods.light.desc=Азис, СВЕТ!
+advancement.betterwithmods.concentrated_hellfire.desc=Концентрированный HellfirePVP
+advancement.betterwithmods.desc=Лучше, чем начинать вслепую
+advancement.betterwithmods.plated_armor.name=Пластинчатая броня
+advancement.betterwithmods.plated_armor.desc=Теперь вас смогут ранить только слова
+advancement.betterwithmods.dynamite.desc=Рыбалка по-деревенски
+advancement.betterwithmods.soul_urn.desc=Бабуля?
+advancement.betterwithmods.library.name=Построить Инфернальную библиотеку
+advancement.betterwithmods.library.desc=Шшшшшшшшш!
+advancement.betterwithmods.rope.desc=Ты знаешь, что делать
+advancement.betterwithmods.wooden_gearbox.desc=Что может пойти не так?
+advancement.betterwithmods.wooden_axle.desc=Бесконечная передача энергии
+advancement.betterwithmods.hemp_seed.desc=Лучше, чем Волшебные Бобы
+advancement.betterwithmods.refined_tools.name=Усиленные инструменты
+advancement.betterwithmods.refined_tools.desc=Harder, Better, Faster, Stronger!
+advancement.betterwithmods.siding_wood.desc=Всем по кусочку дерева!
+advancement.betterwithmods.steel_ingot.desc=Просто добавь углерода!
+advancement.betterwithmods.saw.desc=Я хочу сыграть с тобой в игру
+advancement.betterwithmods.bellows.desc=Не пытайтесь повторить это дома!
+advancement.betterwithmods.blood_wood.desc=Дерево хочет крови
+advancement.betterwithmods.ender_spectacles.desc=Смотри в мои шары!
+advancement.betterwithmods.moulding_wood.desc=Реноватор
+advancement.betterwithmods.filtered_hopper.desc=Всё по полочкам
+advancement.betterwithmods.hand_crank.desc=Знаете, на чём я это вертел?
+advancement.betterwithmods.whitestone.desc=Очищенный камень
+advancement.betterwithmods.buddy_block.desc=Сделано в Китае
+advancement.betterwithmods.horizontal_windmill.desc=Вода, Земля, Огонь, ___
+advancement.betterwithmods.waterwheel.desc=Нужно построить больше колёс
+advancement.betterwithmods.planter.name=Кадки
+advancement.betterwithmods.planter.desc=Спаси растение - съешь вегана
+advancement.betterwithmods.tanned_leather.desc=Ни одна настоящая корова в процессе изготовления не пострадала.
+advancement.betterwithmods.hemp.desc=На самом деле это конопля, только тсс...
+advancement.betterwithmods.detector.desc=Кто сторожит сторожей?
+advancement.betterwithmods.glue.desc=Лошадка?
+advancement.betterwithmods.urn.desc=This Is Teh Urn!
+advancement.betterwithmods.block_dispenser.desc=Начинаю раздачу джута
+advancement.betterwithmods.table_wood.desc=Не совсем Круглый, но сойдёт
+advancement.betterwithmods.wood_gear.desc=Берегись щепок
+advancement.betterwithmods.platform.desc=Надёжнее, чем Curse
+advancement.betterwithmods.composite_bow.desc=Пиу-пиу
+advancement.betterwithmods.pulley.desc=Ни к чему не тянет?
+advancement.betterwithmods.mining_charge.desc=Fire in the hole!
+advancement.betterwithmods.steel_anvil.desc=Реальная наковальня для реальных кузнецов
+advancement.betterwithmods.corner_wood.desc=Прячься в углу
+advancement.betterwithmods.wool_armor.desc=Изготовлено с бабушкиной любовью
+advancement.betterwithmods.tanned_leather_armor.name=Кожаная броня
+advancement.betterwithmods.tanned_leather_armor.desc=Подарок от старого друга
+advancement.betterwithmods.well_bucket.desc=Ведро идёт вверх, ведро идёт вниз. Необъяснимо, но факт!
+advancement.betterwithmods.steel_bellows.desc=Митол!
+advancement.betterwithmods.overpower_hopper.name=Маленький друг
+advancement.betterwithmods.overpower_hopper.desc=В следующий раз подай питание на сито
+advancement.betterwithmods.explosive_recipe.name=Теперь потолок оттирать
+advancement.betterwithmods.explosive_recipe.desc=Надо было убавить огонь

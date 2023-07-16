@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "betterwithmods:aesthetic",
+      "data": 8
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

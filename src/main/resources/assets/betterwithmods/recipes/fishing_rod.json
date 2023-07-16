@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "hcfishing"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fishing_rod"
+  },
+  "pattern": [
+    "  S",
+    " Ss",
+    "Sns"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    },
+    "s": {
+      "ore": "string",
+      "type": "forge:ore_dict"
+    },
+    "n": {
+      "ore": "nuggetIron",
+      "type": "forge:ore_dict"
+    }
+  }
+}

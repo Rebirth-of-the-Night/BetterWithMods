@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 14
+  },
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "I": {
+      "ore": "nuggetSoulforgedSteel",
+      "type": "forge:ore_dict"
+    }
+  }
+}

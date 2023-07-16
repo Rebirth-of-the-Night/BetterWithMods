@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "config",
+      "enabled": "cheaperaxes"
+    }
+  ],
+  "result": {
+    "item": "minecraft:golden_axe"
+  },
+  "pattern": [
+    "D ",
+    "DS",
+    " S"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "D": {
+      "ore": "ingotGold",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "stickWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

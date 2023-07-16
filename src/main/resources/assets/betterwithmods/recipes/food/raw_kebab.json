@@ -1,0 +1,23 @@
+{
+  "result": {
+    "item": "betterwithmods:raw_kebab",
+    "count": 3
+  },
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "ore": "cropCarrot",
+      "type": "forge:ore_dict"
+    },
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+	  "type": "forge:ore_dict",
+	  "ore": "stickWood"
+	}
+  ]
+}

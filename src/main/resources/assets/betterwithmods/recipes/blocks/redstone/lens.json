@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "betterwithmods:lens"
+  },
+  "pattern": [
+    "GDG",
+    "G G",
+    "GLG"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "D": {
+      "ore": "gemDiamond",
+      "type": "forge:ore_dict"
+    },
+    "G": {
+      "ore": "ingotGold",
+      "type": "forge:ore_dict"
+    },
+    "L": {
+      "ore": "blockGlass",
+      "type": "forge:ore_dict"
+    }
+  }
+}

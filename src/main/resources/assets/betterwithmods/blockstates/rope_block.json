@@ -1,0 +1,27 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "betterwithmods:blocks/ropeSide",
+      "north": "#side",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side",
+      "up": "betterwithmods:blocks/ropeTop",
+      "down": "betterwithmods:blocks/ropeTop",
+      "particle": "#side"
+    },
+    "model": "cube",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

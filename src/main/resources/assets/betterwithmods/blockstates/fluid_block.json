@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid"
+  },
+  "variants": {
+    "hellfire": [{
+      "custom": { "fluid": "hellfire" }
+    }],
+    "soulforged_steel": [{
+      "custom": { "fluid": "soulforged_steel" }
+    }]
+  }
+}

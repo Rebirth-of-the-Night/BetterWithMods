@@ -1,0 +1,29 @@
+{
+  "result": {
+    "item": "betterwithmods:bellows",
+    "data": 0
+  },
+  "pattern": [
+    "WWW",
+    "LLL",
+    "BGB"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "B": {
+      "ore": "hideBelt",
+      "type": "forge:ore_dict"
+    },
+    "W": {
+      "item": "#SIDING_WOOD"
+    },
+    "G": {
+      "ore": "gearWood",
+      "type": "forge:ore_dict"
+    },
+    "L": {
+      "ore": "hideTanned",
+      "type": "forge:ore_dict"
+    }
+  }
+}

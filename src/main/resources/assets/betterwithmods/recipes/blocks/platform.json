@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "betterwithmods:platform"
+  },
+  "pattern": [
+    "MWM",
+    " M ",
+    "MWM"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "W": {
+      "item": "betterwithmods:wicker"
+    },
+    "M": {
+      "item": "#HE_PLANKS_MOULDING"
+    }
+  }
+}

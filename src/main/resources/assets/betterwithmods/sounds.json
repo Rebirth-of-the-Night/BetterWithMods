@@ -1,0 +1,134 @@
+{
+  "block.wood.creak": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:wood/wood_creak"
+    ],
+    "subtitle": "subtitles.bwm.wood.creak"
+  },
+  "block.stone.grind": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:stone/stone_grind"
+    ],
+    "subtitle": "subtitles.bwm.stone.grind"
+  },
+  "block.wood.bellow": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:wood/bellow"
+    ],
+    "subtitle": "subtitles.bwm.wood.bellow"
+  },
+  "block.wood.chime": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:wood/bamboo_chime_0",
+      "betterwithmods:wood/bamboo_chime_1",
+      "betterwithmods:wood/bamboo_chime_2",
+      "betterwithmods:wood/bamboo_chime_3"
+    ],
+    "subtitle": "subtitles.bwm.wood.chime"
+  },
+  "block.metal.chime": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:metal/metal_chime_0",
+      "betterwithmods:metal/metal_chime_1",
+      "betterwithmods:metal/metal_chime_2"
+    ],
+    "subtitle": "subtitles.bwm.metal.chime"
+  },
+  "block.metal.hacksaw": {
+    "category": "block",
+    "sounds": [
+      "betterwithmods:metal/hacksaw"
+    ],
+    "subtitle": "subtitles.bwm.metal.hacksaw"
+  },
+  "entity.player.oof": {
+    "category": "player",
+    "sounds": [
+      "betterwithmods:player/oof"
+    ],
+    "subtitle": "subtitles.bwm.oof"
+  },
+  "block.millstone.netherrack":{
+    "category": "block",
+    "sounds": [
+      "mob/ghast/scream1",
+      "mob/ghast/scream2",
+      "mob/ghast/scream3",
+      "mob/ghast/scream4",
+      "mob/ghast/scream5"
+    ],
+    "subtitle": "subtitles.bwm.millstone.netherrack"
+  },
+  "block.saw.cut": {
+    "category": "block",
+    "sounds": [
+      "minecart/base"
+    ],
+    "subtitle": "subtitle.bwm.saw.cut"
+  },
+  "block.mechanical.overpower": {
+    "category": "block",
+    "sounds": [
+      "mob/zombie/wood1",
+      "mob/zombie/wood2",
+      "mob/zombie/wood3",
+      "mob/zombie/wood4"
+    ],
+    "subtitle": "subtitle.bwm.mechanical.overpower"
+  },
+  "block.bloodwood.break": {
+    "category": "block",
+    "sounds": [
+      "mob/ghast/scream1",
+      "mob/ghast/scream2",
+      "mob/ghast/scream3",
+      "mob/ghast/scream4",
+      "mob/ghast/scream5"
+    ],
+    "subtitle": "subtitles.bwm.bloodwood.break"
+  },
+  "ambient.gloom": {
+    "category": "ambient",
+    "sounds": [
+      "ambient/cave/cave1",
+      "ambient/cave/cave10",
+      "ambient/cave/cave11",
+      "ambient/cave/cave12",
+      "ambient/cave/cave13",
+      "ambient/cave/cave2",
+      "ambient/cave/cave3",
+      "ambient/cave/cave4",
+      "ambient/cave/cave5",
+      "ambient/cave/cave6",
+      "ambient/cave/cave7",
+      "ambient/cave/cave8",
+      "ambient/cave/cave9"
+    ]
+  },
+  "ambient.spook": {
+    "category": "ambient",
+    "sounds": [
+      "ambient/weather/thunder1",
+      "ambient/weather/thunder2",
+      "ambient/weather/thunder3",
+      "mob/endermen/portal",
+      "mob/endermen/portal2",
+      "mob/endermen/scream1",
+      "mob/endermen/scream2",
+      "mob/endermen/scream3",
+      "mob/endermen/scream4",
+      "mob/silverfish/say1",
+      "mob/silverfish/say2",
+      "mob/silverfish/say3",
+      "mob/silverfish/say4",
+      "mob/wolf/growl1",
+      "mob/wolf/growl2",
+      "mob/wolf/growl3"
+    ]
+  }
+}

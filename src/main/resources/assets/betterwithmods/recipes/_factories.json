@@ -1,0 +1,12 @@
+{
+  "recipes": {
+    "cutting_recipe": "betterwithmods.common.registry.crafting.CuttingRecipe$Factory",
+    "shaped_color": "betterwithmods.common.registry.crafting.RecipeShapedColor$Factory"
+  },
+  "conditions": {
+    "config": "betterwithmods.module.ConfigHelper$ConditionConfig"
+  },
+  "ingredients": {
+    "minitype": "betterwithmods.module.gameplay.miniblocks.MiniBlockIngredient$Factory"
+  }
+}

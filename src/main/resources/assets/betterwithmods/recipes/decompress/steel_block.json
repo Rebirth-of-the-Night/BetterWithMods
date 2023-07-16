@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "betterwithmods:material",
+    "data": 14,
+    "count": 16
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterwithmods:steel_block",
+      "data": 0
+    }
+  ]
+}
