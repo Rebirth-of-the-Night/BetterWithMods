@@ -33,6 +33,7 @@ minecraft {
 }
 
 repositories {
+    maven { url "https://modmaven.dev" }
     maven { url "https://maven.blamejared.com" }
     maven { url "https://dvs1.progwml6.com/files/maven" }
     maven { url "https://maven.amadornes.com" }
