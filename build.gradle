@@ -45,7 +45,7 @@ repositories {
 }
 
 dependencies {
-    deobfCompile "mezz.jei:jei_1.12.2:4.16.1.302"
+    deobfProvided "mezz.jei:jei_1.12.2:4.16.1.302"
     deobfCompile "applecore:AppleCore:1.12.2-3.4.0"
     deobfCompile "team.chisel.ctm:CTM:MC1.12+"
     deobfCompile "com.azanor.baubles:Baubles:1.12-1.5.2"
