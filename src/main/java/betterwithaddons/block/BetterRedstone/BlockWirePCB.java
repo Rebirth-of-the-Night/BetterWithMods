@@ -101,8 +101,8 @@ public class BlockWirePCB extends Block implements IColorable {
     }
 
     private EnumAttachPosition getAttachPosition(IBlockAccess world, BlockPos pos, EnumFacing facing) {
-        BlockPos blockpos = pos.offset(facing);
-        IBlockState iblockstate = world.getBlockState(pos.offset(facing));
+        // BlockPos blockpos = pos.offset(facing);
+        // IBlockState iblockstate = world.getBlockState(pos.offset(facing));
         if(this.pcbAllowsConnection(world,pos,facing)) {
             return EnumAttachPosition.SIDE;
         } else {
@@ -226,25 +226,25 @@ public class BlockWirePCB extends Block implements IColorable {
     public void onBlockAdded(World world, BlockPos pos, IBlockState state) {
         if(!world.isRemote) {
             this.updateSurroundingRedstone(world, pos, state);
-            Iterator var4 = EnumFacing.Plane.VERTICAL.iterator();
+            Iterator<EnumFacing> var4 = EnumFacing.Plane.VERTICAL.iterator();
 
             EnumFacing enumfacing2;
             while(var4.hasNext()) {
-                enumfacing2 = (EnumFacing)var4.next();
+                enumfacing2 = var4.next();
                 world.notifyNeighborsOfStateChange(pos.offset(enumfacing2), this, true);
             }
 
             var4 = EnumFacing.Plane.HORIZONTAL.iterator();
 
             while(var4.hasNext()) {
-                enumfacing2 = (EnumFacing)var4.next();
+                enumfacing2 = var4.next();
                 this.notifyWireNeighborsOfStateChange(world, pos.offset(enumfacing2));
             }
 
             var4 = EnumFacing.Plane.HORIZONTAL.iterator();
 
             while(var4.hasNext()) {
-                enumfacing2 = (EnumFacing)var4.next();
+                enumfacing2 = var4.next();
                 BlockPos blockpos = pos.offset(enumfacing2);
                 if(world.getBlockState(blockpos).isNormalCube()) {
                     this.notifyWireNeighborsOfStateChange(world, blockpos.up());
@@ -439,6 +439,7 @@ public class BlockWirePCB extends Block implements IColorable {
         }
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public IBlockState withMirror(IBlockState p_withMirror_1_, Mirror p_withMirror_2_) {
         switch(p_withMirror_2_.ordinal()) {

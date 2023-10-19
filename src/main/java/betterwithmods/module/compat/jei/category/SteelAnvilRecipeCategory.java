@@ -5,6 +5,7 @@ import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IGuiItemStackGroup;
 import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IRecipeWrapper;
 import mezz.jei.api.recipe.wrapper.IShapedCraftingRecipeWrapper;
 import mezz.jei.util.Translator;
@@ -44,8 +45,8 @@ public class SteelAnvilRecipeCategory extends BWMRecipeCategory<IRecipeWrapper> 
             }
         }
 
-        List<List<ItemStack>> inputs = ingredients.getInputs(ItemStack.class);
-        List<List<ItemStack>> outputs = ingredients.getOutputs(ItemStack.class);
+        List<List<ItemStack>> inputs = ingredients.getInputs(VanillaTypes.ITEM);
+        List<List<ItemStack>> outputs = ingredients.getOutputs(VanillaTypes.ITEM);
 
         if (recipeWrapper instanceof IShapedCraftingRecipeWrapper) {
             IShapedCraftingRecipeWrapper wrapper = (IShapedCraftingRecipeWrapper) recipeWrapper;
@@ -53,7 +54,7 @@ public class SteelAnvilRecipeCategory extends BWMRecipeCategory<IRecipeWrapper> 
         } else {
             setInputStacks(stacks, inputs);
         }
-        stacks.set(craftOutputSlot, outputs.get(0));
+        setOutput(stacks, outputs.get(0));
     }
 
 

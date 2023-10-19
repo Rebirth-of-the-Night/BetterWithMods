@@ -8,6 +8,7 @@ import betterwithmods.module.compat.jei.wrapper.BulkRecipeWrapper;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -49,7 +50,7 @@ public class CookingPotRecipeCategory extends BWMRecipeCategory<BulkRecipeWrappe
         this.flame = helper.createAnimatedDrawable(flameDrawable, 200, IDrawableAnimated.StartDirection.BOTTOM, false);
 
         IGuiItemStackGroup stacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(IOutput.class);
+        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(() -> IOutput.class);
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -67,7 +68,7 @@ public class CookingPotRecipeCategory extends BWMRecipeCategory<BulkRecipeWrappe
             stacks.set(19, heatSources);
         }
 
-        List<List<ItemStack>> inputList = ingredients.getInputs(ItemStack.class);
+        List<List<ItemStack>> inputList = ingredients.getInputs(VanillaTypes.ITEM);
         craftingGrid.setInputs(stacks, inputList);
     }
 }

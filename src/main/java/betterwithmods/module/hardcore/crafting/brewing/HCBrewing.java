@@ -26,7 +26,6 @@ import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 import java.util.Iterator;
 import java.util.List;
@@ -217,7 +216,7 @@ public class HCBrewing extends Feature {
                 typeConversions.add(moddedPotion);
             }
 
-            List<IBrewingRecipe> recipes = ReflectionHelper.getPrivateValue(BrewingRecipeRegistry.class, null, "recipes");
+            List<IBrewingRecipe> recipes = BrewingRecipeRegistry.getRecipes();
             ListIterator<IBrewingRecipe> iterator = recipes.listIterator();
 
             while (iterator.hasNext()) {

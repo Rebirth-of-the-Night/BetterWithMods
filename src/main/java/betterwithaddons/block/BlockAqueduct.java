@@ -66,9 +66,9 @@ public class BlockAqueduct extends BlockBase implements IHasVariants {
                     ((TileEntityAqueductWater) te).setDistanceFromSource(dist);
             }
         }
-        else if(waterState.getBlock() instanceof BlockAqueductWater)
+        else if(block instanceof BlockAqueductWater)
         {
-            ((BlockAqueductWater) waterState.getBlock()).checkAndDry(worldIn,pos.up(),waterState);
+            ((BlockAqueductWater) block).checkAndDry(worldIn,pos.up(),waterState);
         }
     }
 

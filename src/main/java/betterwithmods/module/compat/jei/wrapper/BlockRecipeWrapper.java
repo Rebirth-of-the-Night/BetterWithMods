@@ -4,8 +4,10 @@ import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.registry.block.recipe.BlockRecipe;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IRecipeWrapper;
-import net.minecraft.item.ItemStack;
+
+import java.util.Collections;
 
 import javax.annotation.Nonnull;
 
@@ -28,8 +30,8 @@ public class BlockRecipeWrapper<T extends BlockRecipe> implements IRecipeWrapper
 
     @Override
     public void getIngredients(@Nonnull IIngredients ingredients) {
-        ingredients.setInput(ItemStack.class, helpers.getStackHelper().toItemStackList(recipe.getInput()));
-        ingredients.setOutputLists(IOutput.class, recipe.getRecipeOutput().getExpandedOutputs(boxes));
+        ingredients.setInputLists(VanillaTypes.ITEM, Collections.singletonList(helpers.getStackHelper().toItemStackList(recipe.getInput())));
+        ingredients.setOutputLists(() -> IOutput.class, recipe.getRecipeOutput().getExpandedOutputs(boxes));
     }
 
     public T getRecipe() {

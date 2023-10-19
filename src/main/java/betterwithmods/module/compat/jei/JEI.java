@@ -154,7 +154,7 @@ public class JEI implements IModPlugin {
     @Override
     public void registerIngredients(IModIngredientRegistration registry) {
         StackHelper stackHelper = Internal.getStackHelper();
-        doAllOutputs(clazz -> registry.register(clazz, Collections.emptySet(), new OutputHelper<>(stackHelper), new OutputRenderer<>()));
+        doAllOutputs(clazz -> registry.register(() -> clazz, Collections.emptySet(), new OutputHelper<IOutput>(stackHelper), new OutputRenderer<IOutput>()));
     }
 
     @Override

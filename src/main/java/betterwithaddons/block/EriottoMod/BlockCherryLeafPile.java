@@ -93,9 +93,7 @@ public class BlockCherryLeafPile extends BlockBase {
 
     @Override
     public boolean canPlaceBlockAt(World world, BlockPos pos) {
-        IBlockState state = world.getBlockState(pos.down());
-        Material material = state.getMaterial();
-
+        // IBlockState state = world.getBlockState(pos.down());
         return /*state.getBlock() instanceof BlockLiquid || state.getBlock() instanceof BlockFluidBase &&*/ world.isSideSolid(pos.down(),EnumFacing.UP);
     }
 

@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BlockCherryBox extends BlockContainerBase implements IHasVariants {
-    public static final PropertyEnum VARIANT = PropertyEnum.create("variant", CherryBoxType.class);
+    public static final PropertyEnum<CherryBoxType> VARIANT = PropertyEnum.create("variant", CherryBoxType.class);
 
     public enum CherryBoxType implements IStringSerializable
     {

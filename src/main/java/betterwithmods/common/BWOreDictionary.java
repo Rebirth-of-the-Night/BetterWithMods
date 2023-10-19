@@ -61,6 +61,7 @@ public class BWOreDictionary {
         //TODO for 1.13
         registerOre("wool", new ItemStack(Blocks.WOOL, OreDictionary.WILDCARD_VALUE));
         registerOre("scroll", BWMItems.ARCANE_SCROLL);
+        registerOre("book", BWMItems.MANUAL, Items.BOOK, Items.WRITTEN_BOOK);
         registerOre("dung", ItemMaterial.getMaterial(ItemMaterial.EnumMaterial.DUNG));
         registerOre("padding", ItemMaterial.getMaterial(ItemMaterial.EnumMaterial.PADDING));
         registerOre("soap", ItemMaterial.getMaterial(ItemMaterial.EnumMaterial.SOAP));

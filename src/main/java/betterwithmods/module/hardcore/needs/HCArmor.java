@@ -5,12 +5,14 @@ import betterwithmods.common.BWRegistry;
 import betterwithmods.common.penalties.ArmorPenalties;
 import betterwithmods.module.Feature;
 import betterwithmods.module.ModuleLoader;
+import betterwithmods.module.gameplay.miniblocks.MiniBlockIngredient;
 import betterwithmods.util.item.StackMap;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.oredict.OreDictionary;
+import net.minecraftforge.oredict.OreIngredient;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 /**
@@ -33,7 +35,6 @@ public class HCArmor extends Feature {
 
 
     public static void initWeights() {
-
         weights.put(Items.CHAINMAIL_HELMET, OreDictionary.WILDCARD_VALUE, 3);
         weights.put(Items.CHAINMAIL_CHESTPLATE, OreDictionary.WILDCARD_VALUE, 4);
         weights.put(Items.CHAINMAIL_LEGGINGS, OreDictionary.WILDCARD_VALUE, 4);
@@ -61,10 +62,19 @@ public class HCArmor extends Feature {
     }
 
     @Override
+    public void preInit(FMLPreInitializationEvent event) {
+        BWRegistry.PENALTY_HANDLERS.add(penalties = new ArmorPenalties());
+        if (shieldRebalance) {
+            // BWMRecipes.removeRecipe("minecraft:shield");
+        }
+    }
+
+    @Override
     public void init(FMLInitializationEvent event) {
         if (shieldRebalance) {
+            // Broken
             addHardcoreRecipe(new ShapedOreRecipe(null, new ItemStack(Items.SHIELD),
-                    "SWS", "WIW", " W ", 'S', "strapLeather", 'W', "sidingWood", 'I', "ingotIron"
+                    "SWS", "WIW", " W ", 'S', "strapLeather", 'W', new MiniBlockIngredient("siding", new OreIngredient("plankWood")), 'I', "ingotIron"
             ).setRegistryName("minecraft:shield"));
         }
         initWeights();
@@ -78,11 +88,6 @@ public class HCArmor extends Feature {
     @Override
     public void setupConfig() {
         shieldRebalance = loadPropBool("Shield Rebalance", "Experimental recipes for rebalacing shields", false);
-    }
-
-    @Override
-    public void preInit(FMLPreInitializationEvent event) {
-        BWRegistry.PENALTY_HANDLERS.add(penalties = new ArmorPenalties());
     }
 
     @Override

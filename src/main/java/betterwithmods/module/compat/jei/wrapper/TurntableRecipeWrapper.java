@@ -4,7 +4,9 @@ import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.registry.block.recipe.TurntableRecipe;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.ingredients.IIngredients;
-import net.minecraft.item.ItemStack;
+import mezz.jei.api.ingredients.VanillaTypes;
+
+import java.util.Collections;
 
 import javax.annotation.Nonnull;
 
@@ -21,8 +23,8 @@ public class TurntableRecipeWrapper extends BlockRecipeWrapper<TurntableRecipe> 
 
     @Override
     public void getIngredients(@Nonnull IIngredients ingredients) {
-        ingredients.setInput(ItemStack.class, helpers.getStackHelper().toItemStackList(recipe.getInput()));
-        ingredients.setOutput(ItemStack.class, recipe.getRepresentative());
-        ingredients.setOutputLists(IOutput.class, recipe.getRecipeOutput().getExpandedOutputs(2));
+        ingredients.setInputLists(VanillaTypes.ITEM, Collections.singletonList(helpers.getStackHelper().toItemStackList(recipe.getInput())));
+        ingredients.setOutput(VanillaTypes.ITEM, recipe.getRepresentative());
+        ingredients.setOutputLists(() -> IOutput.class, recipe.getRecipeOutput().getExpandedOutputs(2));
     }
 }

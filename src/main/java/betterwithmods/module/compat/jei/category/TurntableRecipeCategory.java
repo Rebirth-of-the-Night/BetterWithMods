@@ -34,7 +34,7 @@ public class TurntableRecipeCategory extends BWMRecipeCategory<TurntableRecipeWr
     @Override
     public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull TurntableRecipeWrapper wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(IOutput.class);
+        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(() -> IOutput.class);
 
         guiItemStacks.init(0, true, 5, 9);
         guiItemStacks.init(1, false, 32, 9);

@@ -80,6 +80,7 @@ public class BlockChandelier extends BlockBase {
         worldIn.spawnParticle(EnumParticleTypes.FLAME, x + z1, y, z + x2, 0.0D, 0.0D, 0.0D, new int[0]);*/
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos frompos) {
         super.neighborChanged(state, worldIn, pos, blockIn,frompos);

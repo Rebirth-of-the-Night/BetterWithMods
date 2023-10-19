@@ -5,6 +5,7 @@ import betterwithmods.common.BWRegistry;
 import betterwithmods.common.items.ItemMaterial;
 import betterwithmods.module.Feature;
 import betterwithmods.module.gameplay.AnvilRecipes;
+import betterwithmods.module.gameplay.miniblocks.MiniBlockIngredient;
 import betterwithmods.util.StackIngredient;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -12,6 +13,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.oredict.OreIngredient;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 /**
@@ -63,7 +65,10 @@ public class HCRedstone extends Feature {
         //New observer recipe :)
         AnvilRecipes.addSteelShapedRecipe(new ResourceLocation("betterwithmods", "observer"), new ItemStack(Blocks.OBSERVER), "LSSL", "SRRS", "STTS", 'S', "stone", 'R', "dustRedstone", 'T', Blocks.REDSTONE_TORCH, 'L', ItemMaterial.getMaterial(ItemMaterial.EnumMaterial.POLISHED_LAPIS));
 
-
+        // Put tripwire hook recipe in here, as it requires miniblock ingredients
+        addHardcoreRecipe(new ShapedOreRecipe(null, Blocks.TRIPWIRE_HOOK, 
+                "N", "M", "R", 'N', new MiniBlockIngredient("moulding", new OreIngredient("plankWood")), 'M', "nuggetIron", 'R', "dustRedstone"
+        ).setRegistryName("tripwire_hook"));
     }
 
     @Override

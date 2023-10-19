@@ -4,6 +4,7 @@ import betterwithmods.module.gameplay.miniblocks.MiniRecipe;
 import com.google.common.collect.Lists;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IStackHelper;
 import mezz.jei.plugins.vanilla.crafting.ShapelessRecipeWrapper;
 import net.minecraft.item.ItemStack;
@@ -27,8 +28,8 @@ public class MiniRecipeWrapper extends ShapelessRecipeWrapper<MiniRecipe> {
         for (ItemStack input : inputs) {
             outputs.add(recipe.getOutput(input));
         }
-        ingredients.setInputLists(ItemStack.class, h.expandRecipeItemStackInputs(inputs));
-        ingredients.setOutputLists(ItemStack.class, h.expandRecipeItemStackInputs(outputs));
+        ingredients.setInputLists(VanillaTypes.ITEM, h.expandRecipeItemStackInputs(inputs));
+        ingredients.setOutputLists(VanillaTypes.ITEM, h.expandRecipeItemStackInputs(outputs));
         super.getIngredients(ingredients);
     }
 }

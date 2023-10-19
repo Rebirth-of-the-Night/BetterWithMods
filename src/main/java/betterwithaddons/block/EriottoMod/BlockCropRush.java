@@ -18,14 +18,12 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.EnumPlantType;
-import net.minecraftforge.common.IPlantable;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class BlockCropRush extends BlockCrops implements IPlantable, IHasVariants {
-    private boolean disabled;
+public class BlockCropRush extends BlockCrops implements IHasVariants {
 
     public BlockCropRush()
     {

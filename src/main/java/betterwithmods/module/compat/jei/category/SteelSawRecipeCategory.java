@@ -8,6 +8,7 @@ import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IGuiItemStackGroup;
 import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.util.Translator;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -32,13 +33,13 @@ public class SteelSawRecipeCategory extends BWMRecipeCategory<BlockRecipeWrapper
 
 
     @Override
-    public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BlockRecipeWrapper wrapper, @Nonnull IIngredients ingredients) {
+    public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BlockRecipeWrapper<SawRecipe> wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStacks = layout.getItemStacks();
         guiItemStacks.init(0, true, 8, 9);
         guiItemStacks.init(1, false, 57, 9);
         guiItemStacks.init(2, false, 32, 27);
-        guiItemStacks.set(0, ingredients.getInputs(ItemStack.class).get(0));
-        guiItemStacks.set(1, ingredients.getOutputs(ItemStack.class).stream().flatMap(List::stream).collect(Collectors.toList()));
+        guiItemStacks.set(0, ingredients.getInputs(VanillaTypes.ITEM).get(0));
+        guiItemStacks.set(1, ingredients.getOutputs(VanillaTypes.ITEM).stream().flatMap(List::stream).collect(Collectors.toList()));
         guiItemStacks.set(2, new ItemStack(BWMBlocks.SAW));
     }
 }

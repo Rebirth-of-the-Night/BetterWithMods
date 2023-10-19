@@ -69,12 +69,13 @@ public class BlockSlat extends BlockBase implements IHasVariants, ISlat {
         return new BlockStateContainer(this, new IProperty[] { SANDFILL });
     }
 
+    @SuppressWarnings("deprecation")
     @SideOnly(Side.CLIENT)
     public boolean shouldSideBeRendered(IBlockState state, IBlockAccess world, BlockPos pos, EnumFacing side) {
         IBlockState otherstate = world.getBlockState(pos.offset(side));
         Block otherblock = otherstate.getBlock();
 
-        return otherblock instanceof ISlat?false:super.shouldSideBeRendered(state, world, pos, side);
+        return otherblock instanceof ISlat ? false : super.shouldSideBeRendered(state, world, pos, side);
     }
 
     @Override

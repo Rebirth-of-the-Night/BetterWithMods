@@ -42,7 +42,7 @@ public class KilnRecipeCategory extends BWMRecipeCategory<KilnRecipeWrapper> {
         this.flame = helper.createAnimatedDrawable(flameDrawable, 200, IDrawableAnimated.StartDirection.BOTTOM, false);
 
         IGuiItemStackGroup stacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(IOutput.class);
+        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(() -> IOutput.class);
 
         stacks.init(0, true, 20, 31);
         createSlotsHorizontal(outputs,false, 3, 1, 87,32);

@@ -5,8 +5,8 @@ import betterwithmods.common.registry.HopperInteractions;
 import com.google.common.collect.Lists;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IRecipeWrapper;
-import net.minecraft.item.ItemStack;
 
 import java.util.List;
 
@@ -28,11 +28,11 @@ public class HopperRecipeWrapper implements IRecipeWrapper {
 
     @Override
     public void getIngredients(IIngredients ingredients) {
-        ingredients.setInputLists(ItemStack.class, Lists.newArrayList(helpers.getStackHelper().toItemStackList(recipe.getInputs()), recipe.getFilters(), recipe.getInputContainer()));
+        ingredients.setInputLists(VanillaTypes.ITEM, Lists.newArrayList(helpers.getStackHelper().toItemStackList(recipe.getInputs()), recipe.getFilters(), recipe.getInputContainer()));
         List<List<IOutput>> outputs = recipe.getRecipeOutputWorld().getExpandedOutputs(2);
         outputs.addAll(recipe.getRecipeOutputInsert().getExpandedOutputs(2));
-        ingredients.setOutputLists(IOutput.class, outputs);
-        ingredients.setOutputs(ItemStack.class, recipe.getOutputContainer());
+        ingredients.setOutputLists(() -> IOutput.class, outputs);
+        ingredients.setOutputs(VanillaTypes.ITEM, recipe.getOutputContainer());
     }
 
 }
