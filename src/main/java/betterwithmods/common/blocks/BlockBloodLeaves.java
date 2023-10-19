@@ -62,7 +62,6 @@ public class BlockBloodLeaves extends BlockLeaves {
         return new ItemStack(BWMBlocks.BLOOD_LEAVES);
     }
 
-    @SuppressWarnings("deprecation")
     @Override
     public boolean shouldSideBeRendered(IBlockState state, IBlockAccess world, BlockPos pos, EnumFacing side) {
         this.leavesFancy = !Blocks.LEAVES.isOpaqueCube(state);

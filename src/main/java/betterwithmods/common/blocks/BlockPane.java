@@ -51,7 +51,6 @@ public class BlockPane extends BWMBlock {
         return false;
     }
 
-    @SuppressWarnings("deprecation")
     @Override
     public void addCollisionBoxToList(IBlockState state, World world, BlockPos pos, AxisAlignedBB entityBox, List<AxisAlignedBB> collidingBoxes, Entity entity, boolean pass) {
         state = state.getActualState(world, pos);
