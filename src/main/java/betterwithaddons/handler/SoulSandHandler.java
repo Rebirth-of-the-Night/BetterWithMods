@@ -84,7 +84,7 @@ public class SoulSandHandler {
         {
             EntityXPOrb entity = TrackedItemsIterator.next();
             World world = entity.world;
-            int xpValue = entity.getXpValue();
+            // int xpValue = entity.getXpValue();
             BlockPos pos = entity.getPosition();
             boolean remove = false;
             if(entity.isDead)

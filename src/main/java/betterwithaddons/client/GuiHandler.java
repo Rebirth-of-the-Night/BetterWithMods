@@ -41,7 +41,7 @@ public class GuiHandler implements IGuiHandler
         {
             if (ID == registered.guiID)
             {
-                Class containerClass = null;
+                Class<?> containerClass = null;
                 try
                 {
                     containerClass = Class.forName(registered.containerClass);
@@ -53,7 +53,7 @@ public class GuiHandler implements IGuiHandler
 
                 if (containerClass != null)
                 {
-                    Constructor constructor = null;
+                    Constructor<?> constructor = null;
                     try
                     {
                         constructor = containerClass.getConstructor(EntityPlayer.class, World.class, int.class, int.class, int.class);
@@ -104,7 +104,7 @@ public class GuiHandler implements IGuiHandler
         {
             if (ID == registered.guiID)
             {
-                Class guiClass = null;
+                Class<?> guiClass = null;
                 try
                 {
                     guiClass = Class.forName(registered.guiClass);
@@ -117,7 +117,7 @@ public class GuiHandler implements IGuiHandler
                 if (guiClass != null)
                 {
 
-                    Constructor constructor = null;
+                    Constructor<?> constructor = null;
                     try
                     {
                         constructor = guiClass.getConstructor(EntityPlayer.class, World.class, int.class, int.class, int.class);

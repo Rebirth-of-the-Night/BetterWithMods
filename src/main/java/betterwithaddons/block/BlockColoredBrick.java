@@ -14,7 +14,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BlockColoredBrick extends BlockColored implements IHasVariants {
-    private boolean disabled;
 
     public BlockColoredBrick()
     {

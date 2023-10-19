@@ -59,6 +59,7 @@ public class ToolShardModelHandler {
         }
     }
 
+    @SuppressWarnings({"deprecation", "unchecked"})
     protected List<String> getVariantNames(ModelLoader loader, Item item)
     {
         if(getVariantNames == null)

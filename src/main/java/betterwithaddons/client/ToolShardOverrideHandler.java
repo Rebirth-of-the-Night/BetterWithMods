@@ -3,14 +3,12 @@ package betterwithaddons.client;
 import betterwithaddons.item.ModItems;
 import com.google.common.collect.ImmutableList;
 import net.minecraft.client.renderer.block.model.IBakedModel;
-import net.minecraft.client.renderer.block.model.ItemOverride;
 import net.minecraft.client.renderer.block.model.ItemOverrideList;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
-import net.minecraftforge.common.model.IModelState;
 
 import java.util.HashMap;
 
@@ -27,6 +25,7 @@ public class ToolShardOverrideHandler extends ItemOverrideList
         brokenModels.put(item,model);
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public IBakedModel handleItemState(IBakedModel originalModel, ItemStack stack, World world, EntityLivingBase entity)
     {

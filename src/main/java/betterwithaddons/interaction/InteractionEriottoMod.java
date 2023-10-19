@@ -28,6 +28,7 @@ import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFishFood;
 import net.minecraft.item.ItemStack;
@@ -37,6 +38,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.DyeUtils;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.OreIngredient;
 import net.minecraftforge.oredict.ShapedOreRecipe;
@@ -439,14 +441,14 @@ public class InteractionEriottoMod extends Interaction {
     }
 
     private void addArmorFinishRecipe(String group,ItemStack out, ItemStack in, int spirit) {
-        ItemStack gold = new ItemStack(Items.GOLD_NUGGET);
-        ItemStack dye = new ItemStack(Items.DYE,1,14);
+        // ItemStack gold = new ItemStack(Items.GOLD_NUGGET);
+        // ItemStack redDye = new ItemStack(Items.DYE,1,14);
         ItemStack washi = ModItems.MATERIAL_JAPAN.getMaterial("washi");
-        //GameRegistry.addShapelessRecipe(out,gold,gold,gold,dye,in,dye,washi,washi,washi);
-        CraftingManagerInfuser.getInstance().addRecipe(new ArmorDecorateRecipe(new ResourceLocation(Reference.MOD_ID,group), out, "ggg", "dad", "www", 'g', "nuggetGold", 'd', "dye", 'a', in, 'w', ModItems.MATERIAL_JAPAN.getMaterial("washi")),spirit);
+        //GameRegistry.addShapelessRecipe(out,gold,gold,gold,redDye,in,redDye,washi,washi,washi);
+        CraftingManagerInfuser.getInstance().addRecipe(new ArmorDecorateRecipe(new ResourceLocation(Reference.MOD_ID,group), out, "ggg", "dad", "www", 'g', "nuggetGold", 'd', "dyeRed", 'a', in, 'w', washi),spirit);
     }
 
-    private void addFoldingRecipe(ItemStack out, ItemStack in) {
-        //GameRegistry.addShapedRecipe(out, "t", "s", 't', in, 's', new ItemStack(Items.STICK));
-    }
+    // private void addFoldingRecipe(ItemStack out, ItemStack in) {
+    //     // GameRegistry.addShapedRecipe(out, "t", "s", 't', in, 's', new ItemStack(Items.STICK));
+    // }
 }

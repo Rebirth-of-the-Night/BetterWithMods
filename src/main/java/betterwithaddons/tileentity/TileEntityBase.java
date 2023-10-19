@@ -139,6 +139,7 @@ public abstract class TileEntityBase extends TileEntity
         return redstonePowered;
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public <T> T getCapability(net.minecraftforge.common.capabilities.Capability<T> capability, net.minecraft.util.EnumFacing facing)
     {

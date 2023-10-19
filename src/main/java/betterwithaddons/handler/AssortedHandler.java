@@ -11,9 +11,7 @@ import betterwithaddons.interaction.InteractionBWM;
 import betterwithaddons.item.ModItems;
 import betterwithaddons.item.rbdtools.IConvenientTool;
 import betterwithaddons.potion.ModPotions;
-import betterwithaddons.util.BannerUtil;
 import betterwithaddons.util.InventoryUtil;
-import betterwithaddons.util.MiscUtil;
 import betterwithmods.common.BWMBlocks;
 import net.minecraft.block.*;
 import net.minecraft.block.state.IBlockState;
@@ -44,15 +42,12 @@ import net.minecraftforge.event.entity.living.LivingAttackEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
-import net.minecraftforge.event.entity.player.BonemealEvent;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
-import net.minecraftforge.fml.common.eventhandler.Event;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -72,7 +67,7 @@ public class AssortedHandler {
     public static BlockPos[] ScaleQuarries = new BlockPos[ScaleQuarryAmt];*/
     static Random rng = new Random();
     private final int BossCleanupThreshold = 10;
-    private final float HardnessThreshold = 5.0f;
+    // private final float HardnessThreshold = 5.0f;
     private HashMap<UUID, BossInfoServer> BossList = new HashMap<>();
 
     /*public static boolean doScaleQuarriesExist() {

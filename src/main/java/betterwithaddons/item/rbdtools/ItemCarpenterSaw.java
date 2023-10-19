@@ -1,6 +1,5 @@
 package betterwithaddons.item.rbdtools;
 
-import betterwithmods.common.blocks.mini.BlockMini;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -43,8 +42,9 @@ public class ItemCarpenterSaw extends ItemAxeConvenient {
         return false;
     }
 
+    @SuppressWarnings("deprecation")
     public static boolean isCarpentry(ItemStack tool, IBlockState state) {
-        return (state.getMaterial() == Material.WOOD || state.getMaterial() == BlockMini.MINI) && !ItemKukri.isTree(tool, state);
+        return (state.getMaterial() == Material.WOOD || state.getMaterial() == betterwithmods.common.blocks.mini.BlockMini.MINI) && !ItemKukri.isTree(tool, state);
     }
 
 }

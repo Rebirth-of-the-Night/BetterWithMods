@@ -68,6 +68,7 @@ public class BlockRopeSideways extends BlockContainerBase {
         return true;
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public float getBlockHardness(IBlockState blockState, World worldIn, BlockPos pos) {
         if(blockState.getValue(HAS_PLANKS))
@@ -216,6 +217,7 @@ public class BlockRopeSideways extends BlockContainerBase {
         return state.getValue(HAS_PLANKS) ? AABB_PLATFORM : state.getValue(SHAPE).getAABB();
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public RayTraceResult collisionRayTrace(IBlockState state, @Nonnull World world, @Nonnull BlockPos pos, @Nonnull Vec3d start, @Nonnull Vec3d end) {
         if(state.getValue(SHAPE) == EnumRopeShape.CROSS && !state.getValue(HAS_PLANKS))

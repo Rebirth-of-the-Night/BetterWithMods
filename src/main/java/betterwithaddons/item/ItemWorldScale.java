@@ -1,23 +1,12 @@
 package betterwithaddons.item;
 
-import betterwithaddons.handler.AssortedHandler;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.EnumRarity;
-import net.minecraft.item.IItemPropertyGetter;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-import javax.annotation.Nullable;
-
 public class ItemWorldScale extends Item {
-
-    private boolean disabled;
 
     public ItemWorldScale() {
         /*this.addPropertyOverride(new ResourceLocation("shine"), new IItemPropertyGetter() {

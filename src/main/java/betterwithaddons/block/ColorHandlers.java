@@ -56,6 +56,7 @@ public class ColorHandlers {
         return tintIndex == 1 ? 0xFFFFFF : armor.getColor(stack);
     };
 
+    @SuppressWarnings("deprecation")
     public static final IItemColor BLOCK_ITEM_COLORING = (stack, tintIndex) -> {
         IBlockState state = ((ItemBlock)stack.getItem()).getBlock().getStateFromMeta(stack.getMetadata());
         IBlockColor blockColor = ((IColorable)state.getBlock()).getBlockColor();

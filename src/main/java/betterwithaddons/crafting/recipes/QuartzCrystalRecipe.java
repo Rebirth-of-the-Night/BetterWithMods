@@ -40,7 +40,6 @@ public class QuartzCrystalRecipe extends CookingPotRecipe {
         //Crystallizing piles cannot stack.
         BlockPos pos = tile.getPos();
         BlockPos lidpos = pos.up();
-        IBlockState state = world.getBlockState(pos);
         IBlockState lidstate = world.getBlockState(lidpos);
 
         int lidstrength = getLidStrength(world,lidpos,lidstate);

@@ -8,7 +8,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 public class ItemYa extends Item {
-    private boolean disabled;
 
     public ItemYa() {
         super();

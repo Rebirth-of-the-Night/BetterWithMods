@@ -4,12 +4,10 @@ import betterwithaddons.lib.Reference;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Maps;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.BakedQuad;
 import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
-import net.minecraft.client.renderer.block.model.ItemCameraTransforms.TransformType;
 import net.minecraft.client.renderer.block.model.ItemOverrideList;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.vertex.VertexFormat;
@@ -17,30 +15,27 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.BakedItemModel;
 import net.minecraftforge.client.model.IModel;
-import net.minecraftforge.client.model.ModelDynBucket;
 import net.minecraftforge.client.model.PerspectiveMapWrapper;
 import net.minecraftforge.client.model.pipeline.UnpackedBakedQuad;
 import net.minecraftforge.common.model.IModelState;
 import net.minecraftforge.common.model.TRSRTransformation;
-import org.apache.commons.lang3.tuple.Pair;
 
-import javax.annotation.Nullable;
-import javax.vecmath.Matrix4f;
 import javax.vecmath.Vector4f;
 import java.util.*;
 
 public class ModelToolShardInner implements IModel {
     private final ImmutableList<ResourceLocation> textures;
 
-    private static final float NORTH_Z = 7.496f / 16f;
-    private static final float SOUTH_Z = 8.504f / 16f;
-    private static final float Z_OFFSET = 0.002f / 16f;
+    // private static final float NORTH_Z = 7.496f / 16f;
+    // private static final float SOUTH_Z = 8.504f / 16f;
+    // private static final float Z_OFFSET = 0.002f / 16f;
 
     public ModelToolShardInner(ImmutableList<ResourceLocation> textures)
     {
         this.textures = textures;
     }
 
+    @SuppressWarnings("unused")
     private static ImmutableList<ResourceLocation> getTextureListFromMap(ImmutableMap<String, String> textures)
     {
         ImmutableList.Builder<ResourceLocation> builder = ImmutableList.builder();
@@ -102,7 +97,7 @@ public class ModelToolShardInner implements IModel {
         }
         TextureAtlasSprite particle = bakedTextureGetter.apply(textures.isEmpty() ? new ResourceLocation("missingno") : textures.get(0));
         ImmutableMap<ItemCameraTransforms.TransformType, TRSRTransformation> map = PerspectiveMapWrapper.getTransforms(state);
-        return new BakedItemModel(builder.build(), particle, Maps.immutableEnumMap(map), ItemOverrideList.NONE);
+        return new BakedItemModel(builder.build(), particle, Maps.immutableEnumMap(map), ItemOverrideList.NONE, true);
     }
 
     public static ImmutableList<BakedQuad> getQuadsForSprite(int tint, TextureAtlasSprite template, TextureAtlasSprite sprite, VertexFormat format, Optional<TRSRTransformation> transform)
@@ -254,6 +249,7 @@ public class ModelToolShardInner implements IModel {
         return builder.build();
     }
 
+    @SuppressWarnings("unused")
     private static int multiplyColors(int color1, int color2)
     {
         //associativity of multiplication
@@ -286,6 +282,7 @@ public class ModelToolShardInner implements IModel {
         return (pixels[index] >> 24 & 0xFF) == 0 || (maskpixels[maskindex] >> 24 & 0xFF) == 0;
     }
 
+    @SuppressWarnings("unused")
     private static void addSideQuad(ImmutableList.Builder<BakedQuad> builder, BitSet faces, VertexFormat format, Optional<TRSRTransformation> transform, EnumFacing side, int tint, TextureAtlasSprite sprite, int uMax, int vMax, int u, int v)
     {
         int si = side.ordinal();

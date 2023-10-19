@@ -8,7 +8,8 @@ import com.google.common.collect.Lists;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeCategory;
+import mezz.jei.api.ingredients.VanillaTypes;
+import mezz.jei.api.recipe.IRecipeCategory;
 import mezz.jei.util.Translator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
@@ -17,9 +18,8 @@ import net.minecraft.util.ResourceLocation;
 import javax.annotation.Nonnull;
 import java.awt.*;
 import java.util.List;
-import java.util.Map;
 
-public class TransmutationRecipeCategory extends BlankRecipeCategory<SmeltingRecipeWrapper> {
+public class TransmutationRecipeCategory implements IRecipeCategory<SmeltingRecipeWrapper> {
     public static final String UID = "bwa.infuser.transmutation";
     @Nonnull
     private final IDrawable background;
@@ -54,8 +54,6 @@ public class TransmutationRecipeCategory extends BlankRecipeCategory<SmeltingRec
 
     @Override
     public void drawExtras(Minecraft minecraft) {
-        super.drawExtras(minecraft);
-
         String text = Translator.translateToLocal("inv.infuser.throw.name");
         int x = 41 - minecraft.fontRenderer.getStringWidth(text)/2;
         minecraft.fontRenderer.drawString(text,x,20, new Color(64,0,0).getRGB());
@@ -80,7 +78,7 @@ public class TransmutationRecipeCategory extends BlankRecipeCategory<SmeltingRec
         };
         handler.add(inputSlot);
 
-        guiItemStacks.init(1, false, new OutputRenderer<>(ItemStack.class, handler), 107, 29, 16, 16, 0, 0);
+        guiItemStacks.init(1, false, new OutputRenderer<>(VanillaTypes.ITEM, handler), 107, 29, 16, 16, 0, 0);
 
         guiItemStacks.set(0, recipeWrapper.getInputs());
         guiItemStacks.set(1, recipeWrapper.getOutputs());

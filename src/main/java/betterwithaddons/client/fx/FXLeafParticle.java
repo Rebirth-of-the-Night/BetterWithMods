@@ -12,14 +12,11 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.client.FMLClientHandler;
 import org.lwjgl.opengl.GL11;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 public class FXLeafParticle extends Particle {
 
     public static final ResourceLocation particles = new ResourceLocation(Reference.MOD_ID,"textures/entity/leaf.png");
 
-    private static final Queue<FXLeafParticle> queuedRenders = new ArrayDeque<>();
+    // private static final Queue<FXLeafParticle> queuedRenders = new ArrayDeque<>();
 
     public FXLeafParticle(World world, double d, double d1, double d2, float size, float red, float green, float blue, boolean distanceLimit, float maxAge) {
         super(world, d, d1, d2, 0.0D, 0.0D, 0.0D);

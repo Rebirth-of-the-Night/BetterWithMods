@@ -24,7 +24,6 @@ import javax.annotation.Nullable;
 
 public class ItemGreatbow extends ItemBow {
     public static final String TAG_LIGHTNING_CHARGE = "LightningCharge";
-    private boolean disabled;
 
     public ItemGreatbow() {
         super();

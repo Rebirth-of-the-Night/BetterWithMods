@@ -2,12 +2,13 @@ package betterwithaddons.interaction.jei.wrapper;
 
 import betterwithaddons.crafting.recipes.SmeltingRecipe;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeWrapper;
+import mezz.jei.api.ingredients.VanillaTypes;
+import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.item.ItemStack;
 
 import java.util.List;
 
-public class SmeltingRecipeWrapper extends BlankRecipeWrapper {
+public class SmeltingRecipeWrapper implements IRecipeWrapper {
     SmeltingRecipe recipe;
 
     public SmeltingRecipeWrapper(SmeltingRecipe recipe) {
@@ -16,8 +17,8 @@ public class SmeltingRecipeWrapper extends BlankRecipeWrapper {
 
     @Override
     public void getIngredients(IIngredients ingredients) {
-        ingredients.setInputs(ItemStack.class,getInputs());
-        ingredients.setOutputs(ItemStack.class,getOutputs());
+        ingredients.setInputs(VanillaTypes.ITEM,getInputs());
+        ingredients.setOutputs(VanillaTypes.ITEM,getOutputs());
     }
 
     public SmeltingRecipe getRecipe() {

@@ -92,7 +92,6 @@ public class HorseFoodHandler {
 
     public void onFeed(Entity entity, PlayerInteractEvent event) {
         if(entity instanceof AbstractHorse) {
-            AbstractHorse horse = (AbstractHorse) entity;
             EntityPlayer player = event.getEntityPlayer();
             ItemStack stack = player.getHeldItem(event.getHand());
 

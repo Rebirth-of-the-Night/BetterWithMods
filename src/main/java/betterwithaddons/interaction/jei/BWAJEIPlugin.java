@@ -73,7 +73,6 @@ public class BWAJEIPlugin implements IModPlugin {
     @Override
     public void register(@Nonnull IModRegistry registry) {
         IJeiHelpers helper = registry.getJeiHelpers();
-        IGuiHelper guiHelper = helper.getGuiHelper();
 
         registry.handleRecipes(SpindleRecipe.class, SpindleRecipeWrapper::new, SpindleRecipeCategory.UID);
         registry.handleRecipes(NetRecipe.class, NetRecipeWrapper::new, SandNetRecipeCategory.UID);

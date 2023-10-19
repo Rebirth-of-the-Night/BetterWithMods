@@ -1,10 +1,7 @@
 package betterwithaddons.crafting.recipes;
 
-import betterwithaddons.util.IHasMark;
 import betterwithaddons.util.IHasSize;
 import com.google.common.collect.Lists;
-import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.minecraft.CraftTweakerMC;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.tileentity.TileEntity;

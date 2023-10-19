@@ -319,6 +319,7 @@ public class RenewablesHandler {
             return capability == ARTIFICIAL_BLAZE_CAP;
         }
 
+        @SuppressWarnings("unchecked")
         @Nullable
         @Override
         public <T> T getCapability(@Nonnull Capability<T> capability, @Nullable EnumFacing facing)

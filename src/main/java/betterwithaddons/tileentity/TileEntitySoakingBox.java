@@ -4,7 +4,6 @@ import betterwithaddons.crafting.manager.CraftingManagerCherryBox;
 import betterwithaddons.crafting.manager.CraftingManagerSoakingBox;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.init.Blocks;
 
 public class TileEntitySoakingBox extends TileEntityCherryBox {
     @Override

@@ -150,6 +150,7 @@ public class BlockWorldScaleOre extends BlockBase implements IHasVariants {
         return false;
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public float getBlockHardness(IBlockState blockState, World worldIn, BlockPos pos) {
         float modifier = 1.0f;

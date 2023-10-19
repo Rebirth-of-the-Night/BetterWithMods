@@ -2,7 +2,6 @@ package betterwithaddons.client.fx;
 
 import betterwithaddons.BetterWithAddons;
 import net.minecraft.client.particle.Particle;
-import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 

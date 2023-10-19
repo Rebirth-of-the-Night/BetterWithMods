@@ -18,7 +18,6 @@ public class BlockModLog extends BlockLog
     // Each instance has a reference to its own variant property
     public ModWoods woodVariant;
     public ItemStack barkStack;
-    private boolean disabled;
 
     @Override
     protected BlockStateContainer createBlockState()

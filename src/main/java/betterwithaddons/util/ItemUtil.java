@@ -215,7 +215,7 @@ public class ItemUtil
 					{
 						AttributeModifier attributemodifier = entry.getValue();
 						AttributeModifier attributemodifier1 = new AttributeModifier(attributemodifier.getName(), potion.getAttributeModifierAmount(potioneffect.getAmplifier(), attributemodifier), attributemodifier.getOperation());
-						attributeModifiers.add(new Tuple((entry.getKey()).getName(), attributemodifier1));
+						attributeModifiers.add(new Tuple<>((entry.getKey()).getName(), attributemodifier1));
 					}
 				}
 

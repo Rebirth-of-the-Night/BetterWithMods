@@ -4,14 +4,11 @@ import betterwithaddons.crafting.ResultBlock;
 import betterwithaddons.crafting.recipes.PackingRecipe;
 import com.google.common.collect.Lists;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
 
-import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class CraftingManagerPacking
 {

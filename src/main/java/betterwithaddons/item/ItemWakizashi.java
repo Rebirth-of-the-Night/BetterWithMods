@@ -6,7 +6,6 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.util.DamageSource;
 
 public class ItemWakizashi extends ItemSword {
-    private boolean disabled;
 
     public ItemWakizashi()
     {

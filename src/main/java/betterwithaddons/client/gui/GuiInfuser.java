@@ -12,8 +12,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-import java.awt.*;
-
 public class GuiInfuser extends GuiContainer {
     private final ResourceLocation guiLocation = new ResourceLocation(Reference.MOD_ID,"textures/gui/infuser.png");
     private TileEntityInfuser tileInfuser;

@@ -8,7 +8,7 @@ import mezz.jei.api.gui.IDrawable;
 import mezz.jei.api.gui.IGuiItemStackGroup;
 import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeCategory;
+import mezz.jei.api.recipe.IRecipeCategory;
 import mezz.jei.util.Translator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
@@ -20,7 +20,7 @@ import java.awt.*;
 /**
  * Created by primetoxinz on 6/29/17.
  */
-public class SpindleRecipeCategory extends BlankRecipeCategory<SpindleRecipeWrapper> {
+public class SpindleRecipeCategory implements IRecipeCategory<SpindleRecipeWrapper> {
 
     public static final String UID = "bwa.spindle";
     @Nonnull
@@ -57,8 +57,6 @@ public class SpindleRecipeCategory extends BlankRecipeCategory<SpindleRecipeWrap
 
     @Override
     public void drawExtras(Minecraft minecraft) {
-        super.drawExtras(minecraft);
-
         String text = Translator.translateToLocal("inv.spindle.throw.name");
         int x = 41 - minecraft.fontRenderer.getStringWidth(text)/2;
         minecraft.fontRenderer.drawString(text,x,0, Color.gray.getRGB());

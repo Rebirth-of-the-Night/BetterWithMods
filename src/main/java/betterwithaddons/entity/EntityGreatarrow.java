@@ -141,8 +141,8 @@ public class EntityGreatarrow extends EntityArrow {
         }
 
         if(inGround) {
-            BlockPos pos = new BlockPos(xTile,yTile,zTile);
-            IBlockState state = world.getBlockState(pos);
+            // BlockPos pos = new BlockPos(xTile,yTile,zTile);
+            // IBlockState state = world.getBlockState(pos);
             arrowtype.hitBlockFinal(this, raytraceResultIn);
         }
 

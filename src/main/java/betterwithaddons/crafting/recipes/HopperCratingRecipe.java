@@ -2,7 +2,6 @@ package betterwithaddons.crafting.recipes;
 
 import betterwithaddons.block.ModBlocks;
 import betterwithmods.common.blocks.mechanical.tile.TileEntityFilteredHopper;
-import betterwithmods.common.blocks.tile.SimpleStackHandler;
 import betterwithmods.common.registry.HopperFilter;
 import betterwithmods.common.registry.HopperInteractions.HopperRecipe;
 import betterwithmods.util.StackIngredient;

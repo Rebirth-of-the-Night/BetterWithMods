@@ -30,7 +30,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.EntityVillager;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.EnumFacing;
@@ -50,7 +49,6 @@ public class PortalHandler {
     public void onScrollClick(PlayerInteractEvent.EntityInteractSpecific event)
     {
         World world = event.getWorld();
-        EntityPlayer player = event.getEntityPlayer();
         Entity entity = event.getTarget();
         ItemStack tool = event.getItemStack();
         if(!entity.isBurning() || tool.getItem() != BWMItems.ARCANE_SCROLL)

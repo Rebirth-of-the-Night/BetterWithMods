@@ -44,7 +44,6 @@ import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -196,7 +195,7 @@ public class AnimalCrossbreedHandler {
                     return;
 
                 Vec3d spawnPos = new Vec3d((found.posX + animal.posX) / 2,(found.posY + animal.posY) / 2,(found.posZ + animal.posZ) / 2);
-                BlockPos spawnBlockPos = new BlockPos(spawnPos);
+                // BlockPos spawnBlockPos = new BlockPos(spawnPos);
 
                 //TODO: Habitat check
 

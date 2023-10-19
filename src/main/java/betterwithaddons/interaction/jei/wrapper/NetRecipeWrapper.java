@@ -3,7 +3,8 @@ package betterwithaddons.interaction.jei.wrapper;
 import betterwithaddons.block.EriottoMod.BlockNettedScreen.SifterType;
 import betterwithaddons.crafting.recipes.NetRecipe;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeWrapper;
+import mezz.jei.api.ingredients.VanillaTypes;
+import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class NetRecipeWrapper extends BlankRecipeWrapper {
+public class NetRecipeWrapper implements IRecipeWrapper {
     public NetRecipe recipe;
     public SifterType type;
 
@@ -23,8 +24,8 @@ public class NetRecipeWrapper extends BlankRecipeWrapper {
 
     @Override
     public void getIngredients(IIngredients ingredients) {
-        ingredients.setInputs(ItemStack.class,getInputs());
-        ingredients.setOutputs(ItemStack.class,getOutputs());
+        ingredients.setInputs(VanillaTypes.ITEM,getInputs());
+        ingredients.setOutputs(VanillaTypes.ITEM,getOutputs());
     }
 
     public List<ItemStack> getInputs()

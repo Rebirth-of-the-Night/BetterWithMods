@@ -51,7 +51,7 @@ public class TerratorialHandler {
     @SubscribeEvent
     public void chunkSaved(ChunkDataEvent.Save event)
     {
-        Chunk chunk = event.getChunk();
+        // Chunk chunk = event.getChunk();
         NBTTagCompound compound = event.getData();
 
         compound.setBoolean("terratorial_tag", true);

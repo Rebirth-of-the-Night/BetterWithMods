@@ -20,11 +20,10 @@ import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenTrees;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.common.EnumPlantType;
-import net.minecraftforge.common.IPlantable;
 
 import java.util.Random;
 
-public class BlockModSapling extends BlockBush implements IGrowable, IPlantable {
+public class BlockModSapling extends BlockBush implements IGrowable {
     protected IBlockState leaves = Blocks.AIR.getDefaultState();
     protected IBlockState log = Blocks.AIR.getDefaultState();
     protected boolean isBig = false;

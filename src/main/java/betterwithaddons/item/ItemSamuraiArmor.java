@@ -26,7 +26,6 @@ import java.util.Map;
 public class ItemSamuraiArmor extends ItemArmor implements ISpecialArmor, IColorable {
     protected Map<EntityEquipmentSlot, ModelBiped> models = null;
     public final EntityEquipmentSlot type;
-    private boolean disabled;
 
     public ItemSamuraiArmor(EntityEquipmentSlot equipmentSlotIn) {
         super(ModItems.samuraiArmorMaterial, 0, equipmentSlotIn);

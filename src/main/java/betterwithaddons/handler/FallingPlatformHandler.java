@@ -2,11 +2,9 @@ package betterwithaddons.handler;
 
 import betterwithaddons.util.PulleyUtil;
 import betterwithmods.common.BWMBlocks;
-import betterwithmods.util.DirUtils;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.item.EntityFallingBlock;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.event.world.BlockEvent;
@@ -27,7 +25,7 @@ public class FallingPlatformHandler {
         Block block = blockstate.getBlock();
 
         if (!world.isRemote && block == BWMBlocks.ANCHOR && !PulleyUtil.isAnchorSupported(world, anchorpos)) {
-            EnumFacing facing = blockstate.getValue(DirUtils.FACING);
+            // EnumFacing facing = blockstate.getValue(DirUtils.FACING);
 
             HashSet<BlockPos> platformBlocks = new HashSet<>();
             boolean success = PulleyUtil.findFallingPlatformPart(world,anchorpos,platformBlocks);

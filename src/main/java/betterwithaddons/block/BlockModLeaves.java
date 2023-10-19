@@ -33,7 +33,6 @@ public class BlockModLeaves extends BlockLeaves {
     protected ItemStack sapling;
 
     public ModWoods woodVariant;
-    private boolean disabled;
 
     public BlockModLeaves(ModWoods variant)
     {

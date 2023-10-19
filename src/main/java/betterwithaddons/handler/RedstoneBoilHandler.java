@@ -84,6 +84,7 @@ public class RedstoneBoilHandler {
             schedulers.get(world).tick(world);
     }
 
+    @SuppressWarnings("deprecation")
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public void redstonePlace(BlockEvent.PlaceEvent event)
     {
@@ -182,6 +183,7 @@ public class RedstoneBoilHandler {
                 this.tick = tick;
             }
 
+            @SuppressWarnings("unused")
             public long getTick() {
                 return tick;
             }

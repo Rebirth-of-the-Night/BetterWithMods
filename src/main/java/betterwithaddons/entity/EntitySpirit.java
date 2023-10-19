@@ -85,6 +85,7 @@ public class EntitySpirit extends Entity {
             this.motionY -= 0.02D;
     }
 
+    @SuppressWarnings("deprecation")
     public void onUpdate() {
         super.onUpdate();
 

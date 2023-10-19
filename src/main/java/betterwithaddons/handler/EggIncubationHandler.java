@@ -48,6 +48,7 @@ public class EggIncubationHandler {
         }
     }
 
+    @SuppressWarnings("deprecation")
     private void handleEggs()
     {
         if(TrackedItemsIterator == null || !TrackedItemsIterator.hasNext())

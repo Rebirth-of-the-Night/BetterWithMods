@@ -32,6 +32,7 @@ public interface ICraftingResult {
 
     ICraftingResult copy();
 
+    @SuppressWarnings("unused")
     default void spawnItems(World world, Vec3d pos) {
         for (ItemStack stack : getItems()) {
             EntityItem entity = new EntityItem(world, pos.x, pos.y, pos.z);

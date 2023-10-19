@@ -1,23 +1,20 @@
 package betterwithaddons.interaction.jei;
 
 import mezz.jei.Internal;
-import mezz.jei.api.ingredients.IIngredientHelper;
 import mezz.jei.api.ingredients.IIngredientRenderer;
-import mezz.jei.gui.ingredients.GuiIngredient;
+import mezz.jei.api.recipe.IIngredientType;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.item.ItemStack;
 
 import javax.annotation.Nullable;
-import java.awt.Rectangle;
 import java.util.List;
 
 public class OutputRenderer<T> implements IIngredientRenderer<T> {
     IIngredientRenderer<T> renderer;
     ChangeHandler handler;
 
-    public OutputRenderer(Class<T> clazz, ChangeHandler handler) {
+    public OutputRenderer(IIngredientType<T> clazz, ChangeHandler handler) {
         this.renderer = Internal.getIngredientRegistry().getIngredientRenderer(clazz);
         this.handler = handler;
     }

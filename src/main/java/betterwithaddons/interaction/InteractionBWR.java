@@ -38,7 +38,6 @@ import betterwithmods.common.items.ItemMaterial;
 import betterwithmods.common.registry.heat.BWMHeatRegistry;
 import betterwithmods.module.ModuleLoader;
 import betterwithmods.module.hardcore.crafting.HCDiamond;
-import betterwithmods.module.hardcore.needs.HCTools;
 import betterwithmods.module.tweaks.CheaperAxes;
 import betterwithmods.util.StackIngredient;
 import com.google.common.collect.Lists;

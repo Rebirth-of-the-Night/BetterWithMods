@@ -1,6 +1,5 @@
 package betterwithaddons.enchantment;
 
-import com.google.common.collect.Sets;
 import net.minecraft.enchantment.EnchantmentProtection;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.util.DamageSource;

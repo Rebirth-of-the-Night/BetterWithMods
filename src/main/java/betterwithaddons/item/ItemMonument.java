@@ -15,7 +15,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import javax.annotation.Nullable;
 
 public class ItemMonument extends Item {
-    private boolean disabled;
 
     public ItemMonument() {
         super();

@@ -99,7 +99,6 @@ public class PlantCrossbreedHandler {
     public static boolean placePlant(World world, BlockPos pos, IBlockState state) {
         if (!state.getBlock().canPlaceBlockAt(world, pos)) {
             IBlockState soil = world.getBlockState(pos.down());
-            Block block = soil.getBlock();
             //Try turning the block to dirt
             placeDirt(world, pos);
             if (!state.getBlock().canPlaceBlockAt(world, pos)) {

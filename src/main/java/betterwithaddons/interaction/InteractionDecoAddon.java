@@ -133,9 +133,9 @@ public class InteractionDecoAddon extends Interaction {
         BWRegistry.CAULDRON.addUnstokedRecipe(Lists.newArrayList(StackIngredient.fromStacks(ModItems.MATERIAL_DECO.getMaterial("hemp_oil", 4)),new OreIngredient("dyeWhite")),Lists.newArrayList(ModItems.MATERIAL_DECO.getMaterial("wood_bleach", 4)));
         BWRegistry.CAULDRON.addUnstokedRecipe(Lists.newArrayList(StackIngredient.fromStacks(ModItems.MATERIAL_DECO.getMaterial("hemp_oil", 4)),new OreIngredient("dyeBlack")),Lists.newArrayList(ModItems.MATERIAL_DECO.getMaterial("wood_stain", 4)));
 
-        ItemStack chandelierLight = new ItemStack(Blocks.TORCH); //TODO: candles
-        ItemStack ironLanternLight = ModItems.MATERIAL_DECO.getMaterial("hemp_oil");
-        ItemStack woodLanternLight = ModItems.MATERIAL_DECO.getMaterial("hemp_oil"); //TODO: fireflies, candles
+        // ItemStack chandelierLight = new ItemStack(Blocks.TORCH); //TODO: candles
+        // ItemStack ironLanternLight = ModItems.MATERIAL_DECO.getMaterial("hemp_oil");
+        // ItemStack woodLanternLight = ModItems.MATERIAL_DECO.getMaterial("hemp_oil"); //TODO: fireflies, candles
 
          if (ALTERNATE_WROUGHT_BARS)
             AnvilRecipes.addSteelShapedRecipe(new ResourceLocation(Reference.MOD_ID, "wrought_bars"), new ItemStack(ModBlocks.WROUGHT_BARS, 8), "bbbb", "bbbb", 'b', new ItemStack(Blocks.IRON_BARS));
@@ -144,7 +144,7 @@ public class InteractionDecoAddon extends Interaction {
         AnvilRecipes.addSteelShapedRecipe(new ResourceLocation(Reference.MOD_ID, "chandelier"), new ItemStack(ModBlocks.CHANDELIER), " ss ", " bb ", "tbbt", "tbbt", 's', "stone", 'b', "nuggetGold", 't', "blockCandle");
 
         ItemStack whiteBrick = new ItemStack(ModBlocks.WHITE_BRICK, 1, EnumType.DEFAULT.getMetadata());
-        ItemStack whiteBrick_mossy = new ItemStack(ModBlocks.WHITE_BRICK, 1, EnumType.MOSSY.getMetadata());
+        // ItemStack whiteBrick_mossy = new ItemStack(ModBlocks.WHITE_BRICK, 1, EnumType.MOSSY.getMetadata());
         ItemStack whiteBrick_cracked = new ItemStack(ModBlocks.WHITE_BRICK, 1, EnumType.CRACKED.getMetadata());
 
         MossGeneration.addBlockConversion(ModBlocks.WHITE_BRICK, ModBlocks.WHITE_BRICK.getDefaultState().withProperty(BlockWhiteBrick.VARIANT, EnumType.MOSSY));

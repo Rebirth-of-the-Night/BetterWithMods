@@ -2,7 +2,6 @@ package betterwithaddons.network;
 
 import betterwithaddons.container.ContainerRename;
 import io.netty.buffer.ByteBuf;
-import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.util.ChatAllowedCharacters;
 import net.minecraftforge.fml.common.network.ByteBufUtils;

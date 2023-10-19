@@ -6,7 +6,6 @@ import com.google.common.collect.Lists;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.I18n;
 
-import java.awt.*;
 import java.util.List;
 
 public class TransmutationRecipeWrapper extends SmeltingRecipeWrapper {

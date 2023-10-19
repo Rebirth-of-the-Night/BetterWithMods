@@ -6,14 +6,14 @@ import betterwithaddons.lib.Reference;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.*;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeCategory;
+import mezz.jei.api.recipe.IRecipeCategory;
 import mezz.jei.util.Translator;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 
 import javax.annotation.Nonnull;
 
-public class TataraRecipeCategory extends BlankRecipeCategory<SmeltingRecipeWrapper> {
+public class TataraRecipeCategory implements IRecipeCategory<SmeltingRecipeWrapper> {
     public static final String UID = "bwa.tatara";
     @Nonnull
     private final IDrawable background;

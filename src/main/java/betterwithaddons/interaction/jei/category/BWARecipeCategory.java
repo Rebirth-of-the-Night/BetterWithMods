@@ -1,13 +1,13 @@
 package betterwithaddons.interaction.jei.category;
 
 import mezz.jei.api.gui.IDrawable;
-import mezz.jei.api.recipe.BlankRecipeCategory;
+import mezz.jei.api.recipe.IRecipeCategory;
 import net.minecraft.util.text.translation.I18n;
 
 import javax.annotation.Nonnull;
 
 @SuppressWarnings("rawtypes")
-public abstract class BWARecipeCategory extends BlankRecipeCategory
+public abstract class BWARecipeCategory implements IRecipeCategory
 {
     @Nonnull
     private final IDrawable background;

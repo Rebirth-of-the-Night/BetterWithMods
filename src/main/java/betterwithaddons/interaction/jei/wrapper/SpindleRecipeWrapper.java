@@ -2,7 +2,8 @@ package betterwithaddons.interaction.jei.wrapper;
 
 import betterwithaddons.crafting.recipes.SpindleRecipe;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeWrapper;
+import mezz.jei.api.ingredients.VanillaTypes;
+import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.item.ItemStack;
 
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
 /**
  * Created by primetoxinz on 6/29/17.
  */
-public class SpindleRecipeWrapper extends BlankRecipeWrapper {
+public class SpindleRecipeWrapper implements IRecipeWrapper {
     private SpindleRecipe recipe;
 
     public SpindleRecipeWrapper(SpindleRecipe recipe) {
@@ -19,8 +20,8 @@ public class SpindleRecipeWrapper extends BlankRecipeWrapper {
 
     @Override
     public void getIngredients(IIngredients ingredients) {
-        ingredients.setInput(ItemStack.class,getInputs());
-        ingredients.setOutput(ItemStack.class,getOutputs());
+        ingredients.setInputs(VanillaTypes.ITEM,getInputs());
+        ingredients.setOutputs(VanillaTypes.ITEM,getOutputs());
     }
 
     public List<ItemStack> getInputs() {

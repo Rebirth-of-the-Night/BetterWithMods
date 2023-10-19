@@ -3,7 +3,6 @@ package betterwithaddons.util;
 import betterwithaddons.interaction.InteractionBWA;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.DamageSource;
-import net.minecraft.util.EntityDamageSource;
 import net.minecraft.util.EntityDamageSourceIndirect;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;

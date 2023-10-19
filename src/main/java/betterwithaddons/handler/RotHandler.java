@@ -144,7 +144,6 @@ public class RotHandler {
     public void onEntityJoin(EntityJoinWorldEvent event)
     {
         Entity entity = event.getEntity();
-        World world = event.getWorld();
 
         if(entity instanceof EntityItem)
         {
@@ -250,7 +249,6 @@ public class RotHandler {
         else
         {
             EntityItem entity = TrackedItemsIterator.next();
-            World world = entity.world;
             ItemStack stack = entity.getItem();
             boolean remove = false;
             if(entity.isDead || stack.isEmpty() || !isRottingItem(stack))

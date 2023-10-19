@@ -85,6 +85,7 @@ public class BlockRopePost extends BlockFence {
         return true;
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public float getBlockHardness(IBlockState blockState, World worldIn, BlockPos pos) {
         if(blockState.getValue(HAS_PLANKS))

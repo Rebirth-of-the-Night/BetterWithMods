@@ -17,13 +17,12 @@ import net.minecraft.item.ItemStack;
 import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 
-import java.util.List;
-
 @ZenRegister
 @ZenClass(Packing.clazz)
 public class Packing {
     public static final String clazz = "mods.betterwithaddons.Packing";
 
+    @SuppressWarnings("deprecation")
     @ZenMethod
     public static void add(IItemStack output, IIngredient input) {
         ItemStack stack = CraftTweakerMC.getItemStack(output);

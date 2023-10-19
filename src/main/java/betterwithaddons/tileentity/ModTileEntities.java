@@ -2,6 +2,7 @@ package betterwithaddons.tileentity;
 
 import betterwithaddons.lib.Reference;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModTileEntities
@@ -31,6 +32,6 @@ public class ModTileEntities
 
     private static void registerTE(Class<? extends TileEntity> clazz, String name)
     {
-        GameRegistry.registerTileEntity(clazz, Reference.MOD_ID + ":" + name);
+        GameRegistry.registerTileEntity(clazz, new ResourceLocation(Reference.MOD_ID, name));
     }
 }

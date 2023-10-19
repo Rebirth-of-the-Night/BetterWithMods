@@ -36,6 +36,7 @@ public abstract class BlockContainerBase extends BlockBase
     @Override
     public abstract TileEntity createTileEntity(World world, IBlockState state);
 
+    @SuppressWarnings("deprecation")
     @Override
     public boolean eventReceived(IBlockState state, World worldIn, BlockPos pos, int id, int param)
     {

@@ -26,7 +26,6 @@ import net.minecraftforge.common.model.TRSRTransformation;
 import org.apache.commons.lang3.tuple.Pair;
 
 import javax.vecmath.Matrix4f;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 

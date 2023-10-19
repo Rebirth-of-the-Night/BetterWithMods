@@ -2,7 +2,6 @@ package betterwithaddons.interaction.jei.category;
 
 import betterwithaddons.crafting.ICraftingResult;
 import betterwithaddons.interaction.jei.BWAJEIPlugin;
-import betterwithaddons.interaction.jei.ChangeHandler;
 import betterwithaddons.interaction.jei.ChangeHandlerResult;
 import betterwithaddons.interaction.jei.OutputRenderer;
 import betterwithaddons.interaction.jei.wrapper.PackingRecipeWrapper;
@@ -14,7 +13,8 @@ import mezz.jei.api.gui.IGuiIngredient;
 import mezz.jei.api.gui.IGuiItemStackGroup;
 import mezz.jei.api.gui.IRecipeLayout;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeCategory;
+import mezz.jei.api.ingredients.VanillaTypes;
+import mezz.jei.api.recipe.IRecipeCategory;
 import mezz.jei.util.Translator;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -22,7 +22,7 @@ import net.minecraft.util.ResourceLocation;
 import javax.annotation.Nonnull;
 import java.util.List;
 
-public class PackingRecipeCategory extends BlankRecipeCategory<PackingRecipeWrapper> {
+public class PackingRecipeCategory implements IRecipeCategory<PackingRecipeWrapper> {
     public static final String UID = "bwa.packing";
     @Nonnull
     private final IDrawable background;
@@ -75,7 +75,7 @@ public class PackingRecipeCategory extends BlankRecipeCategory<PackingRecipeWrap
         };
         handler.add(inputSlot);
 
-        guiItemStacks.init(1, false, new OutputRenderer<>(ItemStack.class, handler), 95, 32, 16, 16, 0, 0);
+        guiItemStacks.init(1, false, new OutputRenderer<>(VanillaTypes.ITEM, handler), 95, 32, 16, 16, 0, 0);
 
         List<List<ItemStack>> itemInputs = BWAJEIPlugin.expand(recipeWrapper.getInputs());
         guiItemStacks.set(0, itemInputs.get(0));

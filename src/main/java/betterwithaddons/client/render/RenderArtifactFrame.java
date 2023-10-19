@@ -16,13 +16,12 @@ import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.texture.TextureMap;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.item.EntityItemFrame;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 
 public class RenderArtifactFrame extends RenderItemFrame {
-    public static final IRenderFactory ARTIFACEFRAME_RENDER = renderManager1 -> new RenderArtifactFrame(renderManager1);
+    public static final IRenderFactory<EntityItemFrame> ARTIFACEFRAME_RENDER = renderManager1 -> new RenderArtifactFrame(renderManager1);
 
     private final Minecraft mc = Minecraft.getMinecraft();
     private final ModelResourceLocation mapModel = new ModelResourceLocation(ModItems.ARTIFACT_FRAME.getRegistryName(), "map");

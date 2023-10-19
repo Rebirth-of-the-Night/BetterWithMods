@@ -2,7 +2,6 @@ package betterwithaddons.tileentity;
 
 import betterwithaddons.util.IDirtyHandler;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.NonNullList;
 import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.items.ItemStackHandler;

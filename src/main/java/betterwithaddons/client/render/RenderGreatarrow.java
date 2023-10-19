@@ -9,16 +9,14 @@ import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderArrow;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 
-public class RenderGreatarrow extends RenderArrow {
-    public static final IRenderFactory GREATARROW_RENDER = new IRenderFactory() {
+public class RenderGreatarrow extends RenderArrow<EntityGreatarrow> {
+    public static final IRenderFactory<EntityGreatarrow> GREATARROW_RENDER = new IRenderFactory<EntityGreatarrow>() {
         @Override
-        public Render createRenderFor(RenderManager renderManager) {
+        public Render<EntityGreatarrow> createRenderFor(RenderManager renderManager) {
             return new RenderGreatarrow(renderManager);
         }
     };
@@ -28,17 +26,16 @@ public class RenderGreatarrow extends RenderArrow {
     }
 
     @Override
-    protected ResourceLocation getEntityTexture(Entity entity) {
-        EntityGreatarrow arrow = (EntityGreatarrow) entity;
-        ItemGreatarrow arrowType = arrow.getArrowType();
+    protected ResourceLocation getEntityTexture(EntityGreatarrow entity) {
+        ItemGreatarrow arrowType = entity.getArrowType();
         if(arrowType != null)
-            return arrowType.getEntityTexture(arrow);
+            return arrowType.getEntityTexture(entity);
         else
             return ItemGreatarrow.TEXTURE;
     }
 
     @Override
-    public void doRender(EntityArrow t, double d, double d2, double d3, float f, float f2) {
+    public void doRender(EntityGreatarrow t, double d, double d2, double d3, float f, float f2) {
         this.bindEntityTexture(t);
         GlStateManager.color(1.0f, 1.0f, 1.0f, 1.0f);
         GlStateManager.pushMatrix();
@@ -48,16 +45,16 @@ public class RenderGreatarrow extends RenderArrow {
         GlStateManager.rotate(t.prevRotationPitch + (t.rotationPitch - t.prevRotationPitch) * f2, 0.0f, 0.0f, 1.0f);
         Tessellator tessellator = Tessellator.getInstance();
         BufferBuilder vertexBuffer = tessellator.getBuffer();
-        boolean bl = false;
-        float f3 = 0.0f;
-        float f4 = 0.5f;
-        float f5 = 0.0f;
-        float f6 = 0.15625f;
-        float f7 = 0.0f;
-        float f8 = 0.15625f;
-        float f9 = 0.15625f;
-        float f10 = 0.3125f;
-        float f11 = 0.05625f;
+        // boolean bl = false;
+        // float f3 = 0.0f;
+        // float f4 = 0.5f;
+        // float f5 = 0.0f;
+        // float f6 = 0.15625f;
+        // float f7 = 0.0f;
+        // float f8 = 0.15625f;
+        // float f9 = 0.15625f;
+        // float f10 = 0.3125f;
+        // float f11 = 0.05625f;
         GlStateManager.enableRescaleNormal();
         float f12 = (float)t.arrowShake - f2;
         if (f12 > 0.0f) {

@@ -20,7 +20,7 @@ public class ResourceProxy extends AbstractResourcePack {
     private static final String BARE_FORMAT = "assets/%s/%s/%s/%s.%s";
     private static final String OVERRIDE_FORMAT = "/assets/%s/%s/%s/overrides/%s.%s";
 
-    private static final Map<String, String> overrides = new HashMap();
+    private static final Map<String, String> overrides = new HashMap<>();
 
     public ResourceProxy() {
         super(Loader.instance().activeModContainer().getSource());

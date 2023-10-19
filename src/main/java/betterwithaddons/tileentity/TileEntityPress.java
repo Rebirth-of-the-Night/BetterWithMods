@@ -8,7 +8,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class TileEntityPress extends TileEntityBase implements IMechanicalPower {
-    private int progress;
 
     @Override
     public int getMechanicalOutput(EnumFacing facing) {

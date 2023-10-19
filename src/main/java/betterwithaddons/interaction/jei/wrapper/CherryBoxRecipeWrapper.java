@@ -2,12 +2,13 @@ package betterwithaddons.interaction.jei.wrapper;
 
 import betterwithaddons.crafting.recipes.CherryBoxRecipe;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeWrapper;
+import mezz.jei.api.ingredients.VanillaTypes;
+import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.item.ItemStack;
 
 import java.util.List;
 
-public class CherryBoxRecipeWrapper extends BlankRecipeWrapper {
+public class CherryBoxRecipeWrapper implements IRecipeWrapper {
     CherryBoxRecipe recipe;
 
     public CherryBoxRecipeWrapper(CherryBoxRecipe recipe) {
@@ -16,8 +17,8 @@ public class CherryBoxRecipeWrapper extends BlankRecipeWrapper {
 
     @Override
     public void getIngredients(IIngredients ingredients) {
-        ingredients.setInputs(ItemStack.class,getInputs());
-        ingredients.setOutputs(ItemStack.class,getOutputs());
+        ingredients.setInputs(VanillaTypes.ITEM,getInputs());
+        ingredients.setOutputs(VanillaTypes.ITEM,getOutputs());
     }
 
     public List<ItemStack> getInputs() {

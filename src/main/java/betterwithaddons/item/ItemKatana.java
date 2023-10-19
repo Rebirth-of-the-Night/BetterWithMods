@@ -9,7 +9,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class ItemKatana extends ItemSword {
-    private boolean disabled;
 
     public ItemKatana()
     {

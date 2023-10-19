@@ -14,7 +14,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -82,7 +81,6 @@ public class TileEntityAncestrySand extends TileEntityBase implements ITickable,
             return;
 
         boolean isOn = false;
-        IBlockState state = world.getBlockState(pos);
         isOn = calculateInput() > 0;
 
         if(isOn) {

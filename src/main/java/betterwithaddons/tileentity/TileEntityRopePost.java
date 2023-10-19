@@ -58,6 +58,7 @@ public class TileEntityRopePost extends TileEntityBase {
             compound.setTag("Planks",plankStack.serializeNBT());
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public void readDataFromNBT(NBTTagCompound compound) {
         if(compound.hasKey("Fence") && compound.hasKey("FenceMeta"))

@@ -35,7 +35,6 @@ import java.util.List;
 import java.util.Random;
 
 public class BlockExtraGrass extends BlockGrass implements IColorable, IHasVariants {
-    private boolean disabled;
 
     @Override
     public IBlockColor getBlockColor() {
@@ -62,7 +61,7 @@ public class BlockExtraGrass extends BlockGrass implements IColorable, IHasVaria
             return this.getName();
         }
     };
-    public static final PropertyEnum VARIANT = PropertyEnum.create("variant", ExtraGrassType.class);
+    public static final PropertyEnum<ExtraGrassType> VARIANT = PropertyEnum.create("variant", ExtraGrassType.class);
     @Override
     protected BlockStateContainer createBlockState() {return new BlockStateContainer(this, new IProperty[] { SNOWY, VARIANT });}
 
@@ -197,7 +196,7 @@ public class BlockExtraGrass extends BlockGrass implements IColorable, IHasVaria
     {
 
         // if this block is covered, then turn it back to dirt (IE kill the grass)
-        if (world.getLightFromNeighbors(pos.up()) < 4 && world.getBlockState(pos.up()).getBlock().getLightOpacity(world.getBlockState(pos.up())) > 2)
+        if (world.getLightFromNeighbors(pos.up()) < 4 && world.getBlockState(pos.up()).getLightOpacity(world, pos.up()) > 2)
         {
             world.setBlockState(pos, getDirtBlockState(state));
         }
@@ -211,14 +210,13 @@ public class BlockExtraGrass extends BlockGrass implements IColorable, IHasVaria
                     // pick a random nearby position, and get the block, block state, and block above
                     BlockPos pos1 = pos.add(rand.nextInt(xzSpread * 2 + 1) - xzSpread, rand.nextInt(downSpread + upSpread + 1) - downSpread, rand.nextInt(xzSpread * 2 + 1) - xzSpread);
                     IBlockState target = world.getBlockState(pos1);
-                    Block blockAboveTarget = world.getBlockState(pos1.up()).getBlock();
 
                     // see if this type of grass can spread to the target block
                     IBlockState targetGrass = spreadsToGrass(state, target);
                     if (targetGrass == null) {continue;}
 
                     // if there's enough light, turn the block to the relevant grass block
-                    if (world.getLightFromNeighbors(pos1.up()) >= 4 && blockAboveTarget.getLightOpacity(target) <= 2)
+                    if (world.getLightFromNeighbors(pos1.up()) >= 4 && target.getLightOpacity(world, pos1) <= 2)
                     {
                         world.setBlockState(pos1, targetGrass);
                     }
@@ -259,6 +257,7 @@ public class BlockExtraGrass extends BlockGrass implements IColorable, IHasVaria
         return isClay(state) ? 0 : getDirtBlockMeta(state);
     }
 
+    @SuppressWarnings("deprecation")
     public static IBlockState getDirtBlockState(IBlockState state)
     {
         switch ((ExtraGrassType) state.getValue(VARIANT))

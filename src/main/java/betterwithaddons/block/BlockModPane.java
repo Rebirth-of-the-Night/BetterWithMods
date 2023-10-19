@@ -107,6 +107,7 @@ public class BlockModPane extends BlockBase {
         return new AxisAlignedBB((double)minX, (double)minY, (double)minZ, (double)maxX, (double)maxY, (double)maxZ);
     }
 
+    @SuppressWarnings("deprecation")
     public boolean canConnectTo(IBlockAccess world, BlockPos pos, EnumFacing facing)
     {
         IBlockState state = world.getBlockState(pos);

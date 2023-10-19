@@ -15,7 +15,6 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
 
 public class ItemTanto extends ItemSword {
-    private boolean disabled;
     private static final int USE_TIME = 5000;
 
     public ItemTanto()
@@ -43,12 +42,12 @@ public class ItemTanto extends ItemSword {
 
         if (playerIn.capabilities.isCreativeMode)
         {
-            return new ActionResult(EnumActionResult.FAIL, itemStackIn);
+            return new ActionResult<>(EnumActionResult.FAIL, itemStackIn);
         }
         else
         {
             playerIn.setActiveHand(hand);
-            return new ActionResult(EnumActionResult.SUCCESS, itemStackIn);
+            return new ActionResult<>(EnumActionResult.SUCCESS, itemStackIn);
         }
     }
 

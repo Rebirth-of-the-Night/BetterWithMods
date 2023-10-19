@@ -73,6 +73,7 @@ public class EnchantmentSharpnessOther extends EnchantmentDamage {
         return !creatureTypes.contains(creatureType.name());
     }
 
+    @SuppressWarnings("unchecked")
     private static boolean get(Class<? extends Entity> clazz) {
         if(creatureByClass.contains(clazz))
             return true;

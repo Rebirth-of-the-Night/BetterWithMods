@@ -2,7 +2,6 @@ package betterwithaddons;
 
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 import com.google.common.collect.Maps;
 import net.minecraft.block.Block;
@@ -24,8 +23,8 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 import betterwithaddons.block.*;
 import betterwithaddons.client.ToolShardModelHandler;
@@ -51,7 +50,7 @@ public class ClientProxy implements IProxy {
 
     static ResourceProxy resourceProxy;
 
-    private static Pattern varPattern = Pattern.compile("var:([^\\)]+)");
+    // private static Pattern varPattern = Pattern.compile("var:([^\\)]+)");
 
     static {
         resourceProxy = new ResourceProxy();
@@ -117,9 +116,10 @@ public class ClientProxy implements IProxy {
         Minecraft.getMinecraft().effectRenderer.addEffect(explosion);
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public void registerResourcePack() {
-        List<IResourcePack> packs = ReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), "aD", "field_110449_ao", "defaultResourcePacks");
+        List<IResourcePack> packs = ObfuscationReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), "aD", "field_110449_ao", "defaultResourcePacks");
         packs.add(resourceProxy);
     }
 

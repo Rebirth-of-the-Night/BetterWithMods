@@ -23,7 +23,6 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class HardcorePackingHandler {
@@ -49,10 +48,9 @@ public class HardcorePackingHandler {
 
             if(world != null && !world.isRemote && piston != null && piston.isExtending())
             {
-                BlockPos pos = piston.getPos();
                 EnumFacing facing = piston.getFacing();
                 BlockPos shovePos = piston.getPos();
-                IBlockState shoveState = piston.getPistonState();
+                // IBlockState shoveState = piston.getPistonState();
 
                 BlockPos compressPos = shovePos.offset(facing);
                 IBlockState compressState = world.getBlockState(compressPos);

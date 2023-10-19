@@ -2,7 +2,6 @@ package betterwithaddons.interaction;
 
 import betterwithaddons.BetterWithAddons;
 import betterwithaddons.block.ModBlocks;
-import betterwithaddons.config.GreyList;
 import betterwithaddons.crafting.conditions.ConditionModule;
 import betterwithaddons.crafting.manager.CraftingManagerPacking;
 import betterwithaddons.handler.ButcherHandler;
@@ -19,10 +18,8 @@ import betterwithmods.common.BWMItems;
 import betterwithmods.common.BWRegistry;
 import betterwithmods.common.blocks.BlockAesthetic;
 import betterwithmods.common.blocks.BlockBDispenser;
-import betterwithmods.common.blocks.BlockBUD;
 import betterwithmods.common.blocks.BlockUrn;
 import betterwithmods.common.items.ItemMaterial;
-import betterwithmods.common.registry.block.recipe.IngredientSpecial;
 import betterwithmods.common.registry.crafting.RecipeShapedColor;
 import betterwithmods.module.ModuleLoader;
 import betterwithmods.module.hardcore.crafting.HCDiamond;
@@ -363,11 +360,12 @@ public class InteractionBWM extends Interaction {
         }
         //BlockBUD.addBlacklistBlock(ModBlocks.PCB_WIRE);
 
-        ItemStack arrowhead = ModItems.MATERIAL.getMaterial("arrowhead");
-        ItemStack haft = ItemMaterial.getMaterial(ItemMaterial.EnumMaterial.HAFT);
-        ItemStack string = new ItemStack(BWMBlocks.ROPE);
-        ItemStack feather = new ItemStack(Items.FEATHER);
-        String oreIronIngot = "ingotIron";
+        // ItemStack arrowhead = ModItems.MATERIAL.getMaterial("arrowhead");
+        // ItemStack haft = ItemMaterial.getMaterial(ItemMaterial.EnumMaterial.HAFT);
+        // ItemStack string = new ItemStack(BWMBlocks.ROPE);
+        // ItemStack feather = new ItemStack(Items.FEATHER);
+        // String oreIronIngot = "ingotIron";
+
         BWRegistry.CAULDRON.addStokedRecipe(Lists.newArrayList(Ingredient.fromItem(Items.FERMENTED_SPIDER_EYE), Ingredient.fromStacks(new ItemStack(Blocks.STONEBRICK)), new OreIngredient("dustPotash")), Lists.newArrayList(new ItemStack(ModBlocks.PCB_BLOCK)));
         BWRegistry.CAULDRON.addUnstokedRecipe(Ingredient.fromItem(Items.BEETROOT), new ItemStack(ModItems.COOKED_BEETROOT));
         BWRegistry.CAULDRON.addUnstokedRecipe(Ingredient.fromItem(Items.CARROT), new ItemStack(ModItems.COOKED_CARROT));
@@ -411,9 +409,9 @@ public class InteractionBWM extends Interaction {
 
             for (int i = 0; i < len; ++i) {
                 EnumDyeColor dye = dyes[i];
-                ItemStack brick = new ItemStack(ModItems.STAINED_BRICK, 1, dye.getMetadata());
-                BWRegistry.MILLSTONE.addMillRecipe(new ItemStack(Blocks.STAINED_HARDENED_CLAY, 1, dye.getMetadata()), new ItemStack(ModItems.STAINED_BRICK, 4, dye.getMetadata()));
+                // ItemStack brick = new ItemStack(ModItems.STAINED_BRICK, 1, dye.getMetadata());
                 //GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.coloredBrick, 1, dye.getMetadata()), "bb", "bb", 'b', brick);
+                BWRegistry.MILLSTONE.addMillRecipe(new ItemStack(Blocks.STAINED_HARDENED_CLAY, 1, dye.getMetadata()), new ItemStack(ModItems.STAINED_BRICK, 4, dye.getMetadata()));
             }
         }
 

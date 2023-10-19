@@ -9,7 +9,6 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.util.DamageSource;
 
 public class ItemShinai extends ItemSword {
-    private boolean disabled;
 
     public ItemShinai()
     {

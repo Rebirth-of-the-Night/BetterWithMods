@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ItemStainedBrick extends Item implements IHasVariants {
-    private boolean disabled;
 
     public ItemStainedBrick() {
         this.setHasSubtypes(true);

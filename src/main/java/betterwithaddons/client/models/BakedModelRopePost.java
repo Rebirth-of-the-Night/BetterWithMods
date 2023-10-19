@@ -35,6 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BakedModelRopePost implements IBakedModel {
+    @SuppressWarnings("deprecation")
     @Override
     public List<BakedQuad> getQuads(@Nullable IBlockState state, @Nullable EnumFacing side, long rand) {
         if(state.getBlock() != ModBlocks.ROPE_POST)

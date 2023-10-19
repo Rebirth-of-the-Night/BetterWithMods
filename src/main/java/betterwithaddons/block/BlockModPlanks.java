@@ -13,7 +13,6 @@ import net.minecraft.world.IBlockAccess;
 
 public class BlockModPlanks extends Block {
     ModWoods woodVariant;
-    private boolean disabled;
 
     public BlockModPlanks(ModWoods variant)
     {

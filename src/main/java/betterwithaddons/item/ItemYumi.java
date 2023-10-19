@@ -23,7 +23,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import javax.annotation.Nullable;
 
 public class ItemYumi extends ItemBow {
-    private boolean disabled;
 
     public ItemYumi() {
         super();

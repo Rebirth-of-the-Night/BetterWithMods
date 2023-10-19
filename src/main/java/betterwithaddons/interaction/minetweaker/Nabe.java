@@ -1,18 +1,14 @@
 package betterwithaddons.interaction.minetweaker;
 
 import betterwithaddons.crafting.manager.CraftingManagerNabe;
-import betterwithaddons.crafting.manager.CraftingManagerTatara;
 import betterwithaddons.crafting.recipes.INabeRecipe;
 import betterwithaddons.crafting.recipes.ShapelessNabeRecipe;
-import betterwithaddons.crafting.recipes.SmeltingRecipe;
 import betterwithaddons.crafting.recipes.TeaNabeRecipe;
-import betterwithaddons.item.ItemTea;
 import betterwithaddons.util.*;
 import crafttweaker.CraftTweakerAPI;
 import crafttweaker.IAction;
 import crafttweaker.annotations.ZenRegister;
 import crafttweaker.api.item.IIngredient;
-import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.liquid.ILiquidStack;
 import crafttweaker.api.minecraft.CraftTweakerMC;
 import crafttweaker.api.potions.IPotion;
@@ -26,7 +22,6 @@ import stanhebben.zenscript.annotations.ZenClass;
 import stanhebben.zenscript.annotations.ZenMethod;
 
 import java.awt.*;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

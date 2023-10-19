@@ -3,15 +3,14 @@ package betterwithaddons.interaction.jei.wrapper;
 import betterwithaddons.interaction.InteractionEriottoMod;
 import com.google.common.collect.Lists;
 import mezz.jei.api.ingredients.IIngredients;
-import mezz.jei.api.recipe.BlankRecipeWrapper;
 import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.I18n;
 
-import java.awt.*;
+import java.util.Collections;
 import java.util.List;
 
-public class InfuserRecipeWrapper extends BlankRecipeWrapper {
+public class InfuserRecipeWrapper implements IRecipeWrapper {
     IRecipeWrapper innerWrapper;
     int requiredSpirits;
 
@@ -31,7 +30,7 @@ public class InfuserRecipeWrapper extends BlankRecipeWrapper {
         if(mouseX >= 78 && mouseY >= 30 && mouseX <= 96 && mouseY <= 44)
             return Lists.newArrayList(I18n.format("inv.infuser.cost.description",requiredSpirits));
 
-        return super.getTooltipStrings(mouseX, mouseY);
+        return Collections.emptyList();
     }
 
     @Override
@@ -50,8 +49,6 @@ public class InfuserRecipeWrapper extends BlankRecipeWrapper {
             minecraft.fontRenderer.drawString(costString, drawoffsetX+1, drawoffsetY+1, backgroundcolor);
             minecraft.fontRenderer.drawString(costString, drawoffsetX, drawoffsetY, foregroundcolor);
         }
-
-        super.drawInfo(minecraft, recipeWidth, recipeHeight, mouseX, mouseY);
     }
 
     @Override

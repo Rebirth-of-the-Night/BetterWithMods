@@ -89,7 +89,7 @@ public class TileEntityBannerDetector extends TileEntityBase implements ITickabl
         return detected;
     }
 
-    private boolean checkBanner(BlockPos pos, ItemStack filter, Class type)
+    private boolean checkBanner(BlockPos pos, ItemStack filter, Class<?> type)
     {
         IBlockState state = world.getBlockState(pos);
         if (type.isInstance(state.getBlock())) {

@@ -6,6 +6,7 @@ import betterwithaddons.lib.Reference;
 import com.google.common.collect.Lists;
 import mezz.jei.api.gui.IDrawable;
 import mezz.jei.api.ingredients.IIngredients;
+import mezz.jei.api.ingredients.VanillaTypes;
 import mezz.jei.api.recipe.IRecipeWrapper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
@@ -39,9 +40,9 @@ public class NabeWrapper implements IRecipeWrapper {
         inputs.addAll(BWAJEIPlugin.flatExpand(recipe.getIngredients()));
         inputs.addAll(BWAJEIPlugin.flatExpand(recipe.getDipInput()));
 
-        ingredients.setInputs(ItemStack.class, inputs);
-        ingredients.setOutputs(ItemStack.class, Lists.newArrayList(recipe.getDipOutput()));
-        ingredients.setOutputs(FluidStack.class, Lists.newArrayList(recipe.getFluidOutput()));
+        ingredients.setInputs(VanillaTypes.ITEM, inputs);
+        ingredients.setOutputs(VanillaTypes.ITEM, Lists.newArrayList(recipe.getDipOutput()));
+        ingredients.setOutputs(VanillaTypes.FLUID, Lists.newArrayList(recipe.getFluidOutput()));
     }
 
     @Override

@@ -69,6 +69,7 @@ public class BlockFusumaPainted extends BlockModPane {
         checkAndBlank(worldIn,state,pos);
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos posfrom) {
         super.neighborChanged(state, worldIn, pos, blockIn,posfrom);

@@ -74,6 +74,7 @@ public class TileEntityNettedScreen extends TileEntityBase implements ITickable
             item.setDead();
     }
 
+    @SuppressWarnings("unused")
     private boolean canHoldSand()
     {
         IBlockState state = world.getBlockState(pos.down());
