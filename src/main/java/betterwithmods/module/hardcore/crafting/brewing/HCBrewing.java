@@ -23,6 +23,7 @@ import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.brewing.*;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
+import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -216,7 +217,7 @@ public class HCBrewing extends Feature {
                 typeConversions.add(moddedPotion);
             }
 
-            List<IBrewingRecipe> recipes = BrewingRecipeRegistry.getRecipes();
+            List<IBrewingRecipe> recipes = ObfuscationReflectionHelper.getPrivateValue(BrewingRecipeRegistry.class, null, "recipes");
             ListIterator<IBrewingRecipe> iterator = recipes.listIterator();
 
             while (iterator.hasNext()) {
