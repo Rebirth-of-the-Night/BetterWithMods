@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "1.12-2.4.1"
 group = "betterwithmods"
-archivesBaseName = "BetterWithMods-RotN"
+archivesBaseName = "BetterWithEverything"
 
 sourceCompatibility = targetCompatibility = "1.8"
 compileJava {
