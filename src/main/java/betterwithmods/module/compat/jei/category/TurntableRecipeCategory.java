@@ -3,6 +3,7 @@ package betterwithmods.module.compat.jei.category;
 import betterwithmods.BWMod;
 import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.blocks.mechanical.BlockMechMachines;
+import betterwithmods.module.compat.jei.IngredientTypes;
 import betterwithmods.module.compat.jei.wrapper.TurntableRecipeWrapper;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IGuiIngredientGroup;
@@ -34,7 +35,7 @@ public class TurntableRecipeCategory extends BWMRecipeCategory<TurntableRecipeWr
     @Override
     public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull TurntableRecipeWrapper wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(IngredientTypes.OUTPUT_GENERIC);
 
         guiItemStacks.init(0, true, 5, 9);
         guiItemStacks.init(1, false, 32, 9);

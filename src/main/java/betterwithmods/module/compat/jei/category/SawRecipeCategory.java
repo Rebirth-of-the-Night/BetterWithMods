@@ -3,6 +3,7 @@ package betterwithmods.module.compat.jei.category;
 import betterwithmods.BWMod;
 import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.registry.block.recipe.SawRecipe;
+import betterwithmods.module.compat.jei.IngredientTypes;
 import betterwithmods.module.compat.jei.wrapper.BlockRecipeWrapper;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IGuiIngredientGroup;
@@ -31,7 +32,7 @@ public class SawRecipeCategory extends BWMRecipeCategory<BlockRecipeWrapper<SawR
     @Override
     public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BlockRecipeWrapper<SawRecipe> wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(IngredientTypes.OUTPUT_GENERIC);
         guiItemStacks.init(0, true, 8, 9);
         createSlotsHorizontal(guiOutputs, false, 3, 1, 58, 10);
         guiItemStacks.set(ingredients);

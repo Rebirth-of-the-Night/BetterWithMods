@@ -3,6 +3,7 @@ package betterwithmods.module.compat.jei.category;
 import betterwithmods.BWMod;
 import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.blocks.mechanical.BlockMechMachines;
+import betterwithmods.module.compat.jei.IngredientTypes;
 import betterwithmods.module.compat.jei.wrapper.HopperRecipeWrapper;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.IGuiIngredientGroup;
@@ -53,7 +54,7 @@ public class HopperRecipeCategory extends BWMRecipeCategory<HopperRecipeWrapper>
     @Override
     public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull HopperRecipeWrapper wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(IngredientTypes.OUTPUT_GENERIC);
 
 
         guiItemStacks.addTooltipCallback((slotIndex, input, ingredient, tooltip) -> {
@@ -83,7 +84,7 @@ public class HopperRecipeCategory extends BWMRecipeCategory<HopperRecipeWrapper>
         }
 
         outputs.set(ingredients);
-        List<List<IOutput>> o = ingredients.getOutputs(() -> IOutput.class);
+        List<List<IOutput>> o = ingredients.getOutputs(IngredientTypes.OUTPUT_GENERIC);
         for (int i = 0; i < 4; i++) {
             List<IOutput> output = o.get(i);
             if (output != null)

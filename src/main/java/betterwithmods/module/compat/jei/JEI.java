@@ -1,9 +1,5 @@
 package betterwithmods.module.compat.jei;
 
-import betterwithmods.api.recipe.IOutput;
-import betterwithmods.api.recipe.impl.ChanceOutput;
-import betterwithmods.api.recipe.impl.RandomOutput;
-import betterwithmods.api.recipe.impl.StackOutput;
 import betterwithmods.client.container.anvil.ContainerSteelAnvil;
 import betterwithmods.client.gui.GuiSteelAnvil;
 import betterwithmods.client.gui.bulk.GuiCauldron;
@@ -32,8 +28,6 @@ import betterwithmods.common.registry.crafting.ToolBaseRecipe;
 import betterwithmods.common.registry.crafting.ToolDamageRecipe;
 import betterwithmods.common.registry.heat.BWMHeatRegistry;
 import betterwithmods.module.compat.jei.category.*;
-import betterwithmods.module.compat.jei.ingredient.OutputHelper;
-import betterwithmods.module.compat.jei.ingredient.OutputRenderer;
 import betterwithmods.module.compat.jei.wrapper.*;
 import betterwithmods.module.gameplay.miniblocks.MiniBlocks;
 import com.google.common.collect.Lists;
@@ -62,7 +56,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Set;
-import java.util.function.Consumer;
 
 import static betterwithmods.common.blocks.mechanical.BlockCookingPot.EnumType.CAULDRON;
 import static betterwithmods.common.blocks.mechanical.BlockCookingPot.EnumType.CRUCIBLE;
@@ -73,19 +66,6 @@ public class JEI implements IModPlugin {
     public static IJeiHelpers HELPER;
 
     public static IJeiRuntime JEI_RUNTIME;
-
-    public static List<Class<? extends IOutput>> ALL_OUTPUTS = Lists.newArrayList();
-
-    static {
-        ALL_OUTPUTS.add(IOutput.class);
-        ALL_OUTPUTS.add(StackOutput.class);
-        ALL_OUTPUTS.add(RandomOutput.class);
-        ALL_OUTPUTS.add(ChanceOutput.class);
-    }
-
-    public static void doAllOutputs(Consumer<Class<? extends IOutput>> consumer) {
-        ALL_OUTPUTS.forEach(consumer);
-    }
 
     public static void showRecipe(Ingredient ingredient) {
         ItemStack stack = Lists.newArrayList(ingredient.getMatchingStacks()).stream().findFirst().orElse(ItemStack.EMPTY);
@@ -154,7 +134,7 @@ public class JEI implements IModPlugin {
     @Override
     public void registerIngredients(IModIngredientRegistration registry) {
         StackHelper stackHelper = Internal.getStackHelper();
-        doAllOutputs(clazz -> registry.register(() -> clazz, Collections.emptySet(), new OutputHelper<IOutput>(stackHelper), new OutputRenderer<IOutput>()));
+        IngredientTypes.registerTypes(registry, stackHelper);
     }
 
     @Override

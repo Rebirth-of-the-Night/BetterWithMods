@@ -3,6 +3,7 @@ package betterwithmods.module.compat.jei.category;
 import betterwithmods.BWMod;
 import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.registry.bulk.recipes.MillRecipe;
+import betterwithmods.module.compat.jei.IngredientTypes;
 import betterwithmods.module.compat.jei.wrapper.BulkRecipeWrapper;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.*;
@@ -37,7 +38,7 @@ public class MillRecipeCategory extends BWMRecipeCategory<BulkRecipeWrapper<Mill
     @Override
     public void setRecipe(@Nonnull IRecipeLayout layout, @Nonnull BulkRecipeWrapper<MillRecipe> wrapper, @Nonnull IIngredients ingredients) {
         IGuiItemStackGroup guiItemStackGroup = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> guiOutputs = layout.getIngredientsGroup(IngredientTypes.OUTPUT_GENERIC);
 
         createSlotsHorizontal(guiItemStackGroup, true, 3, inputSlots, 7, 7);
         createSlotsHorizontal(guiOutputs, false, 3, outputSlot, 90, 8);

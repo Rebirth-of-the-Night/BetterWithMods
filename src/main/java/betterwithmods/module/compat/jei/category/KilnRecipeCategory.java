@@ -4,6 +4,7 @@ package betterwithmods.module.compat.jei.category;
 import betterwithmods.BWMod;
 import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.registry.heat.BWMHeatRegistry;
+import betterwithmods.module.compat.jei.IngredientTypes;
 import betterwithmods.module.compat.jei.wrapper.KilnRecipeWrapper;
 import mezz.jei.api.IGuiHelper;
 import mezz.jei.api.gui.*;
@@ -42,7 +43,7 @@ public class KilnRecipeCategory extends BWMRecipeCategory<KilnRecipeWrapper> {
         this.flame = helper.createAnimatedDrawable(flameDrawable, 200, IDrawableAnimated.StartDirection.BOTTOM, false);
 
         IGuiItemStackGroup stacks = layout.getItemStacks();
-        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(() -> IOutput.class);
+        IGuiIngredientGroup<IOutput> outputs = layout.getIngredientsGroup(IngredientTypes.OUTPUT_GENERIC);
 
         stacks.init(0, true, 20, 31);
         createSlotsHorizontal(outputs,false, 3, 1, 87,32);

@@ -2,6 +2,8 @@ package betterwithmods.module.compat.jei.wrapper;
 
 import betterwithmods.api.recipe.IOutput;
 import betterwithmods.common.registry.HopperInteractions;
+import betterwithmods.module.compat.jei.IngredientTypes;
+
 import com.google.common.collect.Lists;
 import mezz.jei.api.IJeiHelpers;
 import mezz.jei.api.ingredients.IIngredients;
@@ -31,7 +33,7 @@ public class HopperRecipeWrapper implements IRecipeWrapper {
         ingredients.setInputLists(VanillaTypes.ITEM, Lists.newArrayList(helpers.getStackHelper().toItemStackList(recipe.getInputs()), recipe.getFilters(), recipe.getInputContainer()));
         List<List<IOutput>> outputs = recipe.getRecipeOutputWorld().getExpandedOutputs(2);
         outputs.addAll(recipe.getRecipeOutputInsert().getExpandedOutputs(2));
-        ingredients.setOutputLists(() -> IOutput.class, outputs);
+        ingredients.setOutputLists(IngredientTypes.OUTPUT_GENERIC, outputs);
         ingredients.setOutputs(VanillaTypes.ITEM, recipe.getOutputContainer());
     }
 
