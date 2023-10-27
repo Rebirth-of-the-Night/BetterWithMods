@@ -386,6 +386,9 @@ item.bwm:apple_pie.name=Apfelkuchen
 item.bwm:bat_wing.name=Fledermausflügel
 item.bwm:cooked_bat_wing.name=Gebratener Feldermausflügel
 
+item.bwm:manual.name="Better With Mods" Benutzerhandbuch
+item.bwm:manual.subtitle=Ein Leitfaden für all Ihre mechanischen Bedürfnisse
+
 item.bwm:axle_generator.windmill.name=Windrad
 item.bwm:axle_generator.waterwheel.name=Wasserrad
 item.bwm:axle_generator.windmill_vertical.name=Vertikale Windrad
@@ -587,6 +590,20 @@ tooltip.chime.name=Gibt ein Redstone-Signal aus, wenn es regnet, oder wenn etwas
 tooltip.gearbox.name=Die Getriebe gehen kaputt, wenn das Windrad sich zu schnell dreht. Schalte es mit einem Redstone-Signal aus, um das zu verhindern!
 tooltip.broken_gearbox.name=Die Getriebe gehen kaputt, wenn das Windrad sich zu schnell dreht. Schalte es mit einem Redstone-Signal aus, um das zu verhindern!
 tooltip.windmill.name=Windräder drehen sich im Regen und im Sturm schneller. Passe also auf Deine Getriebe auf!
+tooltip.bwm_book.name=Das Buch des Einzelnen.
+
+
+bwm.manual.message=Du hast ein "Better With Mods"-Handbuch erhalten. Diese Mod mag anders sein, als Du es erwartest. Bitte lies die Einführung.
+bwm.manual.warning.missing.block=Bild fehlt: %s
+
+bwm.manual.home=Startseite
+bwm.manual.blocks=Blöcke
+bwm.manual.items=Items
+bwm.manual.mechanical=Mechanische Energie
+bwm.manual.error.0=Dokument nicht gefunden:
+bwm.manual.error.1=Bitte diesen %s melden
+bwm.manual.error.2=In der Zwischenzeit versuch das %s
+
 
 bwm.got.feverdream=Du konntest nie einschlafen, in Deiner Schlaflosigkeit hast Du einige Notizen gekritzelt. Nur was bedeuten sie?
 

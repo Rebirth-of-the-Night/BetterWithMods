@@ -386,6 +386,8 @@ item.bwm:apple_pie.name=苹果派
 item.bwm:bat_wing.name=蝙蝠翅膀
 item.bwm:cooked_bat_wing.name=烤蝙蝠翅膀
 
+item.bwm:manual.name=Better With Mods 手册
+
 item.bwm:axle_generator.windmill.name=风车
 item.bwm:axle_generator.waterwheel.name=水车
 item.bwm:axle_generator.windmill_vertical.name=竖轴风车
@@ -583,6 +585,20 @@ tooltip.chime.name=下雨，或是实体经过时候会发出红石信号。
 tooltip.gearbox.name=齿轮盒会因为风车旋转过快而过载，给予一个红石信号可以避免这种情况的发生！
 tooltip.broken_gearbox.name=齿轮盒会因为风车旋转过快而过载，给予一个红石信号可以避免这种情况的发生！
 tooltip.windmill.name=风车在雨天或者雷暴天会旋转过快，记得检查你的齿轮盒！
+tooltip.bwm_book.name=唯一之书
+
+
+bwm.manual.message=您已获得Better With Mods手册。这个mod可能与你期望的有所不同。请马上阅读入门部分。
+bwm.manual.warning.missing.block=图片丢失： %s
+
+bwm.manual.home=主页
+bwm.manual.blocks=方块
+bwm.manual.items=物品
+bwm.manual.mechanical=机械动力
+bwm.manual.error.0=文档无法找到：
+bwm.manual.error.1=请向此处报告：%s
+bwm.manual.error.2=或者重新进行尝试：%s
+
 
 bwm.got.feverdream=你长期无法入眠，在你失眠的时候，你潦草地写了一些笔记。它们是什么意思？
 

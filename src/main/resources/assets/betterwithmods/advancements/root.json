@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "betterwithmods:shaft"
+      "item": "betterwithmods:manual"
     },
     "title": {
       "translate": "itemGroup.bwm:bwTab"

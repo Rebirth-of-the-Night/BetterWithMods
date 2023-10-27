@@ -386,6 +386,9 @@ item.bwm:apple_pie.name=Яблочный пирог
 item.bwm:bat_wing.name=Крыло летучей мыши
 item.bwm:cooked_bat_wing.name=Жареное крыло летучей мыши
 
+item.bwm:manual.name=Журнал механика
+item.bwm:manual.subtitle=Инструкция для механизаторов
+
 item.bwm:axle_generator.windmill.name=Ветряк
 item.bwm:axle_generator.waterwheel.name=Водяное колесо
 item.bwm:axle_generator.windmill_vertical.name=Вертикальный ветряк
@@ -587,6 +590,20 @@ tooltip.chime.name=Излучает сигнал во время дождя ил
 tooltip.gearbox.name=Раздаточная коробка не выдержит, если ветряк будет крутиться слишком быстро, выключите её сигналом красной пыли, чтобы этого не произошло!
 tooltip.broken_gearbox.name=Раздаточная коробка не выдержит, если ветряк будет крутиться слишком быстро, выключите её сигналом красной пыли, чтобы этого не произошло!
 tooltip.windmill.name=Ветряки крутятся быстрее во время дождя или шторма, не забудьте про свои раздаточные коробки!
+tooltip.bwm_book.name=Книга от Single
+
+
+bwm.manual.message=Вам был выдан справочник по Better With Mods. Этот мод может отличаться от того, что вы ожидаете, поэтому как минимум ознакомьтесь с секцией "Краткий курс".
+bwm.manual.warning.missing.block=Изображение отсутствует: %s
+
+bwm.manual.home=Начало
+bwm.manual.blocks=Блоки
+bwm.manual.items=Предметы
+bwm.manual.mechanical=Механическая энергия
+bwm.manual.error.0=Документ не найден:
+bwm.manual.error.1=Пожалуйста, сообщите это %s
+bwm.manual.error.2=А пока что, попробуйте %s
+
 
 bwm.got.feverdream=Вы так и не уснули, за время бодрствования Вы набросали несколько заметок. Что бы они значили?
 
